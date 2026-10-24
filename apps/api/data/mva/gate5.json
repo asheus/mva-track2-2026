@@ -1,0 +1,427 @@
+{
+ "gate": 5,
+ "source": "https://clinicaltrials.gov/api/v2/studies",
+ "in": 13,
+ "studied_in_children": 11,
+ "candidates": [
+  {
+   "inn": "ibuprofen",
+   "chembl": "CHEMBL521",
+   "approval_tier": "A",
+   "atc": [
+    "C01EB16"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity",
+    "neurotoxicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 1108,
+   "child_studies": 58,
+   "child_late_phase": 33,
+   "min_age_years_seen": 0.0
+  },
+  {
+   "inn": "anakinra",
+   "chembl": "CHEMBL1201570",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC03"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1R1"
+    ]
+   },
+   "targets": {
+    "IL1R1": "receptor arm of IL-1 signalling; anakinra reaches it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 216,
+   "child_studies": 41,
+   "child_late_phase": 29,
+   "min_age_years_seen": 0.0
+  },
+  {
+   "inn": "canakinumab",
+   "chembl": "CHEMBL1201834",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC08"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 117,
+   "child_studies": 37,
+   "child_late_phase": 28,
+   "min_age_years_seen": 0.0
+  },
+  {
+   "inn": "certolizumab pegol",
+   "chembl": "CHEMBL1201831",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB05"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 172,
+   "child_studies": 13,
+   "child_late_phase": 10,
+   "min_age_years_seen": 2.0
+  },
+  {
+   "inn": "givinostat",
+   "chembl": "CHEMBL1213492",
+   "approval_tier": "A",
+   "atc": [
+    "M09AX14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "C_ciliopathy": [
+     "HDAC6"
+    ]
+   },
+   "targets": {
+    "HDAC6": "tubulin deacetylase governing cilium disassembly"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 27,
+   "child_studies": 10,
+   "child_late_phase": 7,
+   "min_age_years_seen": 2.0
+  },
+  {
+   "inn": "rilonacept",
+   "chembl": "CHEMBL1201830",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 26,
+   "child_studies": 8,
+   "child_late_phase": 6,
+   "min_age_years_seen": 0.25
+  },
+  {
+   "inn": "satralizumab",
+   "chembl": "CHEMBL3833307",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC19"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 20,
+   "child_studies": 8,
+   "child_late_phase": 6,
+   "min_age_years_seen": 2.0
+  },
+  {
+   "inn": "filgotinib",
+   "chembl": "CHEMBL3301607",
+   "approval_tier": "A",
+   "atc": [
+    "L04AF04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK2",
+     "JAK1"
+    ]
+   },
+   "targets": {
+    "JAK2": "as JAK1; ruxolitinib reaches both",
+    "JAK1": "transduces IL-6 family signalling into the SASP programme"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 66,
+   "child_studies": 4,
+   "child_late_phase": 3,
+   "min_age_years_seen": 8.0
+  },
+  {
+   "inn": "sarilumab",
+   "chembl": "CHEMBL2108730",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly",
+    "black-box infection warning"
+   ],
+   "toxicity_classes": [
+    "infectious disease"
+   ],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 73,
+   "child_studies": 5,
+   "child_late_phase": 3,
+   "min_age_years_seen": 0.0
+  },
+  {
+   "inn": "siltuximab",
+   "chembl": "CHEMBL1743070",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6"
+    ]
+   },
+   "targets": {
+    "IL6": "core SASP cytokine; the secretome's dominant signal"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 45,
+   "child_studies": 5,
+   "child_late_phase": 3,
+   "min_age_years_seen": 0.08
+  },
+  {
+   "inn": "delgocitinib",
+   "chembl": "CHEMBL4297507",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "ATC ['D11AH11'] is dermatological, which does NOT settle route \u2014 the group holds both oral and topical products. Route must be checked per product at Gate 4"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "studied_in_children",
+   "ctg_total": 22,
+   "child_studies": 3,
+   "child_late_phase": 2,
+   "min_age_years_seen": 2.0
+  },
+  {
+   "inn": "diflunisal",
+   "chembl": "CHEMBL898",
+   "approval_tier": "A",
+   "atc": [
+    "N02BA11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity",
+    "neurotoxicity"
+   ],
+   "paediatric_evidence": "child_eligible_early_phase",
+   "ctg_total": 7,
+   "child_studies": 1,
+   "child_late_phase": 0,
+   "min_age_years_seen": null
+  },
+  {
+   "inn": "parecoxib",
+   "chembl": "CHEMBL1206690",
+   "approval_tier": "A",
+   "atc": [
+    "M01AH04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "child_eligible_early_phase",
+   "ctg_total": 76,
+   "child_studies": 1,
+   "child_late_phase": 0,
+   "min_age_years_seen": null
+  }
+ ]
+}

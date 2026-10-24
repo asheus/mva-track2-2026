@@ -1,0 +1,20 @@
+# Third-party packages used by 17 of the exported scripts.
+# verify_report.py and the six gate scripts need NONE of this: they are
+# standard-library-only, so every number the report states reproduces with a bare
+# Python 3.9+ interpreter.
+#
+# Statistical / numerical scripts
+numpy
+scipy
+pandas
+#
+# Fragment-docking arm only (millet/): the 757-fragment screen
+rdkit
+vina
+meeko
+#
+# GPN-star parquet reader only
+pyarrow
+#
+# Running the committed tests
+pytest

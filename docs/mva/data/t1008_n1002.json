@@ -1,0 +1,92 @@
+{
+  "context_996_1015": "FFVRILNANDEATVSVLGEL",
+  "plk1_motif": {
+    "minus2": "E",
+    "minus1": "A",
+    "site": "T",
+    "plus1": "V",
+    "matches_consensus": true
+  },
+  "acidic_residues_996_1015": [
+    [
+      1005,
+      "D"
+    ],
+    [
+      1006,
+      "E"
+    ],
+    [
+      1014,
+      "E"
+    ]
+  ],
+  "rsa": {
+    "T1008": 0.058,
+    "N1002": 0.1389
+  },
+  "side_chain_volumes_A3": {
+    "N": 114.1,
+    "K": 168.6,
+    "R": 173.4,
+    "S": 89.0,
+    "T": 116.1
+  },
+  "hypotheses": {
+    "A": "folding / buried charge",
+    "B": "ubiquitination at new Lys",
+    "C": "loss of PLK1 phosphorylation at T1008"
+  },
+  "prereg_table": [
+    {
+      "N1002K": "low",
+      "N1002R": "low",
+      "N1002S": "low",
+      "pT1008": "normal",
+      "conclusion": "A -- folding/buried charge. Current thesis holds."
+    },
+    {
+      "N1002K": "low",
+      "N1002R": "low",
+      "N1002S": "NORMAL",
+      "pT1008": "normal",
+      "conclusion": "A, and specifically the CHARGE, not the bulk."
+    },
+    {
+      "N1002K": "low",
+      "N1002R": "NORMAL",
+      "N1002S": "normal",
+      "pT1008": "normal",
+      "conclusion": "B -- ubiquitination at the new lysine."
+    },
+    {
+      "N1002K": "normal",
+      "N1002R": "normal",
+      "N1002S": "normal",
+      "pT1008": "LOST",
+      "conclusion": "C -- signalling. Abundance arm is misdirected."
+    },
+    {
+      "N1002K": "low",
+      "N1002R": "low",
+      "N1002S": "low",
+      "pT1008": "LOST",
+      "conclusion": "A plus C; destabilisation costs the phosphosite too."
+    },
+    {
+      "N1002K": "low",
+      "N1002R": "low",
+      "N1002S": "low",
+      "pT1008": "ELEVATED",
+      "conclusion": "A, and T1008 is conformationally gated -- destabilising opens a normally buried site."
+    },
+    {
+      "N1002K": "normal",
+      "N1002R": "normal",
+      "N1002S": "normal",
+      "pT1008": "normal",
+      "conclusion": "none of the three. Look at binding/localisation."
+    }
+  ],
+  "status": "PREDICTIONS ONLY -- no experiment was run; there is no wet lab here"
+}

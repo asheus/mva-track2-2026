@@ -1,0 +1,2 @@
+variant_id	txnames	transcript_id_used	gene_id	strand	exon_count	coding_exon_count	ptc_transcript_pos	transcript_length	cds_length	downstream_new3utr_len	boundary_ambiguous	tx_not_in_gtf	version_mismatch	new3utr_empty	half_life_missing	expression_missing	any_conservation_missing
+BUB1B_p.Leu737Ter	ENST00000287598.10	ENST00000287598	ENSG00000156970	+	23	23	2405	3725	3153	200	False	False	True	False	False	False	False

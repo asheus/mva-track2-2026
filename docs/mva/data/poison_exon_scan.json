@@ -1,0 +1,79 @@
+{
+  "method": "intronic cassette exons present in decay-biotype transcripts and absent from every protein-coding transcript",
+  "positive_control_passed": true,
+  "caveat": "Annotation is not flux. These are architectural candidates; the fraction of output taking each path is unmeasured and is what determines an upregulating ASO's headroom.",
+  "genes": [
+    {
+      "gene": "BUB1B",
+      "role": "subject",
+      "ensembl_gene": "ENSG00000156970",
+      "canonical": "ENST00000287598",
+      "transcripts": 31,
+      "biotypes": {
+        "protein_coding_CDS_not_defined": 2,
+        "protein_coding": 12,
+        "nonsense_mediated_decay": 12,
+        "retained_intron": 5
+      },
+      "decay_transcripts": 12,
+      "intronic_cassette_in_decay": 2,
+      "poison_exon_candidates": [
+        {
+          "start": 40176383,
+          "end": 40176436,
+          "length_bp": 54,
+          "decay_transcripts": 1,
+          "coding_transcripts": 0,
+          "exclusive_to_decay": true,
+          "intron_index_1based": 4
+        },
+        {
+          "start": 40166359,
+          "end": 40166482,
+          "length_bp": 124,
+          "decay_transcripts": 1,
+          "coding_transcripts": 0,
+          "exclusive_to_decay": true,
+          "intron_index_1based": 2
+        }
+      ],
+      "chrom": "15"
+    },
+    {
+      "gene": "SCN1A",
+      "role": "positive control -- zorevunersen target",
+      "ensembl_gene": "ENSG00000144285",
+      "canonical": "ENST00000674923",
+      "transcripts": 30,
+      "biotypes": {
+        "nonsense_mediated_decay": 6,
+        "protein_coding": 12,
+        "retained_intron": 6,
+        "protein_coding_CDS_not_defined": 6
+      },
+      "decay_transcripts": 6,
+      "intronic_cassette_in_decay": 2,
+      "poison_exon_candidates": [
+        {
+          "start": 166007230,
+          "end": 166007293,
+          "length_bp": 64,
+          "decay_transcripts": 1,
+          "coding_transcripts": 0,
+          "exclusive_to_decay": true,
+          "intron_index_1based": 6
+        },
+        {
+          "start": 166060640,
+          "end": 166060867,
+          "length_bp": 228,
+          "decay_transcripts": 1,
+          "coding_transcripts": 0,
+          "exclusive_to_decay": true,
+          "intron_index_1based": 25
+        }
+      ],
+      "chrom": "2"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "alleles": 2536,
+  "rows_without_a_settling_experiment": 0,
+  "by_mechanism": {
+    "TRUNCATED_protein_present": 4,
+    "NULL_no_protein": 33,
+    "NO_SPLICE_MECHANISM": 718,
+    "NULL_pending_NMD_of_new_PTC": 247,
+    "HYPOMORPH_protein_made": 40,
+    "CONTEXT_UNAVAILABLE": 549,
+    "AMBIGUOUS_partially_buried": 367,
+    "ABUNDANCE_question_answerable": 298,
+    "FUNCTION_class_suspected": 252,
+    "ABUNDANCE_candidate": 28
+  },
+  "splice_tier_operating_characteristics": {
+    "call": {
+      "threshold": 0.16,
+      "sensitivity": 0.392,
+      "specificity": 0.986,
+      "precision_at_3.2pct": 0.481
+    },
+    "candidate": {
+      "threshold": 0.02,
+      "sensitivity": 0.793,
+      "specificity": 0.872,
+      "precision_at_3.2pct": 0.17
+    },
+    "measured_on": "sealed quarter of 946 assayed MFASS variants, opened once"
+  },
+  "missense_axis_status": "validated against measured abundance in PTEN, TPMT and NUDT15 (C41); NOT demonstrated in BUB1B's own labelled variants (C43, OR 5.76, p=0.1193)",
+  "caveat": "Predicted, not assayed. No row is an amenability call and no row is advice about any individual."
+}

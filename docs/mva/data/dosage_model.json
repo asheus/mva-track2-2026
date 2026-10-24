@@ -1,0 +1,62 @@
+{
+  "model": "total = 0.5*f1 + 0.5*f2, f = functional output per allele vs wild type",
+  "allele1": {
+    "hgvs_p": "p.Leu737Ter",
+    "f": 0.0,
+    "justification": [
+      "PTC 748 nt upstream of the last exon-exon junction -> canonical NMD substrate (ptc_context.py)",
+      "truncation at 737/1050 removes the pseudokinase domain (766-1050) and the CENP-E interface (1031-1050)"
+    ]
+  },
+  "allele2": {
+    "hgvs_p": "p.Asn1002Lys",
+    "f": "unmeasured; swept",
+    "our_prediction": "reduced (<1) -- buried residue, new buried charge, lost H-bond acceptor to Trp978",
+    "prediction_status": "axis validated in PTEN/TPMT/NUDT15, NOT in BUB1B"
+  },
+  "threshold": {
+    "value": 0.5,
+    "source": "Matsuura et al., Am J Med Genet A 2006, doi:10.1002/ajmg.a.31069",
+    "quote": ">50% decrease in expression (or activity) of BubR1 is involved in the PCS syndrome"
+  },
+  "ceiling_is_the_threshold": true,
+  "sweep": [
+    {
+      "allele2_output_fraction": 1.0,
+      "total_fraction_of_normal": 0.5,
+      "relation_to_threshold": "AT threshold",
+      "fold_increase_in_allele2_needed": 1.0
+    },
+    {
+      "allele2_output_fraction": 0.85,
+      "total_fraction_of_normal": 0.425,
+      "relation_to_threshold": "below",
+      "fold_increase_in_allele2_needed": 1.18
+    },
+    {
+      "allele2_output_fraction": 0.7,
+      "total_fraction_of_normal": 0.35,
+      "relation_to_threshold": "below",
+      "fold_increase_in_allele2_needed": 1.43
+    },
+    {
+      "allele2_output_fraction": 0.55,
+      "total_fraction_of_normal": 0.275,
+      "relation_to_threshold": "below",
+      "fold_increase_in_allele2_needed": 1.82
+    },
+    {
+      "allele2_output_fraction": 0.4,
+      "total_fraction_of_normal": 0.2,
+      "relation_to_threshold": "below",
+      "fold_increase_in_allele2_needed": 2.5
+    },
+    {
+      "allele2_output_fraction": 0.25,
+      "total_fraction_of_normal": 0.125,
+      "relation_to_threshold": "below",
+      "fold_increase_in_allele2_needed": 4.0
+    }
+  ],
+  "falsifier": "f2 = 1 (normal abundance) would move the defect from abundance to function and retire the abundance arm"
+}

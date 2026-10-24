@@ -1,0 +1,1033 @@
+{
+ "gate": 3,
+ "api": "https://api.platform.opentargets.org/api/v4/graphql",
+ "in": 34,
+ "tally": {
+  "refuse_carcinogenicity": 11,
+  "caution_immunosuppression": 8,
+  "refuse_withdrawn": 2,
+  "proceed_with_monitoring": 5,
+  "refuse_cytotoxic": 7,
+  "refuse_no_systemic_exposure": 1
+ },
+ "surviving": 13,
+ "candidates": [
+  {
+   "inn": "anakinra",
+   "chembl": "CHEMBL1201570",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC03"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1R1"
+    ]
+   },
+   "targets": {
+    "IL1R1": "receptor arm of IL-1 signalling; anakinra reaches it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "canakinumab",
+   "chembl": "CHEMBL1201834",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC08"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "certolizumab pegol",
+   "chembl": "CHEMBL1201831",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB05"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "filgotinib",
+   "chembl": "CHEMBL3301607",
+   "approval_tier": "A",
+   "atc": [
+    "L04AF04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK2",
+     "JAK1"
+    ]
+   },
+   "targets": {
+    "JAK2": "as JAK1; ruxolitinib reaches both",
+    "JAK1": "transduces IL-6 family signalling into the SASP programme"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "rilonacept",
+   "chembl": "CHEMBL1201830",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "sarilumab",
+   "chembl": "CHEMBL2108730",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly",
+    "black-box infection warning"
+   ],
+   "toxicity_classes": [
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "satralizumab",
+   "chembl": "CHEMBL3833307",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC19"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "siltuximab",
+   "chembl": "CHEMBL1743070",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6"
+    ]
+   },
+   "targets": {
+    "IL6": "core SASP cytokine; the secretome's dominant signal"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "ANTAGONIST"
+   ],
+   "verdict": "caution_immunosuppression",
+   "safety_reasons": [
+    "immunosuppressant (ATC L04A): degree of immunosurveillance loss must be argued explicitly"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "delgocitinib",
+   "chembl": "CHEMBL4297507",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "ATC ['D11AH11'] is dermatological, which does NOT settle route \u2014 the group holds both oral and topical products. Route must be checked per product at Gate 4"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "diflunisal",
+   "chembl": "CHEMBL898",
+   "approval_tier": "A",
+   "atc": [
+    "N02BA11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity",
+    "neurotoxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "givinostat",
+   "chembl": "CHEMBL1213492",
+   "approval_tier": "A",
+   "atc": [
+    "M09AX14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "C_ciliopathy": [
+     "HDAC6"
+    ]
+   },
+   "targets": {
+    "HDAC6": "tubulin deacetylase governing cilium disassembly"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "ibuprofen",
+   "chembl": "CHEMBL521",
+   "approval_tier": "A",
+   "atc": [
+    "C01EB16"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity",
+    "neurotoxicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "parecoxib",
+   "chembl": "CHEMBL1206690",
+   "approval_tier": "A",
+   "atc": [
+    "M01AH04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "proceed_with_monitoring",
+   "safety_reasons": [
+    "no disqualifying signal found"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "abrocitinib",
+   "chembl": "CHEMBL3655081",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH08"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome",
+    "ATC ['D11AH08'] is dermatological, which does NOT settle route \u2014 the group holds both oral and topical products. Route must be checked per product at Gate 4"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "cardiotoxicity",
+    "infectious disease",
+    "musculoskeletal toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "adalimumab",
+   "chembl": "CHEMBL1201580",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB04"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "baricitinib",
+   "chembl": "CHEMBL2105759",
+   "approval_tier": "A",
+   "atc": [
+    "L04AA37"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease",
+    "respiratory toxicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "etanercept",
+   "chembl": "CHEMBL1201572",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB01"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "golimumab",
+   "chembl": "CHEMBL1201833",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB06"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "infliximab",
+   "chembl": "CHEMBL1201581",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB02"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "sirolimus",
+   "chembl": "CHEMBL413",
+   "approval_tier": "A",
+   "atc": [
+    "L04AH01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "cardiotoxicity",
+    "immune system toxicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "tacrolimus",
+   "chembl": "CHEMBL3989887",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH01",
+    "L04AD02"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "immune system toxicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "tocilizumab",
+   "chembl": "CHEMBL1237022",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC07"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "tofacitinib",
+   "chembl": "CHEMBL221959",
+   "approval_tier": "A",
+   "atc": [
+    "L04AF01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "infectious disease",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "upadacitinib",
+   "chembl": "CHEMBL3622821",
+   "approval_tier": "A",
+   "atc": [
+    "L04AA44"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_carcinogenicity",
+   "safety_reasons": [
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "everolimus",
+   "chembl": "CHEMBL1908360",
+   "approval_tier": "A",
+   "atc": [
+    "L01XE10"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes",
+    "black-box carcinogenicity warning, in a child with a cancer-predisposition syndrome"
+   ],
+   "toxicity_classes": [
+    "carcinogenicity",
+    "cardiotoxicity",
+    "immune system toxicity",
+    "infectious disease",
+    "musculoskeletal toxicity",
+    "nephrotoxicity",
+    "neurotoxicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "fedratinib",
+   "chembl": "CHEMBL1287853",
+   "approval_tier": "A",
+   "atc": [
+    "L01EJ02"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [
+    "gastrointestinal toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "momelotinib",
+   "chembl": "CHEMBL1078178",
+   "approval_tier": "A",
+   "atc": [
+    "L01EJ04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "panobinostat",
+   "chembl": "CHEMBL483254",
+   "approval_tier": "A",
+   "atc": [
+    "L01XH03"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "C_ciliopathy": [
+     "HDAC6"
+    ]
+   },
+   "targets": {
+    "HDAC6": "tubulin deacetylase governing cilium disassembly"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "ruxolitinib",
+   "chembl": "CHEMBL1789941",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH09",
+    "L01EJ01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [
+    "infectious disease"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "temsirolimus",
+   "chembl": "CHEMBL1201182",
+   "approval_tier": "A",
+   "atc": [
+    "L01XE09"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "venetoclax",
+   "chembl": "CHEMBL3137309",
+   "approval_tier": "A",
+   "atc": [
+    "L01XX52"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "BCL2"
+    ]
+   },
+   "targets": {
+    "BCL2": "senolytic axis - senescent cells depend on BCL2 family survival"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_cytotoxic",
+   "safety_reasons": [
+    "ATC L01 antineoplastic: adds DNA damage to cells that already missegregate chromosomes"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "nepafenac",
+   "chembl": "CHEMBL1021",
+   "approval_tier": "A",
+   "atc": [
+    "S01BC10"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_no_systemic_exposure",
+   "safety_reasons": [
+    "approved product is topical, sensory-organ only (ATC ['S01BC10']); cannot deliver systemic effect"
+   ],
+   "toxicity_classes": [],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "bromfenac",
+   "chembl": "CHEMBL1077",
+   "approval_tier": "A",
+   "atc": [
+    "S01BC11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_withdrawn",
+   "safety_reasons": [
+    "withdrawn from market (Open Targets drugWarnings)"
+   ],
+   "toxicity_classes": [
+    "drug misuse",
+    "hepatotoxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  },
+  {
+   "inn": "ketorolac",
+   "chembl": "CHEMBL469",
+   "approval_tier": "A",
+   "atc": [
+    "M01AB15",
+    "S01BC05"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false,
+   "actions": [
+    "INHIBITOR"
+   ],
+   "verdict": "refuse_withdrawn",
+   "safety_reasons": [
+    "withdrawn from market (Open Targets drugWarnings)"
+   ],
+   "toxicity_classes": [
+    "cardiotoxicity",
+    "gastrointestinal toxicity",
+    "immune system toxicity",
+    "nephrotoxicity",
+    "neurotoxicity",
+    "respiratory toxicity",
+    "vascular toxicity"
+   ],
+   "paediatric_evidence": "unestablished"
+  }
+ ]
+}

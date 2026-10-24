@@ -1,0 +1,232 @@
+{
+ "_comment": "BUB1B variants recovered from the primary literature via Paperclip that are NOT in the EBI/ClinVar aggregate, plus literature context for ones that are. Each entry cites the PMC id it was read from.",
+ "variants": [
+  {
+   "protein": "p.Ser802Cysfs*29",
+   "cdna": "c.2405_2406del",
+   "consequence": "frameshift",
+   "partner": "c.2577+5G>A",
+   "phenotype": "embryonal rhabdomyosarcoma, IUGR, microcephaly; complex mosaic aneuploidy + PCS on karyotype",
+   "zygosity": "compound heterozygous",
+   "functional": "karyotype confirmed mosaicism and PCS",
+   "source": "PMC10545765",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.?",
+   "cdna": "AluYa5 insertion, intron 8 polypyrimidine tract",
+   "consequence": "splice/insertion",
+   "partner": "rs576524605 G>A 44 kb upstream",
+   "phenotype": "PCS/MVA: FGR, microcephaly, congenital cataracts, ambiguous genitalia",
+   "zygosity": "compound heterozygous",
+   "functional": "RT-PCR showed exon skipping and reduced transcript",
+   "source": "PMC5462940",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Ser738fs*753",
+   "cdna": "c.2211insGTTA",
+   "consequence": "frameshift",
+   "partner": "missense on the other allele in MVA patients",
+   "phenotype": "MVA; the allele modelled in BubR1+/GTTA mice",
+   "zygosity": "biallelic in patients, monoallelic in the mouse model",
+   "functional": "truncated protein UNDETECTABLE by western blot; wild-type BubR1 reduced",
+   "source": "PMC3531486",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Thr237Glnfs*8",
+   "cdna": "c.709_712del",
+   "consequence": "frameshift",
+   "partner": "none (monoallelic)",
+   "phenotype": "breast cancer, family history of prostate/ovarian/gastric",
+   "zygosity": "monoallelic germline",
+   "functional": "not measured",
+   "source": "PMC11251299",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Gln827Hisfs*13",
+   "cdna": "c.2481del",
+   "consequence": "frameshift",
+   "partner": "none (monoallelic)",
+   "phenotype": "familial prostate cancer; PCS present",
+   "zygosity": "monoallelic germline",
+   "functional": "tumour RNA-seq for BUB1B expression; PCS in lymphocytes",
+   "source": "PMC11251299",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.?",
+   "cdna": "c.2009+1G>A",
+   "consequence": "splice donor",
+   "partner": "none (monoallelic)",
+   "phenotype": "breast + gastric signet-ring carcinoma",
+   "zygosity": "monoallelic germline",
+   "functional": "not measured",
+   "source": "PMC11251299",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Pro378_His385del",
+   "cdna": "c.1133_1156del",
+   "consequence": "inframe deletion",
+   "partner": "compound het with p.Glu391del in CRISPR RWPE-1 models only",
+   "phenotype": "engineered cell model, not a patient allele",
+   "zygosity": "engineered",
+   "functional": "impaired SAC, CIN, taxol resistance",
+   "source": "PMC11251299",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Glu391del",
+   "cdna": "c.1171_1173del",
+   "consequence": "inframe deletion",
+   "partner": "none (monoallelic)",
+   "phenotype": "early-onset/familial prostate cancer, multiple other cancers; PCS trait",
+   "zygosity": "monoallelic germline",
+   "functional": "MEASURED: strong reduction of BubR1 abundance in mitotic cells; CHX chase; impaired SAC; taxol resistance",
+   "source": "PMC11251299",
+   "novel_to_corpus": false
+  },
+  {
+   "protein": "p.Ala739Ser",
+   "cdna": "c.2215G>T",
+   "consequence": "missense",
+   "partner": "none (heterozygous)",
+   "phenotype": "recurrent pregnancy loss; PCS 18.58% by PNA-FISH",
+   "zygosity": "heterozygous, inherited from unaffected father",
+   "functional": "PRELIMINARY ONLY - authors state a 'trend toward' reduced mRNA and protein, explicitly not definitive quantification; unaffected father shows the same trend",
+   "source": "PMC13349884",
+   "novel_to_corpus": false
+  },
+  {
+   "protein": "p.Trp722Arg",
+   "cdna": "c.2164T>C",
+   "consequence": "missense",
+   "partner": "none (heterozygous)",
+   "phenotype": "recurrent pregnancy loss; PCS",
+   "zygosity": "heterozygous",
+   "functional": "PRELIMINARY ONLY - same qualitative western blot caveat as A739S",
+   "source": "PMC13349884",
+   "novel_to_corpus": false
+  },
+  {
+   "protein": "p.Arg893Ser",
+   "cdna": "c.2679A>T",
+   "consequence": "missense",
+   "partner": "none (monoallelic VUS)",
+   "phenotype": "MVA1 phenotype with 12% mosaic aneuploidy",
+   "zygosity": "heterozygous; ALSO PRESENT IN THE UNAFFECTED FATHER",
+   "functional": "not measured; pathogenicity asserted from in silico only",
+   "source": "PMC9616775",
+   "novel_to_corpus": false
+  },
+  {
+   "protein": "p.Ile82Asn",
+   "cdna": "rs55355571",
+   "consequence": "missense",
+   "partner": "n/a",
+   "phenotype": "none - in silico screen only, no patient",
+   "zygosity": "n/a",
+   "functional": "predicted only",
+   "source": "PMC4913181",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Pro334Leu",
+   "cdna": "rs141953425",
+   "consequence": "missense",
+   "partner": "n/a",
+   "phenotype": "none - in silico screen only, no patient",
+   "zygosity": "n/a",
+   "functional": "predicted only",
+   "source": "PMC4913181",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Gln349Arg",
+   "cdna": "rs1801376",
+   "consequence": "missense",
+   "partner": "n/a",
+   "phenotype": "gastric cancer risk polymorphism, KEN/CDC20-binding region",
+   "zygosity": "common polymorphism",
+   "functional": "not measured for BUB1B",
+   "source": "PMC5024654",
+   "novel_to_corpus": true,
+   "note": "NOTATION CONFLICT: UniProt curates VAR_008853 at this codon as p.Arg349Gln and calls it BENIGN. Reciprocal notation - reference allele assignment differs between sources. Do not treat as two variants without resolving."
+  },
+  {
+   "protein": "p.Lys479=",
+   "cdna": "c.1437A>G",
+   "consequence": "synonymous",
+   "partner": "n/a",
+   "phenotype": "serrated polyposis syndrome patient; assessed benign",
+   "zygosity": "not stated",
+   "functional": "not measured",
+   "source": "PMC11513425",
+   "novel_to_corpus": true
+  },
+  {
+   "protein": "p.Trp803Hisfs*10",
+   "cdna": "c.2405_2406insCC",
+   "consequence": "frameshift",
+   "partner": "maternally inherited, heterozygous",
+   "phenotype": "fetal structural anomalies (absent nasal bone, hypertelorism); gene linked to PCS/MVA1",
+   "zygosity": "heterozygous, maternal",
+   "functional": "not measured",
+   "source": "PMC11535759",
+   "novel_to_corpus": true,
+   "note": "Found only by the Europe PMC full-text sweep; absent from ClinVar/EBI. Note c.2405_2406 is the SAME codon pair as the c.2405_2406del (p.Ser802Cysfs*29) allele in PMC10545765 - a different event at one hotspot."
+  },
+  {
+   "protein": "p.Glu213Glyfs*15",
+   "cdna": "c.638del",
+   "consequence": "frameshift",
+   "partner": "none stated",
+   "phenotype": "lung cancer, Colombian hereditary-cancer germline programme",
+   "zygosity": "germline heterozygous",
+   "functional": "not measured",
+   "source": "PMC12229586",
+   "novel_to_corpus": true,
+   "note": "Same paper independently reports BUB1B c.199C>T p.(Arg67Ter) in breast and ovarian cancer patients."
+  },
+  {
+   "protein": "p.Val870Ala",
+   "cdna": "c.2609T>C",
+   "consequence": "missense",
+   "partner": "none stated",
+   "phenotype": "germline variant in a NON-SMOKING non-small-cell lung cancer inherited-signature study (Cancers 2024)",
+   "zygosity": "not stated",
+   "functional": "not measured",
+   "source": "PMC11352340",
+   "novel_to_corpus": true,
+   "note": "Pseudokinase domain. The EBI atlas carries V870M at this codon but not V870A. AUDIT: earlier description 'tumour-suppressor variant table, cancer genomics cohort' was wrong at source."
+  },
+  {
+   "protein": "p.Arg770Ter",
+   "cdna": "c.2308C>T",
+   "consequence": "stop gained",
+   "partner": "not stated",
+   "phenotype": "found in a cutaneous-melanoma-with-two-or-more-primary-cancers germline cohort (PLoS One 2018); rsID rs750364303",
+   "zygosity": "not stated",
+   "functional": "not measured. The PCS attribution is SECONDHAND - the paper says 'as previously described could cause premature chromatid separation trait', citing prior work rather than showing it.",
+   "source": "PMC5894988",
+   "novel_to_corpus": false,
+   "note": "INDEPENDENT CONFIRMATION that codon 770 carries a nonsense allele distinct from R770Q. Our VARIANT-TABLE.md architectural-match argument is built on R770Q and must be re-checked against its primary source."
+  },
+  {
+   "protein": "p.Arg770Gln",
+   "cdna": "c.2309G>A",
+   "consequence": "missense",
+   "partner": "p.Arg194Ter (c.580C>T, rs28989186), paternal",
+   "phenotype": "sudden unexpected postnatal collapse (SUPC) with hypoxic-ischaemic encephalopathy; died at 6 months of sepsis from bronchopneumonia. NOT an MVA diagnosis.",
+   "zygosity": "compound heterozygous; R770Q maternal, R194Ter paternal",
+   "rsid": "rs1422532977",
+   "functional": "NOT measured. Authors classify it a VUS (ACMG class 3) and state it 'is not reported in scientific literature'. They write: 'it is not possible to demonstrate the causal effect of this mutation'.",
+   "source": "PMC11306263",
+   "novel_to_corpus": false,
+   "note": "RESOLVES the R770 flag. R770Q (c.2309G>A, rs1422532977) and R770Ter (c.2308C>T, rs750364303) are TWO DIFFERENT VARIANTS at ADJACENT NUCLEOTIDES of one codon. Our corpus's R770Q is correctly transcribed and is not a mis-parse of the nonsense allele. But the 'ARCHITECTURAL MATCH' framing overstates it: this is a VUS in a non-MVA presentation whose own authors disclaim causality."
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+  "criteria": "reaches allele1/allele2, waveform inherited, map coverage, in-vivo evidence in BUB1B, in humans, effect size known, cheaply killable",
+  "total_alleles": 2536,
+  "approaches": [
+    {
+      "name": "Trans-splicing (SMaRT) of endogenous pre-mRNA",
+      "reaches_a1": 2,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 1,
+      "effect_known": 2,
+      "killable": 2,
+      "status": "untested",
+      "note": "only modality reaching the dead allele; needs 23-38% efficiency"
+    },
+    {
+      "name": "NAD+ precursor (NMN/NR) via SIRT2/K668",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 1,
+      "map_coverage": 2256,
+      "invivo_bub1b": 2,
+      "in_humans": 2,
+      "effect_known": 2,
+      "killable": 2,
+      "status": "untested",
+      "note": "only class with in-vivo evidence of raising BubR1; slows the clock it rides on"
+    },
+    {
+      "name": "trans-RNA initiation on endogenous mRNA",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 2256,
+      "invivo_bub1b": 0,
+      "in_humans": 0,
+      "effect_known": 2,
+      "killable": 1,
+      "status": "untested",
+      "note": "Nat Biotechnol Nov 2025; endogenous and in vivo in mouse, but weeks old"
+    },
+    {
+      "name": "CRISPRa at the native BUB1B promoter",
+      "reaches_a1": 2,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 0,
+      "effect_known": 2,
+      "killable": 2,
+      "status": "untested",
+      "note": "not deliverable as therapy; the right experiment for the dosage thesis"
+    },
+    {
+      "name": "Readthrough (ataluren / G418 / ACE-tRNA)",
+      "reaches_a1": 0,
+      "reaches_a2": 0,
+      "waveform": 2,
+      "map_coverage": 4,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 1,
+      "killable": 2,
+      "status": "wrong allele",
+      "note": "needs a PTC in a surviving transcript: 4 alleles, or 284 with NMD attenuation"
+    },
+    {
+      "name": "Pharmacological chaperone, pseudokinase pocket",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 1494,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 1,
+      "killable": 0,
+      "status": "NOT EVALUABLE",
+      "note": "no validated tool here; no structure of 766-1050 above 3.8 A"
+    },
+    {
+      "name": "Checkpoint timing extension",
+      "reaches_a1": 2,
+      "reaches_a2": 2,
+      "waveform": 0,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 1,
+      "effect_known": 0,
+      "killable": 1,
+      "status": "untested",
+      "note": "only idea reaching the 280 transcript-less alleles; mitotic drugs are cytotoxic"
+    },
+    {
+      "name": "Prime editing, ex vivo",
+      "reaches_a1": 2,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 1,
+      "effect_known": 2,
+      "killable": 0,
+      "status": "untested",
+      "note": "c.3006T>G is a transversion; corrects blood, and MVA's tumours are solid"
+    },
+    {
+      "name": "Senolytics / mTORC1 inhibition",
+      "reaches_a1": 0,
+      "reaches_a2": 0,
+      "waveform": 0,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 0,
+      "killable": 1,
+      "status": "downstream",
+      "note": "treats accrued damage; p21 effects are bidirectional by tissue"
+    },
+    {
+      "name": "APC/C-Cdc20 inhibition",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 0,
+      "map_coverage": 2256,
+      "invivo_bub1b": 0,
+      "in_humans": 0,
+      "effect_known": 1,
+      "killable": 1,
+      "status": "rejected",
+      "note": "on-target but arrests every mitosis"
+    },
+    {
+      "name": "HDAC inhibition to raise acetylation",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 0,
+      "map_coverage": 2256,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 0,
+      "killable": 1,
+      "status": "argued against",
+      "note": "K250 stabilises and K668 destabilises; net effect unpredictable"
+    },
+    {
+      "name": "circRNA / AAV encoding BubR1",
+      "reaches_a1": 2,
+      "reaches_a2": 2,
+      "waveform": 0,
+      "map_coverage": 2536,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 2,
+      "killable": 1,
+      "status": "argued against",
+      "note": "constitutive source fills the anaphase trough"
+    },
+    {
+      "name": "Splice-modulating ASO (TANGO-style)",
+      "reaches_a1": 0,
+      "reaches_a2": 2,
+      "waveform": 2,
+      "map_coverage": 0,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 2,
+      "killable": 2,
+      "status": "KILLED",
+      "note": "no poison exon; non-canonical junction flux 0.00% vs SCN1A 4.55%"
+    },
+    {
+      "name": "Neoantigen vaccine",
+      "reaches_a1": 0,
+      "reaches_a2": 0,
+      "waveform": 0,
+      "map_coverage": 0,
+      "invivo_bub1b": 0,
+      "in_humans": 2,
+      "effect_known": 0,
+      "killable": 2,
+      "status": "KILLED",
+      "note": "germline variant is in every cell; it would target the patient"
+    }
+  ],
+  "weightings": {
+    "default -- what to do next, no wet lab": {
+      "a1": 2,
+      "a2": 2,
+      "wave": 2,
+      "cov": 2,
+      "invivo": 2,
+      "humans": 1,
+      "eff": 1,
+      "kill": 3
+    },
+    "if the goal is THIS child only": {
+      "a1": 3,
+      "a2": 3,
+      "wave": 2,
+      "cov": 0,
+      "invivo": 3,
+      "humans": 2,
+      "eff": 1,
+      "kill": 1
+    },
+    "if the goal is the most children": {
+      "a1": 1,
+      "a2": 1,
+      "wave": 1,
+      "cov": 4,
+      "invivo": 1,
+      "humans": 1,
+      "eff": 1,
+      "kill": 1
+    },
+    "if the goal is fastest to a human": {
+      "a1": 1,
+      "a2": 2,
+      "wave": 1,
+      "cov": 1,
+      "invivo": 3,
+      "humans": 4,
+      "eff": 2,
+      "kill": 2
+    }
+  },
+  "rank_default": [
+    "Trans-splicing (SMaRT) of endogenous pre-mRNA",
+    "CRISPRa at the native BUB1B promoter",
+    "NAD+ precursor (NMN/NR) via SIRT2/K668",
+    "Prime editing, ex vivo",
+    "circRNA / AAV encoding BubR1",
+    "trans-RNA initiation on endogenous mRNA",
+    "Checkpoint timing extension",
+    "Readthrough (ataluren / G418 / ACE-tRNA)",
+    "HDAC inhibition to raise acetylation",
+    "Senolytics / mTORC1 inhibition",
+    "Splice-modulating ASO (TANGO-style)",
+    "Pharmacological chaperone, pseudokinase pocket",
+    "APC/C-Cdc20 inhibition",
+    "Neoantigen vaccine"
+  ],
+  "position_spread_across_weightings": {
+    "Trans-splicing (SMaRT) of endogenous pre-mRNA": 1,
+    "NAD+ precursor (NMN/NR) via SIRT2/K668": 2,
+    "trans-RNA initiation on endogenous mRNA": 3,
+    "CRISPRa at the native BUB1B promoter": 2,
+    "Readthrough (ataluren / G418 / ACE-tRNA)": 4,
+    "Pharmacological chaperone, pseudokinase pocket": 1,
+    "Checkpoint timing extension": 2,
+    "Prime editing, ex vivo": 1,
+    "Senolytics / mTORC1 inhibition": 1,
+    "APC/C-Cdc20 inhibition": 2,
+    "HDAC inhibition to raise acetylation": 2,
+    "circRNA / AAV encoding BubR1": 2,
+    "Splice-modulating ASO (TANGO-style)": 2,
+    "Neoantigen vaccine": 1
+  },
+  "adjuncts": [
+    {
+      "name": "Mosaic selection as an amplifier",
+      "note": "lowers trans-splicing's bar from holding 23-38% to seeding an expanding clone -- but only in renewing tissue, not the brain"
+    },
+    {
+      "name": "Cancer-risk stratification from the map",
+      "note": "not a therapy; the only clinically actionable output available today, and it needs no new biology"
+    }
+  ]
+}

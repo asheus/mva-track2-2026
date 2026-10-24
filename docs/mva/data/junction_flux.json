@@ -1,0 +1,727 @@
+{
+  "source": "GTEx v8 median junction read counts, api/v2/expression/medianJunctionExpression, retrieved 21 Oct 2026",
+  "control_poison_exon_20N_brain_PSI": 0.4418604651162791,
+  "genes": [
+    {
+      "gene": "BUB1B",
+      "role": "subject",
+      "expressed_tissues": 15,
+      "noncanonical_share_median": 0.0,
+      "noncanonical_share_max": 0.0017253774263120058,
+      "top_noncanonical": [
+        {
+          "start": 40187055,
+          "end": 40196544,
+          "summed_median": 3.0
+        },
+        {
+          "start": 40170572,
+          "end": 40176476,
+          "summed_median": 2.0
+        },
+        {
+          "start": 40165197,
+          "end": 40166358,
+          "summed_median": 1.0
+        },
+        {
+          "start": 40185643,
+          "end": 40186928,
+          "summed_median": 1.0
+        },
+        {
+          "start": 40161256,
+          "end": 40170061,
+          "summed_median": 0.0
+        }
+      ],
+      "per_tissue": [
+        {
+          "tissue": "Cells_EBV-transformed_lymphocytes",
+          "total": 3477.5,
+          "noncanonical": 6.0,
+          "share": 0.0017253774263120058
+        },
+        {
+          "tissue": "Testis",
+          "total": 1776.0,
+          "noncanonical": 1.0,
+          "share": 0.0005630630630630631
+        },
+        {
+          "tissue": "Cells_Cultured_fibroblasts",
+          "total": 623.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Mucosa",
+          "total": 300.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Small_Intestine_Terminal_Ileum",
+          "total": 154.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Spleen",
+          "total": 143.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Skin_Sun_Exposed_Lower_leg",
+          "total": 127.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Skin_Not_Sun_Exposed_Suprapubic",
+          "total": 120.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Colon_Transverse",
+          "total": 119.5,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Vagina",
+          "total": 82.5,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Lung",
+          "total": 45.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Minor_Salivary_Gland",
+          "total": 41.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Stomach",
+          "total": 26.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adrenal_Gland",
+          "total": 24.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Kidney_Medulla",
+          "total": 22.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Breast_Mammary_Tissue",
+          "total": 19.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adipose_Subcutaneous",
+          "total": 16.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Thyroid",
+          "total": 15.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Whole_Blood",
+          "total": 14.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Prostate",
+          "total": 13.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adipose_Visceral_Omentum",
+          "total": 12.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Coronary",
+          "total": 12.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Kidney_Cortex",
+          "total": 10.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Fallopian_Tube",
+          "total": 9.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Bladder",
+          "total": 8.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Heart_Atrial_Appendage",
+          "total": 7.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Nerve_Tibial",
+          "total": 7.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Ovary",
+          "total": 6.5,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Cervix_Endocervix",
+          "total": 5.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Cerebellar_Hemisphere",
+          "total": 4.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Nucleus_accumbens_basal_ganglia",
+          "total": 4.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Pituitary",
+          "total": 4.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Aorta",
+          "total": 3.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Putamen_basal_ganglia",
+          "total": 3.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Cervix_Ectocervix",
+          "total": 3.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Amygdala",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Caudate_basal_ganglia",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Cerebellum",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Cortex",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Frontal_Cortex_BA9",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Hypothalamus",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Uterus",
+          "total": 1.5,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Anterior_cingulate_cortex_BA24",
+          "total": 1.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Spinal_cord_cervical_c-1",
+          "total": 1.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Tibial",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Hippocampus",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Brain_Substantia_nigra",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Colon_Sigmoid",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Gastroesophageal_Junction",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Muscularis",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Heart_Left_Ventricle",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Liver",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Muscle_Skeletal",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Pancreas",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "gene": "SCN1A",
+      "role": "positive control",
+      "expressed_tissues": 13,
+      "noncanonical_share_median": 0.045454545454545456,
+      "noncanonical_share_max": 0.06557377049180328,
+      "top_noncanonical": [
+        {
+          "start": 166042425,
+          "end": 166043701,
+          "summed_median": 41.0
+        },
+        {
+          "start": 166007294,
+          "end": 166009718,
+          "summed_median": 10.0
+        },
+        {
+          "start": 166002754,
+          "end": 166007229,
+          "summed_median": 9.0
+        },
+        {
+          "start": 166077802,
+          "end": 166127770,
+          "summed_median": 3.0
+        },
+        {
+          "start": 166042425,
+          "end": 166043752,
+          "summed_median": 2.0
+        }
+      ],
+      "per_tissue": [
+        {
+          "tissue": "Brain_Cerebellum",
+          "total": 218.0,
+          "noncanonical": 12.0,
+          "share": 0.05504587155963303
+        },
+        {
+          "tissue": "Brain_Frontal_Cortex_BA9",
+          "total": 212.0,
+          "noncanonical": 9.0,
+          "share": 0.04245283018867924
+        },
+        {
+          "tissue": "Brain_Cortex",
+          "total": 208.0,
+          "noncanonical": 10.0,
+          "share": 0.04807692307692308
+        },
+        {
+          "tissue": "Brain_Cerebellar_Hemisphere",
+          "total": 194.0,
+          "noncanonical": 10.0,
+          "share": 0.05154639175257732
+        },
+        {
+          "tissue": "Brain_Anterior_cingulate_cortex_BA24",
+          "total": 98.0,
+          "noncanonical": 5.0,
+          "share": 0.05102040816326531
+        },
+        {
+          "tissue": "Brain_Hypothalamus",
+          "total": 89.5,
+          "noncanonical": 4.0,
+          "share": 0.0446927374301676
+        },
+        {
+          "tissue": "Brain_Nucleus_accumbens_basal_ganglia",
+          "total": 80.5,
+          "noncanonical": 4.0,
+          "share": 0.049689440993788817
+        },
+        {
+          "tissue": "Brain_Caudate_basal_ganglia",
+          "total": 66.0,
+          "noncanonical": 3.0,
+          "share": 0.045454545454545456
+        },
+        {
+          "tissue": "Brain_Hippocampus",
+          "total": 61.0,
+          "noncanonical": 4.0,
+          "share": 0.06557377049180328
+        },
+        {
+          "tissue": "Brain_Amygdala",
+          "total": 51.0,
+          "noncanonical": 2.0,
+          "share": 0.0392156862745098
+        },
+        {
+          "tissue": "Brain_Putamen_basal_ganglia",
+          "total": 37.0,
+          "noncanonical": 1.0,
+          "share": 0.02702702702702703
+        },
+        {
+          "tissue": "Brain_Substantia_nigra",
+          "total": 36.0,
+          "noncanonical": 1.0,
+          "share": 0.027777777777777776
+        },
+        {
+          "tissue": "Lung",
+          "total": 31.5,
+          "noncanonical": 1.0,
+          "share": 0.031746031746031744
+        },
+        {
+          "tissue": "Brain_Spinal_cord_cervical_c-1",
+          "total": 17.0,
+          "noncanonical": 1.0,
+          "share": 0.058823529411764705
+        },
+        {
+          "tissue": "Cells_Cultured_fibroblasts",
+          "total": 2.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adipose_Subcutaneous",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adipose_Visceral_Omentum",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Adrenal_Gland",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Aorta",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Coronary",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Artery_Tibial",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Bladder",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Breast_Mammary_Tissue",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Cells_EBV-transformed_lymphocytes",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Cervix_Ectocervix",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Cervix_Endocervix",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Colon_Sigmoid",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Colon_Transverse",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Gastroesophageal_Junction",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Mucosa",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Esophagus_Muscularis",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Fallopian_Tube",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Heart_Atrial_Appendage",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Heart_Left_Ventricle",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Kidney_Cortex",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Kidney_Medulla",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Liver",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Minor_Salivary_Gland",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Muscle_Skeletal",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Nerve_Tibial",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Ovary",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Pancreas",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Pituitary",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Prostate",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Skin_Not_Sun_Exposed_Suprapubic",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Skin_Sun_Exposed_Lower_leg",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Small_Intestine_Terminal_Ileum",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Spleen",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Stomach",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Testis",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Thyroid",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Uterus",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Vagina",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        },
+        {
+          "tissue": "Whole_Blood",
+          "total": 0.0,
+          "noncanonical": 0.0,
+          "share": 0.0
+        }
+      ]
+    }
+  ],
+  "limit": "bulk tissue medians; GTEx has no proliferating-cell tissue, which is the state that matters for this disease"
+}

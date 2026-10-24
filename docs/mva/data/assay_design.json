@@ -1,0 +1,30 @@
+{
+  "design_target_fold": 1.43,
+  "cells_per_well": {
+    "cv_25": 49,
+    "cv_40": 125,
+    "cv_60": 281,
+    "cv_80": 499
+  },
+  "zprime_target": 0.5,
+  "calibration_ladder_ddg": {
+    "N1002S": 0.944,
+    "N1002R": 1.419,
+    "N1002K": 1.507
+  },
+  "predicted_order": [
+    "N1002S",
+    "N1002R",
+    "N1002K"
+  ],
+  "K_minus_R": 0.088,
+  "K_minus_S": 0.563,
+  "ratio_cancels": [
+    "cell-cycle stage",
+    "synthesis rate",
+    "cell size",
+    "plate effects",
+    "imaging variation",
+    "global translation"
+  ]
+}

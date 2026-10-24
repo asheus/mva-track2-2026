@@ -1,0 +1,90 @@
+{
+ "atp_site_centre": [
+  -23.599,
+  -18.248,
+  3.35
+ ],
+ "receptor": "AF-O60566-F1 residues 766-1050 (rigid), AutoDock Vina blind dock, vinardo",
+ "poses": {
+  "ATP": {
+   "centroid": [
+    -37.898,
+    14.823,
+    15.309
+   ],
+   "score_kcal_mol": -5.17
+  },
+  "deucravacitinib": {
+   "centroid": [
+    -17.563,
+    -25.457,
+    -14.303
+   ],
+   "score_kcal_mol": -7.15
+  },
+  "larotrectinib": {
+   "centroid": [
+    -32.627,
+    11.86,
+    -8.656
+   ],
+   "score_kcal_mol": -7.24
+  },
+  "selumetinib": {
+   "centroid": [
+    -40.811,
+    -19.626,
+    19.24
+   ],
+   "score_kcal_mol": -6.2
+  },
+  "crizotinib": {
+   "centroid": [
+    -22.938,
+    -19.754,
+    -15.422
+   ],
+   "score_kcal_mol": -7.52
+  },
+  "imatinib": {
+   "centroid": [
+    -17.642,
+    -23.787,
+    -12.944
+   ],
+   "score_kcal_mol": -8.8
+  },
+  "ruxolitinib": {
+   "centroid": [
+    -22.377,
+    -23.585,
+    -14.14
+   ],
+   "score_kcal_mol": -7.18
+  },
+  "everolimus": {
+   "centroid": [
+    -25.713,
+    -22.228,
+    -14.189
+   ],
+   "score_kcal_mol": -7.36
+  },
+  "tafamidis": {
+   "centroid": [
+    -33.303,
+    -7.215,
+    32.359
+   ],
+   "score_kcal_mol": -5.52
+  },
+  "metformin": {
+   "centroid": [
+    -11.932,
+    -21.14,
+    -0.815
+   ],
+   "score_kcal_mol": -3.59
+  }
+ }
+}

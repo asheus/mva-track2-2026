@@ -1,0 +1,164 @@
+{
+  "sensitivity": [
+    5,
+    9
+  ],
+  "specificity": [
+    1,
+    2
+  ],
+  "panel": [
+    {
+      "gene": "SRSF1",
+      "expected": "+",
+      "call": "-",
+      "transcripts": 17,
+      "decay": 6,
+      "near_full_decay": 0,
+      "cassettes": 0,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "SRSF2",
+      "expected": "+",
+      "call": "+",
+      "transcripts": 20,
+      "decay": 6,
+      "near_full_decay": 6,
+      "cassettes": 2,
+      "frameshifting": 1,
+      "sizes": [
+        104
+      ]
+    },
+    {
+      "gene": "SRSF3",
+      "expected": "+",
+      "call": "-",
+      "transcripts": 38,
+      "decay": 14,
+      "near_full_decay": 1,
+      "cassettes": 1,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "SRSF5",
+      "expected": "+",
+      "call": "+",
+      "transcripts": 66,
+      "decay": 10,
+      "near_full_decay": 10,
+      "cassettes": 3,
+      "frameshifting": 3,
+      "sizes": [
+        263,
+        532,
+        634
+      ]
+    },
+    {
+      "gene": "SRSF6",
+      "expected": "+",
+      "call": "-",
+      "transcripts": 14,
+      "decay": 6,
+      "near_full_decay": 0,
+      "cassettes": 0,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "SRSF7",
+      "expected": "+",
+      "call": "+",
+      "transcripts": 83,
+      "decay": 54,
+      "near_full_decay": 32,
+      "cassettes": 5,
+      "frameshifting": 3,
+      "sizes": [
+        107,
+        118,
+        449
+      ]
+    },
+    {
+      "gene": "SRSF11",
+      "expected": "+",
+      "call": "+",
+      "transcripts": 90,
+      "decay": 58,
+      "near_full_decay": 38,
+      "cassettes": 8,
+      "frameshifting": 6,
+      "sizes": [
+        62,
+        100,
+        109,
+        163,
+        881
+      ]
+    },
+    {
+      "gene": "TRA2B",
+      "expected": "+",
+      "call": "-",
+      "transcripts": 29,
+      "decay": 8,
+      "near_full_decay": 0,
+      "cassettes": 0,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "SCN1A",
+      "expected": "+",
+      "call": "+",
+      "transcripts": 30,
+      "decay": 6,
+      "near_full_decay": 3,
+      "cassettes": 1,
+      "frameshifting": 1,
+      "sizes": [
+        64
+      ]
+    },
+    {
+      "gene": "BUB1B",
+      "expected": "?",
+      "call": "-",
+      "transcripts": 31,
+      "decay": 12,
+      "near_full_decay": 10,
+      "cassettes": 1,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "GAPDH",
+      "expected": "-",
+      "call": "-",
+      "transcripts": 81,
+      "decay": 15,
+      "near_full_decay": 13,
+      "cassettes": 0,
+      "frameshifting": 0,
+      "sizes": []
+    },
+    {
+      "gene": "ACTB",
+      "expected": "-",
+      "call": "+",
+      "transcripts": 64,
+      "decay": 14,
+      "near_full_decay": 13,
+      "cassettes": 1,
+      "frameshifting": 1,
+      "sizes": [
+        41
+      ]
+    }
+  ]
+}

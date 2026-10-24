@@ -1,0 +1,122 @@
+{
+ "BUB1B": {
+  "accession": "O60566",
+  "length": 1050,
+  "features": [
+   {
+    "type": "Domain",
+    "start": 62,
+    "end": 226,
+    "desc": "BUB1 N-terminal"
+   },
+   {
+    "type": "Domain",
+    "start": 766,
+    "end": 1050,
+    "desc": "Protein kinase"
+   },
+   {
+    "type": "Region",
+    "start": 152,
+    "end": 185,
+    "desc": "Necessary for interaction with KNL1"
+   },
+   {
+    "type": "Region",
+    "start": 368,
+    "end": 393,
+    "desc": "Disordered"
+   },
+   {
+    "type": "Region",
+    "start": 456,
+    "end": 480,
+    "desc": "Disordered"
+   },
+   {
+    "type": "Motif",
+    "start": 111,
+    "end": 118,
+    "desc": "Nuclear localization signal"
+   },
+   {
+    "type": "Motif",
+    "start": 224,
+    "end": 232,
+    "desc": "D-box"
+   },
+   {
+    "type": "Binding site",
+    "start": 772,
+    "end": 780,
+    "desc": ""
+   },
+   {
+    "type": "Binding site",
+    "start": 795,
+    "end": 795,
+    "desc": ""
+   }
+  ]
+ },
+ "CEP57": {
+  "accession": "Q86XR8",
+  "length": 500,
+  "features": [
+   {
+    "type": "Region",
+    "start": 1,
+    "end": 34,
+    "desc": "Disordered"
+   },
+   {
+    "type": "Region",
+    "start": 43,
+    "end": 62,
+    "desc": "Disordered"
+   },
+   {
+    "type": "Region",
+    "start": 58,
+    "end": 239,
+    "desc": "centrosome localization domain (CLD)"
+   },
+   {
+    "type": "Region",
+    "start": 277,
+    "end": 491,
+    "desc": "Mediates interaction with microtubules"
+   },
+   {
+    "type": "Region",
+    "start": 434,
+    "end": 472,
+    "desc": "Disordered"
+   },
+   {
+    "type": "Coiled coil",
+    "start": 63,
+    "end": 242,
+    "desc": ""
+   },
+   {
+    "type": "Coiled coil",
+    "start": 392,
+    "end": 492,
+    "desc": ""
+   }
+  ]
+ },
+ "TRIP13": {
+  "accession": "Q15645",
+  "length": 432,
+  "features": [
+   {
+    "type": "Binding site",
+    "start": 179,
+    "end": 186,
+    "desc": ""
+   }
+  ]
+ }
+}

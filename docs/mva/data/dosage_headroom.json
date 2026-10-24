@@ -1,0 +1,131 @@
+{
+  "source": "gnomAD v4 GraphQL and GTEx v8 API, retrieved 21 Oct 2026",
+  "constraint": {
+    "pLI": 5.5162413060053435e-17,
+    "oe_lof": 0.6243782995602856,
+    "oe_lof_lower": 0.5245286337693357,
+    "oe_lof_upper": 0.7469983085734097,
+    "exp_lof": 137.73700985534722,
+    "obs_lof": 86,
+    "oe_mis": 0.9135391236440985,
+    "mis_z": 1.296889426972536,
+    "syn_z": -0.061128201270904334,
+    "lof_z": 3.739732436680311
+  },
+  "lof": {
+    "distinct_variants": 218,
+    "alleles_observed": 610,
+    "homozygotes": 0,
+    "alleles_sampled": 1461894
+  },
+  "fifty_percent_is_a_lived_human_state": true,
+  "eqtl": {
+    "single_tissue_associations": 213,
+    "tissues": 7,
+    "independent_signals": 8,
+    "abs_nes_max": 0.708376,
+    "top_independent": [
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_40274558_T_C_b38",
+        "snpId": "rs56282503",
+        "tissueSiteDetailId": "Brain_Cerebellar_Hemisphere",
+        "ontologyId": "UBERON:0002037",
+        "rank": 1,
+        "tssDistance": 113535,
+        "maf": 0.245714,
+        "pValue": 2.06215e-10,
+        "nes": 0.709064,
+        "chromosome": "chr15",
+        "pos": 40274558,
+        "datasetId": "gtex_v8"
+      },
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_40275036_G_A_b38",
+        "snpId": "rs56205728",
+        "tissueSiteDetailId": "Brain_Cerebellum",
+        "ontologyId": "UBERON:0002037",
+        "rank": 1,
+        "tssDistance": 114013,
+        "maf": 0.263158,
+        "pValue": 1.90338e-09,
+        "nes": 0.683957,
+        "chromosome": "chr15",
+        "pos": 40275036,
+        "datasetId": "gtex_v8"
+      },
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_39379886_C_A_b38",
+        "snpId": "rs12594280",
+        "tissueSiteDetailId": "Brain_Cerebellar_Hemisphere",
+        "ontologyId": "UBERON:0002037",
+        "rank": 2,
+        "tssDistance": -781137,
+        "maf": 0.334286,
+        "pValue": 6.50931e-06,
+        "nes": -0.405101,
+        "chromosome": "chr15",
+        "pos": 39379886,
+        "datasetId": "gtex_v8"
+      },
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_40331219_C_T_b38",
+        "snpId": "rs80272212",
+        "tissueSiteDetailId": "Esophagus_Mucosa",
+        "ontologyId": "UBERON:0006920",
+        "rank": 1,
+        "tssDistance": 170196,
+        "maf": 0.0201207,
+        "pValue": 3.07711e-06,
+        "nes": -0.219524,
+        "chromosome": "chr15",
+        "pos": 40331219,
+        "datasetId": "gtex_v8"
+      },
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_40145765_C_T_b38",
+        "snpId": "rs4244573",
+        "tissueSiteDetailId": "Testis",
+        "ontologyId": "UBERON:0000473",
+        "rank": 1,
+        "tssDistance": -15258,
+        "maf": 0.34472,
+        "pValue": 4.99462e-17,
+        "nes": -0.204647,
+        "chromosome": "chr15",
+        "pos": 40145765,
+        "datasetId": "gtex_v8"
+      },
+      {
+        "gencodeId": "ENSG00000156970.12",
+        "geneSymbol": "BUB1B",
+        "variantId": "chr15_40033659_A_G_b38",
+        "snpId": "rs8042947",
+        "tissueSiteDetailId": "Artery_Tibial",
+        "ontologyId": "UBERON:0007610",
+        "rank": 1,
+        "tssDistance": -127364,
+        "maf": 0.314212,
+        "pValue": 1.18127e-05,
+        "nes": -0.2011,
+        "chromosome": "chr15",
+        "pos": 40033659,
+        "datasetId": "gtex_v8"
+      }
+    ]
+  },
+  "locus_is_tunable": true,
+  "caveats": [
+    "gnomAD is not phenotyped; the claim is absence of a severe early phenotype, not perfect health",
+    "NES is a slope on normal-quantile-transformed expression and is deliberately NOT converted to a fold change"
+  ]
+}

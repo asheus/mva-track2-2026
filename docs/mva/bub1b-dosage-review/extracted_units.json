@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "extraction_date": "2026-09-10",
+  "verified_source_rule": "text = value appears in readable article text or a readable table. figure_only = value legible only inside a figure image (ask-image), quarantined per user ruling at the Question checkpoint and never used to drive a conclusion.",
+
+  "dosage_units": [
+    {"id":"D01","system":"HeLa, doxycycline-titrated shRNA against BUBR1","residual_pct":13,"denominator":"HeLa whole-cell, vs uninduced","phenotype":"virtually no impact on fidelity of chromosome segregation","source":"PMC2887387 (Suijkerbuijk 2010)","evidence":"text","note":"UPPER arm of the only explicit titration experiment in the BubR1 literature"},
+    {"id":"D02","system":"HeLa, doxycycline-titrated shRNA against BUBR1","residual_pct":6,"denominator":"HeLa whole-cell, vs uninduced","phenotype":"chromosome mis-segregation in the majority of cells","source":"PMC2887387 (Suijkerbuijk 2010)","evidence":"text","note":"LOWER arm. Threshold for gross missegregation in this system lies between D02 and D01."},
+    {"id":"D03","system":"MVA patient cell lines, full-length protein (contributed by the missense allele only)","residual_pct":"17-50 (stated as 2-6 fold decrease)","denominator":"patient lines absent/I909T, 386X/R727C, 753X/R814H, 731X/Y155C vs wild-type alleles","phenotype":"MVA: impaired mitotic checkpoint, chromosome alignment defects","source":"PMC2887387","evidence":"text"},
+    {"id":"D04","system":"heterozygous carrier parents","residual_pct":"between patient and control","denominator":"same lines","phenotype":"clinically unaffected","source":"PMC2887387","evidence":"text","note":"establishes the gene-dosage gradient in humans"},
+    {"id":"D05","system":"kinase-domain substitution mutants expressed in HeLa and U2OS","residual_pct":"10-20 (stated as 5-10 fold decrease)","denominator":"vs wild-type LAP-BUBR1","phenotype":"fail to restore checkpoint or chromosome alignment","source":"PMC2887387","evidence":"text","variants":["I909T","R814H","L1012P","L844F","R727C"]},
+    {"id":"D06","system":"non-kinase-domain substitutions","residual_pct":"unchanged vs wild-type","denominator":"same","phenotype":"Y155C = separation-of-function (rescues alignment, not checkpoint); R550Q = fully functional; Q921H = indistinguishable from wild-type","source":"PMC2887387","evidence":"text","note":"proves position, not merely missense status, determines destabilisation"},
+    {"id":"D07","system":"MVA-41C primary fibroblasts, genotype 731X/Y155C","residual_pct":35,"denominator":"vs HDF-N normal donor, beta-actin","phenotype":"~25% of cells with aligned chromosomes vs ~80% control","source":"PMC3654266 Fig 4A","evidence":"FIGURE_ONLY","note":"QUARANTINED. Corroborated in direction and magnitude by D03, which is text-verified."},
+    {"id":"D08","system":"MVA-12C primary fibroblasts, genotype 753X/R814H","residual_pct":17,"denominator":"vs HDF-N normal donor, beta-actin","phenotype":"~35% of cells with aligned chromosomes vs ~80% control","source":"PMC3654266 Fig 4A","evidence":"FIGURE_ONLY","note":"QUARANTINED, as D07"},
+    {"id":"D09","system":"Cdc20 hypomorphic mice / cultured cells (COMPARATOR SAC protein, not BubR1)","residual_pct":"<5","denominator":"vs normal Cdc20","phenotype":"precludes chromosome separation and anaphase onset","source":"PMC2958469 (Malureanu 2010, citing Li 2007 / Wolthuis 2008)","evidence":"text"},
+    {"id":"D10","system":"Cdc20, as D09","residual_pct":10,"denominator":"vs normal Cdc20","phenotype":"cultured cells can execute anaphase and complete mitosis","source":"PMC2958469","evidence":"text","note":"INDEPENDENT threshold of the same shape as D01/D02, in a different SAC gene. Two genes, two labs, same ~5-13% inflection."},
+    {"id":"D11","system":"BubR1 hypomorphic mouse (BubR1 H/H)","residual_pct":"~10","denominator":"vs wild-type mouse","phenotype":"progeroid: aneuploidy, growth retardation, cataracts, sarcopenia, lordokyphosis, cardiac anomalies","source":"PMC11794522 restating Baker 2004","evidence":"text (second-hand restatement)"},
+    {"id":"D12","system":"truncated BubR1 protein in patient cells and BubR1+/GTTA MEFs","residual_pct":0,"denominator":"western blot, long exposure","phenotype":"undetectable","source":"PMC3531486 (Wijshake 2012); PMC2887387 (386X, 731X, 753X all undetectable)","evidence":"text","note":"THE key fact for allele 1 of this proband"}
+  ],
+
+  "phenotype_prevalence_cohort": {
+    "source": "PMC9616775 (Pavone 2022), n=31 MVA1 cases incl. their own",
+    "evidence": "text",
+    "growth_retardation_pre_and_postnatal_pct": 93.5,
+    "microcephaly_pct": 87,
+    "intellectual_disability_or_dev_delay_pct": 77.4,
+    "epileptic_seizures_pct": 45.1,
+    "other_cerebral_anomalies_incl_corpus_callosum_pct": 32.2,
+    "Dandy_Walker_malformation_pct": 25.8,
+    "malignancy_pct": 38.7,
+    "genital_anomalies_pct": 12.9,
+    "renal_dysfunction_pct": 12.9,
+    "endocrine_dysfunction_pct": 12.9,
+    "commonest_malignancies": ["Wilms tumour", "rhabdomyosarcoma", "leukaemia"],
+    "independent_corroboration": "PMC2887387 states 37% develop cancers 'mostly within the first 3 years of life, not seldom even in utero'. Two independent cohorts, 38.7% and 37%."
+  },
+
+  "human_individuals_partial": [
+    {"id":"H01","source":"PMC12575641","gene":"BUB1B","allele_1":"c.2210T>G p.Leu737*","zygosity":"monoallelic germline + somatic loss of the wild-type allele (large deletion)","phenotype":"adult glioblastoma","note":"THE PROBAND'S OWN ALLELE 1, in a different person. Two-hit pattern. Authors decline to assert causality.","evidence":"text"},
+    {"id":"H02","source":"PMC11306263","gene":"BUB1B","allele_1":"c.580C>T p.Arg194Ter (paternal)","allele_2":"c.2309G>A p.Arg770Gln (maternal, VUS class 3)","zygosity":"biallelic","phenotype":"sudden unexpected postnatal collapse; 5 months intensive care; died of sepsis at 6 months","note":"ARCHITECTURAL MATCH to the proband: nonsense + pseudokinase-domain missense. Authors explicitly state the variant 'could play a causal or concausal role' - causality disclaimed.","evidence":"text"},
+    {"id":"H03","source":"PMC3654266 / PMC2887387","gene":"BUB1B","allele_1":"731X","allele_2":"Y155C (TPR domain)","zygosity":"biallelic","cell_line":"MVA-41C","note":"Y155C is text-named in the primary source; the Xu figure image labels it Y115C. Discrepancy logged, primary source preferred.","evidence":"text"},
+    {"id":"H04","source":"PMC3654266 / PMC2887387","gene":"BUB1B","allele_1":"753X","allele_2":"R814H (kinase domain)","zygosity":"biallelic","cell_line":"MVA-12C","evidence":"text"},
+    {"id":"H05","source":"PMC2887387","gene":"BUB1B","allele_1":"386X","allele_2":"R727C","zygosity":"biallelic","evidence":"text"},
+    {"id":"H06","source":"PMC2887387","gene":"BUB1B","allele_1":"absent","allele_2":"I909T (kinase domain)","zygosity":"biallelic","evidence":"text"},
+    {"id":"H07","source":"PMC9616775","gene":"BUB1B","allele_1":"c.2679A>T p.Arg893Ser","zygosity":"MONOALLELIC, also carried by the unaffected father","phenotype":"MVA1: severe microcephaly, seizures, hypotonia, growth retardation, congenital ovarian cyst; 12% aneuploid cells","note":"Causality weak - same variant in an unaffected parent. Carried as reported.","evidence":"text"},
+    {"id":"H08","source":"PMC13349884","gene":"BUB1B","allele_1":"c.2215G>T p.A739S","zygosity":"monoallelic","phenotype":"recurrent pregnancy loss; PCS 8.93% G-banding / 18.58% PNA-FISH vs control 0.40% / 2.95%","note":"two residues from the proband's stop codon","evidence":"text"},
+    {"id":"H09","source":"PMC13349884","gene":"BUB1B","allele_1":"c.2164T>C p.W722R","zygosity":"monoallelic","phenotype":"recurrent pregnancy loss; PCS 13.79% G-banding / 24.43% PNA-FISH","evidence":"text"},
+    {"id":"H10","source":"PMC10545765","gene":"BUB1B","allele_1":"c.2405_2406del p.(Ser802Cysfs*29) (paternal)","allele_2":"c.2577+5G>A (maternal)","zygosity":"biallelic","phenotype":"embryonal rhabdomyosarcoma; IUGR, microcephaly, speech delay","evidence":"text"},
+    {"id":"H11","source":"PMC7455400","gene":"BUB1B","allele_1":"c.1402-5A>G","allele_2":"c.2386-11A>G (written c.2387-11A>G in the same paper's discussion - internal inconsistency logged)","zygosity":"biallelic","phenotype":"infantile neuroblastoma at 8 months; Sertoli-Leydig cell tumour at 21y; chronic glomerulosclerosis, renal failure at 15, transplant at 20","note":"longest follow-up in the extracted set and the only individual surviving into adulthood","evidence":"text"},
+    {"id":"H12","source":"PMC6500003","gene":"BUB1B","allele_1":"c.498_505delAAACTTTA","allele_2":"c.1288+5G>A","zygosity":"biallelic","phenotype":"myelodysplastic syndrome with monosomy 7 at 9y; HSCT, engrafted then rejected, died","evidence":"text"},
+    {"id":"H13","source":"PMC5462940","gene":"BUB1B","allele_1":"Alu insertion, intron 8 (paternal)","allele_2":"rs576524605 upstream G>A (maternal)","zygosity":"biallelic","phenotype":"PCS/MVA, prenatal microcephaly","note":"structural variant class - would be missed by exome SNV calling","evidence":"text"},
+    {"id":"H14","source":"PMC11251299","gene":"BUB1B","zygosity":"monoallelic","variants":["p.Glu391del","p.Arg120Gln","p.Ile147Thr","p.Arg244Cys","p.Arg416Gln"],"phenotype":"prostate cancer predisposition","note":"In-silico stability: I147T greatly destabilising, E391del reduces stability; others little effect. Reference points used: E413K and F175G unstable, F175L stable.","evidence":"text"}
+  ],
+
+  "missing_visual_evidence_register": [
+    {"paper":"PMC3654266","values":"BubR1 35% (MVA-41C) and 17% (MVA-12C) of HDF-N control","why":"legible only in Figure 4A image; absent from text and tables","status":"quarantined, corroborated by text-verified D03"},
+    {"paper":"PMC5462940","values":"BUB1B transcript quantification bar graph","why":"no axis labels or values in text","status":"unusable"},
+    {"paper":"PMC8769543","values":"BUB1 western blot and kinetochore intensity quantifications","why":"figure-only","status":"out of scope (BUB1, not BUB1B)"},
+    {"paper":"PMC13349884","values":"BUBR1 western blot band intensities","why":"described only as 'a trend toward decreased'; no densitometry anywhere","status":"qualitative only"}
+  ],
+
+  "unverifiable_primary_sources": [
+    {"source":"Hanks et al. 2004 Nat Genet 36:1159 (PMID 15475955, doi 10.1038/ng1449)","status":"abstract only; not open access, no PMC deposit","consequence":"the founding cohort of five MVA families cannot be extracted at individual granularity; all downstream counts that trace to it are second-hand"}
+  ]
+}

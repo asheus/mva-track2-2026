@@ -1,0 +1,31 @@
+{
+  "source": "MFASS, Chong et al. Mol Cell 2019",
+  "source_doi": "10.1016/j.molcel.2018.10.037",
+  "source_repo": "github.com/KosuriLab/MFASS",
+  "licence": "no licence file in the source repository; all rights reserved. Data are NOT redistributed here -- only our derived sample.",
+  "seed": 20261015,
+  "canonical_definition": "intronic offset 1-2 from an exon boundary",
+  "pool_non_canonical_positives": 946,
+  "pool_non_canonical_negatives": 26290,
+  "sampled_positives": 946,
+  "sampled_negatives": 4000,
+  "exons_strand_contradicted": [
+    "ENSE00000933530",
+    "ENSE00001002968",
+    "ENSE00001321140",
+    "ENSE00001339922",
+    "ENSE00001602316",
+    "ENSE00001768088"
+  ],
+  "exons_unresolved": [],
+  "pass_criteria": {
+    "sensitivity": {
+      "pass": 0.7,
+      "fail": 0.5
+    },
+    "specificity": {
+      "pass": 0.8,
+      "fail": 0.6
+    }
+  }
+}

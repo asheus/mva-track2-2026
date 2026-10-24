@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "pilot_map_id": "m_b76cb278",
+  "pilot_source_set": "s_754b5c0c (21 unique papers, merged from 3 searches)",
+  "papers_examined": ["PMC7455400","PMC8769543","PMC8125975","PMC5462940","PMC11306263","PMC10602889","PMC7016705","PMC13349884"],
+  "design_diversity_achieved": ["prenatal case report with 21-year follow-up","biallelic case series with functional assays","narrative review restating primary cases","case report of a novel Alu insertion","forensic autopsy case report","mouse conditional knockout","genome-editing methods review","monoallelic carrier series with cytogenetics"],
+
+  "headline_observation": {
+    "finding": "ZERO of the eight pilot papers reported a numerical BubR1/BUB1B protein level as a percentage of control in readable text or a readable table.",
+    "breakdown": {
+      "no_dosage_measured_at_all": ["PMC7455400","PMC8125975","PMC11306263","PMC10602889","PMC7016705"],
+      "dosage_measured_but_qualitative_only": ["PMC13349884 - 'trend toward decreased BUBR1 protein abundance', beta-actin control, PBMCs, no densitometry","PMC8769543 - 'severely reduced BUB1 protein levels', no numbers in text"],
+      "dosage_numeric_but_figure_only": ["PMC5462940 - transcript quantification bar graph with no axis labels or values in text"]
+    },
+    "implication": "The primary exposure axis as drafted (residual protein % of control) is close to unpopulated in the human literature. This is a finding about the field, not a retrieval failure - and it is the direct test of the 'protein dosage disease' framing the user asked for before concluding. The review must either change its primary axis or report the null."
+  },
+
+  "better_populated_axes_discovered": {
+    "pcs_percentage": {
+      "status": "well populated with exact numbers AND matched control values",
+      "example": "PMC13349884: Proband 1 PCS 8.93% (5/56 cells) and Proband 2 PCS 13.79% (8/58) by G-banding vs control mean 0.40 +/- 1.05%; by centromere PNA-FISH 18.58% (21/113) and 24.43% (32/131) vs control 2.95 +/- 0.60%",
+      "note": "carries its own denominator (cell counts) and its own control - structurally better evidence than the protein blots"
+    },
+    "aneuploidy_percentage": {"status": "partially populated", "example": "PMC8769543: P2 lymphoblasts 35.6%, P2 primary fibroblasts 41.5% chromosome number alterations"},
+    "variant_class_and_position": {"status": "fully populated wherever a genotype is reported", "note": "this is the only axis available for essentially every individual"}
+  },
+
+  "new_individuals_found_in_pilot": [
+    {
+      "paper": "PMC11306263",
+      "significance": "HIGH - architectural comparator for the proband",
+      "genotype": "compound heterozygous c.580C>T p.Arg194Ter (nonsense, paternal) + c.2309G>A p.Arg770Gln (missense, maternal, called VUS class 3)",
+      "why_it_matters": "p.Arg770Gln lies in the pseudokinase domain (766-1050 per Zhang 2026), paired with a nonsense allele - the SAME architecture as the proband's 737X/N1002K. Outcome: sudden unexpected postnatal collapse, 5 months intensive care, death from sepsis at 6 months.",
+      "caution": "The authors explicitly decline to assert causality: the variant 'could play a causal or concausal role'. Must be carried as reported, not as an outcome attributable to the genotype."
+    },
+    {
+      "paper": "PMC13349884",
+      "significance": "MEDIUM - monoallelic carriers of linker-region missense",
+      "genotype": "p.A739S and p.W722R, heterozygous, in recurrent pregnancy loss",
+      "why_it_matters": "both sit within 17 residues of the proband's stop at 737, in the same linker; phenotype is reproductive, not MVA - a dosage-gradient datapoint at the mild end"
+    }
+  ],
+
+  "schema_fields_to_add": {
+    "gene": "MANDATORY NEW FIELD. PMC8769543 is BUB1, not BUB1B. Without an explicit gene field an extractor will silently merge two different diseases.",
+    "acmg_classification_verbatim": "PMC11306263 classifies its missense as VUS class 3; PMC13349884 lists PM2+PP3. Pathogenicity assertion strength must travel with the variant.",
+    "author_causality_stance": "PMC11306263 explicitly disclaims causality. Recording the authors' own confidence prevents the review from asserting more than the sources do.",
+    "prenatal_findings_verbatim": "raised maternal serum AFP, fetal microcephaly, pericardial effusion, ascites - present in 2 of 8 pilot papers, and relevant to early ascertainment",
+    "non_tumour_organ_complications": "PMC7455400 reports chronic glomerulosclerosis, renal failure at 15, transplant at 20, chylothorax. A tumour-only outcome field discards the majority of this patient's disease burden.",
+    "reproductive_phenotype": "recurrent pregnancy loss and products-of-conception aneuploidy (PMC13349884) - a distinct phenotype axis at the mild end of the dosage gradient",
+    "cause_of_death_verbatim": "PMC11306263 death from sepsis, not tumour - conflating any death with disease progression would be wrong",
+    "assay_method_for_pcs": "G-banding vs centromere PNA-FISH give materially different PCS rates in the SAME individuals (8.93% vs 18.58%). Method must be recorded or the numbers are not comparable.",
+    "control_value_and_spread": "PCS and aneuploidy percentages are only interpretable against the same paper's control mean and SD"
+  },
+
+  "ambiguities_requiring_extractor_rules": [
+    "PMC7455400 gives the same variant as c.2386-11A>G in text and figure legend but c.2387-11A>G in the discussion. Rule needed: record verbatim, flag internal inconsistency, do not silently pick one.",
+    "Reviews restate primary cases without genotype detail (PMC8125975 gives 'biallelic deleterious or loss-of-function mutations' with no HGVS). Rule needed: reviews are seeds, never extraction sources - already in protocol eligibility.",
+    "Figure-legend and body text disagree on the same percentage within one paper (PMC10602889: 15% vs 10% prophase DNA damage). Rule needed: record both, flag, prefer body text, never average.",
+    "Where a paper reports 'trend toward decreased' with no number, the correct extraction is a qualitative_direction field plus residual_protein_pct = null, NOT an estimated number."
+  ],
+
+  "bounded_vs_open_confirmed": {
+    "bounded": ["gene","allele class","zygosity","residual_protein_source","vital_status","assay_method_for_pcs"],
+    "open_preserved_as_reported": ["tumour histology","phenotype text","denominator/loading control","ascertainment route","cause of death","author causality stance"],
+    "hybrid": ["domain location - mapped to the Zhang 2026 map where residue number allows, else 'not_determinable'"]
+  },
+
+  "pilot_verdict": "The collection schema is sound but its PRIMARY AXIS must change. Recommend demoting residual_protein_pct from primary exposure to a sparse secondary field, and promoting a composite exposure of (variant class + domain position) with PCS%/aneuploidy% as the best-populated quantitative severity readout. This is a material change and requires user approval before Evidence proceeds."
+}

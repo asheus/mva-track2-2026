@@ -1,0 +1,212 @@
+[
+ {
+  "variant": "F912S",
+  "pos": 912,
+  "proteinmpnn_ddg": -7.1083884,
+  "thermompnn_ddg": 2.1407,
+  "rsa_pct": 1.9393335066613238
+ },
+ {
+  "variant": "V1038G",
+  "pos": 1038,
+  "proteinmpnn_ddg": -7.006997,
+  "thermompnn_ddg": 2.0712,
+  "rsa_pct": 1.1567320077010692
+ },
+ {
+  "variant": "W978L",
+  "pos": 978,
+  "proteinmpnn_ddg": -6.9259577,
+  "thermompnn_ddg": 2.1352,
+  "rsa_pct": 11.2836124041813
+ },
+ {
+  "variant": "W803R",
+  "pos": 803,
+  "proteinmpnn_ddg": -6.873677,
+  "thermompnn_ddg": 2.2296,
+  "rsa_pct": 2.3268339184992555
+ },
+ {
+  "variant": "F805S",
+  "pos": 805,
+  "proteinmpnn_ddg": -6.726248,
+  "thermompnn_ddg": 2.5362,
+  "rsa_pct": 3.7620179327656067
+ },
+ {
+  "variant": "L936P",
+  "pos": 936,
+  "proteinmpnn_ddg": -6.400509,
+  "thermompnn_ddg": 2.3813,
+  "rsa_pct": 2.50337524054709
+ },
+ {
+  "variant": "L963P",
+  "pos": 963,
+  "proteinmpnn_ddg": -6.1161337,
+  "thermompnn_ddg": 3.1187,
+  "rsa_pct": 2.1735575063317856
+ },
+ {
+  "variant": "I956T",
+  "pos": 956,
+  "proteinmpnn_ddg": -6.105526,
+  "thermompnn_ddg": 2.1303,
+  "rsa_pct": 0.0
+ },
+ {
+  "variant": "V1038A",
+  "pos": 1038,
+  "proteinmpnn_ddg": -5.9753733,
+  "thermompnn_ddg": 1.4819,
+  "rsa_pct": 1.1567320077010692
+ },
+ {
+  "variant": "L890R",
+  "pos": 890,
+  "proteinmpnn_ddg": -5.9103465,
+  "thermompnn_ddg": 2.5184,
+  "rsa_pct": 2.243198748455392
+ },
+ {
+  "variant": "L873P",
+  "pos": 873,
+  "proteinmpnn_ddg": -5.784558,
+  "thermompnn_ddg": 2.8813,
+  "rsa_pct": 0.500675048109418
+ },
+ {
+  "variant": "L883S",
+  "pos": 883,
+  "proteinmpnn_ddg": -5.7646875,
+  "thermompnn_ddg": 2.319,
+  "rsa_pct": 1.874749323483258
+ },
+ {
+  "variant": "L811S",
+  "pos": 811,
+  "proteinmpnn_ddg": -5.753606,
+  "thermompnn_ddg": 2.5835,
+  "rsa_pct": 0.0
+ },
+ {
+  "variant": "I1000S",
+  "pos": 1000,
+  "proteinmpnn_ddg": -5.477353,
+  "thermompnn_ddg": 2.2861,
+  "rsa_pct": 1.0557904184123807
+ },
+ {
+  "variant": "A957G",
+  "pos": 957,
+  "proteinmpnn_ddg": -5.3543253,
+  "thermompnn_ddg": 1.3404,
+  "rsa_pct": 0.0
+ },
+ {
+  "variant": "H880Q",
+  "pos": 880,
+  "proteinmpnn_ddg": -5.3088326,
+  "thermompnn_ddg": 1.463,
+  "rsa_pct": 0.16214264583996243
+ },
+ {
+  "variant": "L847V",
+  "pos": 847,
+  "proteinmpnn_ddg": -5.2568946,
+  "thermompnn_ddg": 1.3733,
+  "rsa_pct": 1.1891032392598677
+ },
+ {
+  "variant": "Q921P",
+  "pos": 921,
+  "proteinmpnn_ddg": -5.1987915,
+  "thermompnn_ddg": 1.8878,
+  "rsa_pct": 1.7386458045120252
+ },
+ {
+  "variant": "L962S",
+  "pos": 962,
+  "proteinmpnn_ddg": -5.1597986,
+  "thermompnn_ddg": 1.8782,
+  "rsa_pct": 7.878575146613404
+ },
+ {
+  "variant": "D952H",
+  "pos": 952,
+  "proteinmpnn_ddg": -5.1315465,
+  "thermompnn_ddg": 1.4578,
+  "rsa_pct": 0.12300773100726665
+ },
+ {
+  "variant": "G831A",
+  "pos": 831,
+  "proteinmpnn_ddg": -5.0386868,
+  "thermompnn_ddg": 1.5286,
+  "rsa_pct": 0.0
+ },
+ {
+  "variant": "V971A",
+  "pos": 971,
+  "proteinmpnn_ddg": -4.824741,
+  "thermompnn_ddg": 1.6164,
+  "rsa_pct": 16.31368655552742
+ },
+ {
+  "variant": "V910E",
+  "pos": 910,
+  "proteinmpnn_ddg": -4.4963465,
+  "thermompnn_ddg": 2.0017,
+  "rsa_pct": 4.08009832102426
+ },
+ {
+  "variant": "L959S",
+  "pos": 959,
+  "proteinmpnn_ddg": -4.4495463,
+  "thermompnn_ddg": 1.7753,
+  "rsa_pct": 1.230517036943757
+ },
+ {
+  "variant": "L964S",
+  "pos": 964,
+  "proteinmpnn_ddg": -4.397018,
+  "thermompnn_ddg": 2.3544,
+  "rsa_pct": 16.632245355331598
+ },
+ {
+  "variant": "V879D",
+  "pos": 879,
+  "proteinmpnn_ddg": -4.2624607,
+  "thermompnn_ddg": 2.449,
+  "rsa_pct": 0.0
+ },
+ {
+  "variant": "G955D",
+  "pos": 955,
+  "proteinmpnn_ddg": -4.1842546,
+  "thermompnn_ddg": 2.0778,
+  "rsa_pct": 0.3628690553004556
+ },
+ {
+  "variant": "I863T",
+  "pos": 863,
+  "proteinmpnn_ddg": -4.176282,
+  "thermompnn_ddg": 1.9244,
+  "rsa_pct": 0.19156538960024053
+ },
+ {
+  "variant": "A876T",
+  "pos": 876,
+  "proteinmpnn_ddg": -4.0662055,
+  "thermompnn_ddg": 1.398,
+  "rsa_pct": 0.09751519832363666
+ },
+ {
+  "variant": "T843A",
+  "pos": 843,
+  "proteinmpnn_ddg": -3.9768877,
+  "thermompnn_ddg": 1.2824,
+  "rsa_pct": 2.8523195509663717
+ }
+]

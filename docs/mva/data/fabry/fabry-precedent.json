@@ -1,0 +1,34 @@
+{
+  "source": {
+    "prescribing_information": "https://www.amicusrx.com/pi/galafold.pdf",
+    "sha256": "ca9b696ff73435129180d8bce096bcd25c6fc16024b17041b93c163c6852c421",
+    "retrieved": "2026-10-21"
+  },
+  "founding_assay": {
+    "mutations_tested": 600,
+    "found_amenable": 268,
+    "assay": "GLP-validated HEK-293 migalastat amenability assay",
+    "criterion": "relative increase >=20% over pre-treatment AND absolute increase >=3% of wild-type alpha-Gal A activity at 10 uM",
+    "predictive_value_vs_in_vivo": ">=0.875 for sensitivity, specificity, PPV, NPV",
+    "doi": "10.1038/gim.2016.122"
+  },
+  "rows_whose_protein_column_wrapped": 12,
+  "truncating_token_scan_over_raw_table": "Ter/fs/*/splice/X<digit> all absent",
+  "label_table_2": {
+    "distinct_dna_entries": 376,
+    "distinct_protein_changes": 364,
+    "by_kind": {
+      "missense": 357,
+      "multi-variant allele (all missense)": 4,
+      "continuation/footnote row": 12,
+      "small in-frame indel (protein still made)": 3
+    },
+    "truncating_alleles_eligible": 0
+  },
+  "mechanism_from_label_12_1": "migalastat binds the active site of mutant alpha-Gal A, stabilises it and restores trafficking to the lysosome; it dissociates at lysosomal pH and high substrate concentration",
+  "indication_is_a_genotype_gate": "indicated for adults with confirmed Fabry disease AND an amenable GLA variant based on in vitro assay data",
+  "non_amenable_clinical_result": "of 67 patients in Study 1, the 17 with non-amenable variants had no change from baseline in GL-3 inclusions per kidney interstitial capillary after 6 months",
+  "real_world_amenable_fraction": "commonly estimated 35-50% of Fabry patients; a 1,196-patient Latin American series reported 60.2%. Range, not a measured prevalence.",
+  "what_we_take": "the shape of the deliverable: a maintained per-allele eligibility table with the assay and threshold stated",
+  "what_we_do_not_claim": "parity. Theirs is assay-determined and clinically validated; ours is predicted and labelled as such."
+}

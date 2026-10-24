@@ -1,0 +1,96 @@
+{
+  "seed": 20261016,
+  "n_scored": 4946,
+  "derive_n": 2473,
+  "held_out_n": 1236,
+  "target_sensitivity": 0.7,
+  "min_specificity_high": 0.98,
+  "call_high": 0.16,
+  "call_screen": 0.02,
+  "youden_j": 0.02,
+  "results": {
+    "CALL_HIGH": {
+      "threshold": 0.16,
+      "held_sensitivity": 0.3813559322033898,
+      "held_specificity": 0.985,
+      "derive_sensitivity": 0.39957716701902746,
+      "derive_specificity": 0.983,
+      "corrected_precision": {
+        "non-canonical intronic": 0.45665575766801103,
+        "exonic": 0.5010636614567764
+      }
+    },
+    "CALL_SCREEN": {
+      "threshold": 0.02,
+      "held_sensitivity": 0.7245762711864406,
+      "held_specificity": 0.853,
+      "derive_sensitivity": 0.7378435517970402,
+      "derive_specificity": 0.882,
+      "corrected_precision": {
+        "non-canonical intronic": 0.14011420536809474,
+        "exonic": 0.1629727186979518
+      }
+    },
+    "Youden J": {
+      "threshold": 0.02,
+      "held_sensitivity": 0.7245762711864406,
+      "held_specificity": 0.853,
+      "derive_sensitivity": 0.7378435517970402,
+      "derive_specificity": 0.882,
+      "corrected_precision": {
+        "non-canonical intronic": 0.14011420536809474,
+        "exonic": 0.1629727186979518
+      }
+    },
+    "old CALL=0.2": {
+      "threshold": 0.2,
+      "held_sensitivity": 0.3432203389830508,
+      "held_specificity": 0.987,
+      "derive_sensitivity": 0.36363636363636365,
+      "derive_specificity": 0.986,
+      "corrected_precision": {
+        "non-canonical intronic": 0.466034164331701,
+        "exonic": 0.5104972023824528
+      }
+    }
+  },
+  "region_split": {
+    "exonic": "no_benefit",
+    "intronic": "pooled_wins"
+  },
+  "split": {
+    "derive": 2473,
+    "validate": 1236,
+    "sealed": 1237
+  },
+  "sealed_evaluation": {
+    "CALL_HIGH": {
+      "threshold": 0.16,
+      "sensitivity": 0.3924050632911392,
+      "specificity": 0.986,
+      "corrected_precision": {
+        "non-canonical intronic": 0.4809445129661087,
+        "exonic": 0.5254302908332483
+      }
+    },
+    "CALL_SCREEN": {
+      "threshold": 0.02,
+      "sensitivity": 0.7932489451476793,
+      "specificity": 0.872,
+      "corrected_precision": {
+        "non-canonical intronic": 0.17003357258624682,
+        "exonic": 0.19665687713283522
+      }
+    },
+    "Youden J": {
+      "threshold": 0.02,
+      "sensitivity": 0.7932489451476793,
+      "specificity": 0.872,
+      "corrected_precision": {
+        "non-canonical intronic": 0.17003357258624682,
+        "exonic": 0.19665687713283522
+      }
+    }
+  },
+  "note": "Thresholds derived on the derive split; all reported performance is held-out. Precision is corrected to the true prevalence, never the sample's."
+}

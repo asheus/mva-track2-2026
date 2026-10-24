@@ -1,0 +1,7 @@
+chrom	pos	ref	alt	hgvs_c	consequence	clinvar_significance	gain	loss	skipped_exon	skipped_exon_len	ptc_cds_pos	nt_upstream_of_last_junction	decay_call	basis	note
+chr15	40206459	G	A	c.2009+1G>A	splice_donor	Likely pathogenic	0.73	-0.89	15	275	1744	939	PTC_decay_expected	rule_based (50-55 nt rule)	939 nt upstream of the last junction in the mutant transcript
+chr15	40200239	A	G	c.1402-5A>G	intronic	Pathogenic; Affects	0.85	-0.69	11	116	1447	1395	PTC_decay_expected	rule_based (50-55 nt rule)	1395 nt upstream of the last junction in the mutant transcript
+chr15	40196779	G	A	c.1288+5G>A	intronic	Uncertain significance	0.49	-0.73	9	230	1068	1660	PTC_decay_expected	rule_based (50-55 nt rule)	1660 nt upstream of the last junction in the mutant transcript
+chr15	40176467	T	G	c.385-10T>G	intronic	Uncertain significance	0.22	-0.39	5	197	427	2334	PTC_decay_expected	rule_based (50-55 nt rule)	2334 nt upstream of the last junction in the mutant transcript
+chr15	40170687	T	A	c.384+6T>A	intronic	Uncertain significance	0.01	-0.34	4	145	3006	-193	PTC_escape_expected	rule_based (50-55 nt rule)	-193 nt from the last junction -- inside the 55 nt boundary, so no downstream junction complex
+chr15	40170687	T	C	c.384+6T>C	intronic	Uncertain significance	0.01	-0.27	4	145	3006	-193	PTC_escape_expected	rule_based (50-55 nt rule)	-193 nt from the last junction -- inside the 55 nt boundary, so no downstream junction complex

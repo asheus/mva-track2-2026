@@ -1,0 +1,38 @@
+{
+  "model": "AF-O60566-F1 (AlphaFold, predicted; pseudokinase domain has zero experimental structure coverage)",
+  "residue": 1002,
+  "wildtype": "N",
+  "rsa_percent": 13.689933033135334,
+  "shell_angstrom": 8.0,
+  "charged_shell": [
+    {
+      "residue": "ARG999",
+      "min_distance": 6.95,
+      "formal_charge": 0.33,
+      "rsa_percent": 21.4283649283878,
+      "his_excluded_from_sum": false
+    }
+  ],
+  "positive_neighbours": 1,
+  "negative_neighbours": 0,
+  "signed_burden_for_plus_one": 0.047,
+  "hydrogen_bonds": [
+    {
+      "from": "N1002:OD1",
+      "to": "TRP978:N",
+      "distance": 2.83
+    },
+    {
+      "from": "N1002:ND2",
+      "to": "VAL998:O",
+      "distance": 2.83
+    },
+    {
+      "from": "N1002:ND2",
+      "to": "TRP978:O",
+      "distance": 2.95
+    }
+  ],
+  "acceptor_contacts_lysine_cannot_replace": 1,
+  "caveat": "A hypothesis about a predicted structure. pLDDT 91 supports the backbone, not the side-chain rotamers these distances are measured between."
+}

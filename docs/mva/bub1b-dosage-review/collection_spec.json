@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "version": 1,
+  "rationale": "The unit of interest is the individual person or the distinct engineered genotype, not the paper, because the same patient-derived lines recur across many papers and would otherwise be counted repeatedly. Fields are built around the two axes the review question needs joined - residual BubR1 dosage and phenotype - and every dosage value must carry its own denominator because percentages from a fibroblast blot and a MEF blot are not the same measurement.",
+  "record_wrapper": {
+    "card_type": "one of the universal types below",
+    "record_type": "project-specific category/record type",
+    "stable_id": "unique card identifier",
+    "paper_id": "paperclip document ID",
+    "source_locations": ["L<start>-L<end>"],
+    "payload": {},
+    "relationships": [],
+    "missing_fields": [],
+    "ambiguity": [],
+    "card_types": {
+      "source_context": {"description": "paper-level metadata: design, country, ascertainment route, funding, whether patient-level data are primary or restated from an earlier report"},
+      "analysis_unit": {
+        "description": "one individual person, or one distinct engineered/model genotype",
+        "unit_type": "human_individual | patient_derived_line | mouse_genotype | engineered_cell_line",
+        "count": 0,
+        "relationship": "many units per paper; one unit may appear in many papers, linked by duplicate_of",
+        "data": {}
+      },
+      "finding": {"description": "one extracted value: a dosage percentage, an aneuploidy percentage, a tumour event, a phenotype feature, or a survival datum"},
+      "definition": {"description": "the source's own operational definition of MVA, PCS, aneuploidy threshold, or dosage measurement"},
+      "relationship": {"description": "duplicate_of, same_cell_line_as, second_hit_in, allelic_series_member_of"},
+      "assessment": {
+        "description": "reviewer judgment with provenance",
+        "judgment": "<decision>",
+        "provenance": {"assessor": "Claude", "method": "", "source_support": ""}
+      }
+    }
+  },
+  "categories": {
+    "human_biallelic_BUB1B": "Individual with two germline BUB1B variants",
+    "human_monoallelic_BUB1B": "Individual with one germline BUB1B variant, including incidental findings in tumour cohorts and RPL carriers",
+    "human_MVA_other_gene": "Individual with MVA/PCS attributed to a non-BUB1B gene",
+    "human_MVA_unsolved": "Individual with MVA/PCS and no causal gene identified",
+    "model_dosage": "Mouse or engineered cell system with a defined BubR1 dosage",
+    "patient_derived_line": "An immortalised or primary line from a patient, used functionally"
+  },
+  "fields": {
+    "allele_1_hgvs_c": "string; cDNA change verbatim with transcript if given",
+    "allele_1_hgvs_p": "string; protein change verbatim",
+    "allele_1_class": "enum-ish, open: nonsense | frameshift | splice | missense | insertion | deletion | Alu_insertion | large_deletion | not_reported",
+    "allele_1_domain": "string; domain per protocol domain map, or 'linker' or 'not_applicable'",
+    "allele_2_hgvs_c": "string or null",
+    "allele_2_hgvs_p": "string or null",
+    "allele_2_class": "as above",
+    "allele_2_domain": "as above",
+    "zygosity": "biallelic | monoallelic | homozygous | not_reported",
+    "residual_protein_pct": "number or null; BubR1 protein as % of same-report control",
+    "residual_protein_denominator": "string verbatim: material + loading control + method",
+    "residual_protein_source": "text | table | figure_only  <- figure_only is NOT eligible for the verified repo",
+    "residual_transcript_pct": "number or null",
+    "aneuploidy_pct": "number or null, with cell type",
+    "pcs_pct": "number or null, with cell type",
+    "tumours": "array of {histology_verbatim, age_at_diagnosis, benign_or_malignant, site}",
+    "microcephaly": "yes | no | not_reported",
+    "growth_retardation": "yes | no | not_reported",
+    "developmental_delay": "yes | no | not_reported",
+    "other_phenotype_verbatim": "string; preserved as written, not binned",
+    "age_at_last_followup": "number or null, years",
+    "vital_status": "alive | deceased | not_reported",
+    "cause_of_death_verbatim": "string or null",
+    "treatment_received_verbatim": "string or null; including any toxicity or dose reduction attributed to the diagnosis",
+    "ascertainment_route": "string; how the individual came to attention - matters for publication bias"
+  },
+  "definitions": {
+    "residual dosage": "see protocol operational_definitions - same-report ratio only",
+    "threshold": "a dosage value below which a named phenotype is observed and above which it is not, within the SAME denominator class. A threshold asserted across denominator classes is not a threshold, it is an artefact."
+  },
+  "aliases": {
+    "BUBR1": "BUB1B", "BubR1": "BUB1B", "BUB1beta": "BUB1B",
+    "MVA": "mosaic variegated aneuploidy", "MVA1": "BUB1B-related MVA",
+    "PCS": "premature chromatid separation", "PMSC": "premature sister chromatid separation",
+    "ERMS": "embryonal rhabdomyosarcoma", "WT": "Wilms tumour"
+  },
+  "provisional_normalizations": {
+    "note": "Histology, phenotype and assay names are OPEN vocabularies preserved as_reported. Only variant class, zygosity, and residual_protein_source are bounded.",
+    "bounded_fields": ["allele_1_class", "allele_2_class", "zygosity", "residual_protein_source", "vital_status"],
+    "open_fields": ["tumours.histology_verbatim", "other_phenotype_verbatim", "residual_protein_denominator", "ascertainment_route", "treatment_received_verbatim"],
+    "hybrid_fields": ["allele_1_domain", "allele_2_domain"]
+  },
+  "missing_status_choices": ["not_reported", "not_applicable", "unclear"],
+  "pilot_status": "not_run",
+  "pilot_revision_history": []
+}

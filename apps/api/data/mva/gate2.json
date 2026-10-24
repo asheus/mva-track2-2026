@@ -1,0 +1,632 @@
+{
+ "gate": 2,
+ "api": "https://api.platform.opentargets.org/api/v4/graphql",
+ "arms": {
+  "A_senescence_sasp": [
+   "IL6",
+   "IL6R",
+   "TNF",
+   "IL1B",
+   "IL1R1",
+   "JAK1",
+   "JAK2",
+   "MTOR",
+   "FKBP1A",
+   "BCL2",
+   "BCL2L1"
+  ],
+  "B_cancer_predisposition": [
+   "MDM2",
+   "TP53",
+   "PTGS2",
+   "AURKA",
+   "PLK1",
+   "TTK",
+   "KIF11",
+   "WEE1"
+  ],
+  "C_ciliopathy": [
+   "HDAC6",
+   "AURKA"
+  ]
+ },
+ "count": 34,
+ "unresolved": [],
+ "candidates": [
+  {
+   "inn": "abrocitinib",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH08"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "adalimumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB04"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "anakinra",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC03"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1R1"
+    ]
+   },
+   "targets": {
+    "IL1R1": "receptor arm of IL-1 signalling; anakinra reaches it"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "baricitinib",
+   "approval_tier": "A",
+   "atc": [
+    "L04AA37"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "bromfenac",
+   "approval_tier": "A",
+   "atc": [
+    "S01BC11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "canakinumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC08"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "certolizumab pegol",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB05"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "delgocitinib",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "diflunisal",
+   "approval_tier": "A",
+   "atc": [
+    "N02BA11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "etanercept",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB01"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "everolimus",
+   "approval_tier": "A",
+   "atc": [
+    "L01XE10"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "fedratinib",
+   "approval_tier": "A",
+   "atc": [
+    "L01EJ02"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "filgotinib",
+   "approval_tier": "A",
+   "atc": [
+    "L04AF04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "givinostat",
+   "approval_tier": "A",
+   "atc": [
+    "M09AX14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "C_ciliopathy": [
+     "HDAC6"
+    ]
+   },
+   "targets": {
+    "HDAC6": "tubulin deacetylase governing cilium disassembly"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "golimumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB06"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "ibuprofen",
+   "approval_tier": "A",
+   "atc": [
+    "C01EB16"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "infliximab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AB02"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "TNF"
+    ]
+   },
+   "targets": {
+    "TNF": "second dominant SASP cytokine; large approved biosimilar class"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "ketorolac",
+   "approval_tier": "A",
+   "atc": [
+    "M01AB15",
+    "S01BC05"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "momelotinib",
+   "approval_tier": "A",
+   "atc": [
+    "L01EJ04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "nepafenac",
+   "approval_tier": "A",
+   "atc": [
+    "S01BC10"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "panobinostat",
+   "approval_tier": "A",
+   "atc": [
+    "L01XH03"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "C_ciliopathy": [
+     "HDAC6"
+    ]
+   },
+   "targets": {
+    "HDAC6": "tubulin deacetylase governing cilium disassembly"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "parecoxib",
+   "approval_tier": "A",
+   "atc": [
+    "M01AH04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "B_cancer_predisposition": [
+     "PTGS2"
+    ]
+   },
+   "targets": {
+    "PTGS2": "COX-2 chemoprevention precedent in hereditary cancer syndromes"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "rilonacept",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC04"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL1B"
+    ]
+   },
+   "targets": {
+    "IL1B": "upstream SASP amplifier; CANTOS gives a hard clinical precedent"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "ruxolitinib",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH09",
+    "L01EJ01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "sarilumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC14"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "satralizumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC19"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "siltuximab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC11"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6"
+    ]
+   },
+   "targets": {
+    "IL6": "core SASP cytokine; the secretome's dominant signal"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "sirolimus",
+   "approval_tier": "A",
+   "atc": [
+    "L04AH01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "tacrolimus",
+   "approval_tier": "A",
+   "atc": [
+    "D11AH01",
+    "L04AD02"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "temsirolimus",
+   "approval_tier": "A",
+   "atc": [
+    "L01XE09"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "FKBP1A"
+    ]
+   },
+   "targets": {
+    "FKBP1A": "FKBP12. Rapalogs are annotated HERE, not on MTOR: sirolimus and everolimus bind FKBP12 and the complex inhibits mTORC1. Omitting it made the funnel miss both - see gate2b docstring"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "tocilizumab",
+   "approval_tier": "A",
+   "atc": [
+    "L04AC07"
+   ],
+   "biosimilar_flag": true,
+   "arms": {
+    "A_senescence_sasp": [
+     "IL6R"
+    ]
+   },
+   "targets": {
+    "IL6R": "receptor arm of the same axis; tocilizumab/sarilumab reach it"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "tofacitinib",
+   "approval_tier": "A",
+   "atc": [
+    "L04AF01"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "upadacitinib",
+   "approval_tier": "A",
+   "atc": [
+    "L04AA44"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "JAK1",
+     "JAK2"
+    ]
+   },
+   "targets": {
+    "JAK1": "transduces IL-6 family signalling into the SASP programme",
+    "JAK2": "as JAK1; ruxolitinib reaches both"
+   },
+   "mitotic_liability": false
+  },
+  {
+   "inn": "venetoclax",
+   "approval_tier": "A",
+   "atc": [
+    "L01XX52"
+   ],
+   "biosimilar_flag": false,
+   "arms": {
+    "A_senescence_sasp": [
+     "BCL2"
+    ]
+   },
+   "targets": {
+    "BCL2": "senolytic axis - senescent cells depend on BCL2 family survival"
+   },
+   "mitotic_liability": false
+  }
+ ]
+}

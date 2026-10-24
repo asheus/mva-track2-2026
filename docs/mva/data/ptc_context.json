@@ -1,0 +1,38 @@
+{
+  "transcript": "ENST00000287598",
+  "cds_nt": 3153,
+  "cds_exons": 23,
+  "last_cds_exon_starts_at_cds": 2958,
+  "alleles": [
+    {
+      "label": "allele 1",
+      "hgvs_c": "c.2210T>G",
+      "hgvs_p": "p.L737Ter",
+      "genomic": "chr15:40209701",
+      "codon_ref": "TTA",
+      "codon_alt": "TGA",
+      "is_premature_stop": true,
+      "stop_codon": "TGA",
+      "context_6_3_6": "CCAGAG|TGA|AGTGCC",
+      "plus4_nucleotide": "A",
+      "nt_upstream_of_last_junction": 748,
+      "nmd_verdict": "canonical NMD substrate"
+    },
+    {
+      "label": "allele 2",
+      "hgvs_c": "c.3006T>G",
+      "hgvs_p": "p.N1002K",
+      "genomic": "chr15:40220612",
+      "codon_ref": "AAT",
+      "codon_alt": "AAG",
+      "is_premature_stop": false,
+      "stop_codon": null,
+      "context_6_3_6": "ATTCTG|AAG|GCCAAT",
+      "plus4_nucleotide": "G",
+      "nt_upstream_of_last_junction": -48,
+      "nmd_verdict": "not a stop"
+    }
+  ],
+  "nmd_boundary_used_nt": 55,
+  "note": "Context is recorded, not scored: no per-context readthrough predictor has been validated here. Stop identity and adjacent sequence modulate release-factor activity (Bhat 2025, doi:10.1093/nar/gkaf216)."
+}

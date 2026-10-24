@@ -1,0 +1,207 @@
+{
+  "no_trans_splicing_drug_exists": true,
+  "clinicaltrials_hits": 1,
+  "clinicaltrials_note": "the single hit is a Huntington's skin-biopsy study for preclinical development, not a molecule given to anyone",
+  "allele1_coding_exon": 17,
+  "allele2_coding_exon": 23,
+  "one_rtm_corrects_both": true,
+  "candidate_introns": [
+    {
+      "intron_after_coding_exon": 1,
+      "g_start": 40161256,
+      "g_end": 40165052,
+      "intron_len": 3797,
+      "cassette_nt": 3118,
+      "cassette_aa": 1039,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 2,
+      "g_start": 40165197,
+      "g_end": 40170061,
+      "intron_len": 4865,
+      "cassette_nt": 2974,
+      "cassette_aa": 991,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 3,
+      "g_start": 40170122,
+      "g_end": 40170536,
+      "intron_len": 415,
+      "cassette_nt": 2914,
+      "cassette_aa": 971,
+      "room": "short - poor target"
+    },
+    {
+      "intron_after_coding_exon": 4,
+      "g_start": 40170682,
+      "g_end": 40176476,
+      "intron_len": 5795,
+      "cassette_nt": 2769,
+      "cassette_aa": 923,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 5,
+      "g_start": 40176674,
+      "g_end": 40183713,
+      "intron_len": 7040,
+      "cassette_nt": 2572,
+      "cassette_aa": 857,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 6,
+      "g_start": 40183884,
+      "g_end": 40185164,
+      "intron_len": 1281,
+      "cassette_nt": 2402,
+      "cassette_aa": 800,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 7,
+      "g_start": 40185380,
+      "g_end": 40185550,
+      "intron_len": 171,
+      "cassette_nt": 2187,
+      "cassette_aa": 729,
+      "room": "short - poor target"
+    },
+    {
+      "intron_after_coding_exon": 8,
+      "g_start": 40185643,
+      "g_end": 40196544,
+      "intron_len": 10902,
+      "cassette_nt": 2095,
+      "cassette_aa": 698,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 9,
+      "g_start": 40196775,
+      "g_end": 40199614,
+      "intron_len": 2840,
+      "cassette_nt": 1865,
+      "cassette_aa": 621,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 10,
+      "g_start": 40199728,
+      "g_end": 40200243,
+      "intron_len": 516,
+      "cassette_nt": 1752,
+      "cassette_aa": 584,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 11,
+      "g_start": 40200360,
+      "g_end": 40200930,
+      "intron_len": 571,
+      "cassette_nt": 1636,
+      "cassette_aa": 545,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 12,
+      "g_start": 40200981,
+      "g_end": 40202404,
+      "intron_len": 1424,
+      "cassette_nt": 1586,
+      "cassette_aa": 528,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 13,
+      "g_start": 40202466,
+      "g_end": 40202588,
+      "intron_len": 123,
+      "cassette_nt": 1525,
+      "cassette_aa": 508,
+      "room": "short - poor target"
+    },
+    {
+      "intron_after_coding_exon": 14,
+      "g_start": 40202695,
+      "g_end": 40206183,
+      "intron_len": 3489,
+      "cassette_nt": 1419,
+      "cassette_aa": 473,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 15,
+      "g_start": 40206459,
+      "g_end": 40208636,
+      "intron_len": 2178,
+      "cassette_nt": 1144,
+      "cassette_aa": 381,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 16,
+      "g_start": 40208771,
+      "g_end": 40209634,
+      "intron_len": 864,
+      "cassette_nt": 1010,
+      "cassette_aa": 336,
+      "room": "workable"
+    }
+  ],
+  "shortlist": [
+    {
+      "intron_after_coding_exon": 8,
+      "g_start": 40185643,
+      "g_end": 40196544,
+      "intron_len": 10902,
+      "cassette_nt": 2095,
+      "cassette_aa": 698,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 5,
+      "g_start": 40176674,
+      "g_end": 40183713,
+      "intron_len": 7040,
+      "cassette_nt": 2572,
+      "cassette_aa": 857,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 4,
+      "g_start": 40170682,
+      "g_end": 40176476,
+      "intron_len": 5795,
+      "cassette_nt": 2769,
+      "cassette_aa": 923,
+      "room": "ample"
+    },
+    {
+      "intron_after_coding_exon": 2,
+      "g_start": 40165197,
+      "g_end": 40170061,
+      "intron_len": 4865,
+      "cassette_nt": 2974,
+      "cassette_aa": 991,
+      "room": "workable"
+    },
+    {
+      "intron_after_coding_exon": 1,
+      "g_start": 40161256,
+      "g_end": 40165052,
+      "intron_len": 3797,
+      "cassette_nt": 3118,
+      "cassette_aa": 1039,
+      "room": "workable"
+    }
+  ],
+  "required_efficiency": "23-38% to reach carrier level (dosage_model.py)",
+  "design_constraints": [
+    "RTMs are selected empirically from pools, not rationally designed (Huttner 2016, doi:10.3390/ijms17101609)",
+    "co-delivered antisense RNAs masking competing splice elements raise efficiency (Koller 2015, doi:10.3390/ijms16011179)",
+    "short introns leave little room for a binding domain"
+  ]
+}

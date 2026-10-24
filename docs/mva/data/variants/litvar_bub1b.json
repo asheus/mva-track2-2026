@@ -1,0 +1,871 @@
+[
+ {
+  "_id": "litvar@rs1801376##",
+  "rsid": "rs1801376",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.Q349R",
+  "hgvs": "p.Q349R",
+  "pmids_count": 66,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1047130##",
+  "rsid": "rs1047130",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "rs1047130",
+  "pmids_count": 27,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "likely-benign",
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989182##",
+  "rsid": "rs28989182",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.R814H",
+  "hgvs": "p.R814H",
+  "pmids_count": 16,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "pathogenic",
+   "affects",
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989187##",
+  "rsid": "rs28989187",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.R550Q",
+  "hgvs": "p.R550Q",
+  "pmids_count": 15,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "affects",
+   "likely-benign",
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989183##",
+  "rsid": "rs28989183",
+  "gene": [
+   "BUB1B",
+   "BUB1B-PAK6",
+   "LOC107984763"
+  ],
+  "name": "p.Q921H",
+  "hgvs": "p.Q921H",
+  "pmids_count": 9,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "affects",
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989186##",
+  "rsid": "rs28989186",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.R194X",
+  "hgvs": "p.R194X",
+  "pmids_count": 9,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "pathogenic",
+   "affects"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1801528##",
+  "rsid": "rs1801528",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.V618A",
+  "hgvs": "p.V618A",
+  "pmids_count": 18,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs141953425##",
+  "rsid": "rs141953425",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "c.1001C>T",
+  "hgvs": "c.1001C>T",
+  "pmids_count": 11,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "likely-benign",
+   "uncertain-significance",
+   "not-provided"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs751421137##",
+  "rsid": "rs751421137",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "c.2386-11A>G",
+  "hgvs": "c.2386-11A>G",
+  "pmids_count": 5,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "pathogenic",
+   "affects"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1372115983##",
+  "rsid": "rs1372115983",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "c.341G>A",
+  "hgvs": "c.341G>A",
+  "pmids_count": 4,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs34998711##",
+  "rsid": "rs34998711",
+  "gene": [
+   "BUB1B",
+   "BUB1B-PAK6",
+   "LOC107984763"
+  ],
+  "name": "c.3011A>G",
+  "hgvs": "c.3011A>G",
+  "pmids_count": 4,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "benign",
+   "not-provided"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs143559902##",
+  "rsid": "rs143559902",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.D675E",
+  "hgvs": "p.D675E",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.D556N",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.D556N",
+  "hgvs": "p.D556N",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.D513K",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.D513K",
+  "hgvs": "p.D513K",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1160797735##",
+  "rsid": "rs1160797735",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.D10A",
+  "hgvs": "p.D10A",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1017842##",
+  "rsid": "rs1017842",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.E390D",
+  "hgvs": "p.E390D",
+  "pmids_count": 13,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "not-provided",
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989188##",
+  "rsid": "rs28989188",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.E409D",
+  "hgvs": "p.E409D",
+  "pmids_count": 6,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.E406K",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.E406K",
+  "hgvs": "p.E406K",
+  "pmids_count": 4,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs145028054##",
+  "rsid": "rs145028054",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.E184Q",
+  "hgvs": "p.E184Q",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs76546181##",
+  "rsid": "rs76546181",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.F531S",
+  "hgvs": "p.F531S",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs546607638##",
+  "rsid": "rs546607638",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.H836Y",
+  "hgvs": "p.H836Y",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989184##",
+  "rsid": "rs28989184",
+  "gene": [
+   "BUB1B",
+   "BUB1B-PAK6",
+   "LOC107984763"
+  ],
+  "name": "p.I909T",
+  "hgvs": "p.I909T",
+  "pmids_count": 5,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs541881263##",
+  "rsid": "rs541881263",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.I625M",
+  "hgvs": "p.I625M",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.I672A",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.I672A",
+  "hgvs": "p.I672A",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs375388175##",
+  "rsid": "rs375388175",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.I703T",
+  "hgvs": "p.I703T",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.K243R",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.K243R",
+  "hgvs": "p.K243R",
+  "pmids_count": 4,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs373256667##",
+  "rsid": "rs373256667",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.K454R",
+  "hgvs": "p.K454R",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.K250Q",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.K250Q",
+  "hgvs": "p.K250Q",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.K250R",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.K250R",
+  "hgvs": "p.K250R",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs368023159##",
+  "rsid": "rs368023159",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.K488N",
+  "hgvs": "p.K488N",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "not-provided",
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs56079734##",
+  "rsid": "rs56079734",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.M40T",
+  "hgvs": "p.M40T",
+  "pmids_count": 15,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "pathogenic",
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs375798678##",
+  "rsid": "rs375798678",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.Q181R",
+  "hgvs": "p.Q181R",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.Q363R",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.Q363R",
+  "hgvs": "p.Q363R",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs200788206##",
+  "rsid": "rs200788206",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.Q350K",
+  "hgvs": "p.Q350K",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs2277559##",
+  "rsid": "rs2277559",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "rs2277559",
+  "pmids_count": 14,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1801389##",
+  "rsid": "rs1801389",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "rs1801389",
+  "pmids_count": 14,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "benign"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs34700927##",
+  "rsid": "rs34700927",
+  "gene": [
+   "BUB1B",
+   "BUB1B-PAK6",
+   "LOC107984763"
+  ],
+  "name": "rs34700927",
+  "pmids_count": 12,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "benign",
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1379043354##",
+  "rsid": "rs1379043354",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.S10A",
+  "hgvs": "p.S10A",
+  "pmids_count": 6,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.S670D",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.S670D",
+  "hgvs": "p.S670D",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.S670A",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.S670A",
+  "hgvs": "p.S670A",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.S5C",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.S5C",
+  "hgvs": "p.S5C",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs200060772##",
+  "rsid": "rs200060772",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.S691L",
+  "hgvs": "p.S691L",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs28989185##",
+  "rsid": "rs28989185",
+  "gene": [
+   "BUB1B",
+   "BUB1B-PAK6",
+   "LOC107984763"
+  ],
+  "name": "p.L1012P",
+  "hgvs": "p.L1012P",
+  "pmids_count": 7,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "pathogenic",
+   "affects",
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs146795655##",
+  "rsid": "rs146795655",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.T493I",
+  "hgvs": "p.T493I",
+  "pmids_count": 6,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance",
+   "not-provided"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#c.620T>A",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "c.620T>A",
+  "hgvs": "c.620T>A",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs1369363382##",
+  "rsid": "rs1369363382",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.T315I",
+  "hgvs": "p.T315I",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@rs577591919##",
+  "rsid": "rs577591919",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.R727C",
+  "hgvs": "p.R727C",
+  "pmids_count": 10,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.W125A",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.W125A",
+  "hgvs": "p.W125A",
+  "pmids_count": 1,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs11636402##",
+  "rsid": "rs11636402",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "rs11636402",
+  "pmids_count": 1,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs8043080##",
+  "rsid": "rs8043080",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "rs8043080",
+  "pmids_count": 1,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs764923350##",
+  "rsid": "rs764923350",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.Y155C",
+  "hgvs": "p.Y155C",
+  "pmids_count": 3,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.Y259C",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.Y259C",
+  "hgvs": "p.Y259C",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ },
+ {
+  "_id": "litvar@rs77520855##",
+  "rsid": "rs77520855",
+  "gene": [
+   "BUB1B",
+   "LOC107984763"
+  ],
+  "name": "p.Y162H",
+  "hgvs": "p.Y162H",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": true,
+  "data_clinical_significance": [
+   "uncertain-significance"
+  ],
+  "match": null
+ },
+ {
+  "_id": "litvar@#701#p.Y141A",
+  "gene": [
+   "BUB1B"
+  ],
+  "name": "p.Y141A",
+  "hgvs": "p.Y141A",
+  "pmids_count": 2,
+  "flag_gene_variant": false,
+  "flag_clingen_variant": false,
+  "flag_rsid_variant": false,
+  "match": null
+ }
+]

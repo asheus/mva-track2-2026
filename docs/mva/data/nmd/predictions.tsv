@@ -1,0 +1,2 @@
+variant_id	gene	txnames	escape_prob	escape_pred_at_youden	threshold_used
+BUB1B_p.Leu737Ter	BUB1B	ENST00000287598.10	0.31629585738621374	0	0.4313564920894303

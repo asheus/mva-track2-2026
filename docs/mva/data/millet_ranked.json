@@ -1,0 +1,259 @@
+[
+ {
+  "smiles": "Cc1cc(N)c(OC(C)C)cc1C1CCNCC1",
+  "parents": [
+   "ceritinib"
+  ],
+  "n_parents": 1,
+  "allosteric": -5.644,
+  "atp_site": -6.03,
+  "scar": -4.994,
+  "cterm_pocket": -5.004,
+  "surface": -4.826,
+  "best_decoy": -4.826,
+  "mean_decoy": -5.2135,
+  "selectivity": 0.3860000000000001,
+  "delta": -0.4305000000000003,
+  "fpr": 0.33619550858652575
+ },
+ {
+  "smiles": "Nc1ncncc1Cl",
+  "parents": [
+   "brigatinib",
+   "ceritinib"
+  ],
+  "n_parents": 2,
+  "allosteric": -4.014,
+  "atp_site": -4.273,
+  "scar": -3.585,
+  "cterm_pocket": -3.576,
+  "surface": -3.18,
+  "best_decoy": -3.18,
+  "mean_decoy": -3.6534999999999997,
+  "selectivity": 0.25899999999999945,
+  "delta": -0.36050000000000004,
+  "fpr": 0.3956406869220608
+ },
+ {
+  "smiles": "O=c1[nH]c(-c2ccccc2-c2ccccc2)no1",
+  "parents": [
+   "azilsartan medoxomil"
+  ],
+  "n_parents": 1,
+  "allosteric": -6.378,
+  "atp_site": -6.769,
+  "scar": -6.538,
+  "cterm_pocket": -6.11,
+  "surface": -4.801,
+  "best_decoy": -4.801,
+  "mean_decoy": -6.054500000000001,
+  "selectivity": 0.391,
+  "delta": -0.3235000000000001,
+  "fpr": 0.4270145310435931
+ },
+ {
+  "smiles": "Nc1nccn2cnc(-c3ccccc3)c12",
+  "parents": [
+   "acalabrutinib"
+  ],
+  "n_parents": 1,
+  "allosteric": -5.951,
+  "atp_site": -5.804,
+  "scar": -6.017,
+  "cterm_pocket": -5.694,
+  "surface": -5.027,
+  "best_decoy": -5.027,
+  "mean_decoy": -5.6355,
+  "selectivity": 0.06600000000000072,
+  "delta": -0.3154999999999992,
+  "fpr": 0.43262879788639363
+ },
+ {
+  "smiles": "Nc1ccncc1N",
+  "parents": [
+   "amifampridine"
+  ],
+  "n_parents": 1,
+  "allosteric": -3.93,
+  "atp_site": -4.471,
+  "scar": -3.408,
+  "cterm_pocket": -3.556,
+  "surface": -3.178,
+  "best_decoy": -3.178,
+  "mean_decoy": -3.65325,
+  "selectivity": 0.5409999999999999,
+  "delta": -0.2767500000000003,
+  "fpr": 0.46433289299867897
+ },
+ {
+  "smiles": "CN(C)c1ccc2nc3ccc(=[N+](C)C)cc-3sc2c1",
+  "parents": [
+   "methylthioninium chloride"
+  ],
+  "n_parents": 1,
+  "allosteric": -5.558,
+  "atp_site": -6.893,
+  "scar": -4.619,
+  "cterm_pocket": -5.12,
+  "surface": -4.551,
+  "best_decoy": -4.551,
+  "mean_decoy": -5.29575,
+  "selectivity": 1.335,
+  "delta": -0.26224999999999987,
+  "fpr": 0.47919418758256277
+ },
+ {
+  "smiles": "CC(=O)N1CCN(c2ccc(O)cc2)CC1",
+  "parents": [
+   "ketoconazole"
+  ],
+  "n_parents": 1,
+  "allosteric": -5.105,
+  "atp_site": -5.73,
+  "scar": -4.584,
+  "cterm_pocket": -4.901,
+  "surface": -4.238,
+  "best_decoy": -4.238,
+  "mean_decoy": -4.86325,
+  "selectivity": 0.625,
+  "delta": -0.24175000000000058,
+  "fpr": 0.49339498018494055
+ },
+ {
+  "smiles": "O=C1CNCC(=O)N1",
+  "parents": [
+   "dexrazoxane"
+  ],
+  "n_parents": 1,
+  "allosteric": -3.838,
+  "atp_site": -4.338,
+  "scar": -3.379,
+  "cterm_pocket": -3.626,
+  "surface": -3.102,
+  "best_decoy": -3.102,
+  "mean_decoy": -3.61125,
+  "selectivity": 0.5,
+  "delta": -0.22675,
+  "fpr": 0.5085865257595773
+ },
+ {
+  "smiles": "CN1CCN(C2CCNCC2)CC1",
+  "parents": [
+   "brigatinib",
+   "gilteritinib"
+  ],
+  "n_parents": 2,
+  "allosteric": -4.534,
+  "atp_site": -4.687,
+  "scar": -4.287,
+  "cterm_pocket": -4.55,
+  "surface": -3.81,
+  "best_decoy": -3.81,
+  "mean_decoy": -4.3335,
+  "selectivity": 0.15300000000000047,
+  "delta": -0.2004999999999999,
+  "fpr": 0.5307133421400264
+ },
+ {
+  "smiles": "Nc1ccc(O)cc1Cl",
+  "parents": [
+   "tivozanib hydrochloride monohydrate"
+  ],
+  "n_parents": 1,
+  "allosteric": -4.443,
+  "atp_site": -4.696,
+  "scar": -4.256,
+  "cterm_pocket": -4.201,
+  "surface": -3.836,
+  "best_decoy": -3.836,
+  "mean_decoy": -4.247249999999999,
+  "selectivity": 0.2530000000000001,
+  "delta": -0.19574999999999942,
+  "fpr": 0.5336856010568032
+ },
+ {
+  "smiles": "O=c1ccc(-c2ccccn2)cn1-c1ccccc1",
+  "parents": [
+   "perampanel"
+  ],
+  "n_parents": 1,
+  "allosteric": -6.359,
+  "atp_site": -6.46,
+  "scar": -6.633,
+  "cterm_pocket": -6.482,
+  "surface": -5.148,
+  "best_decoy": -5.148,
+  "mean_decoy": -6.18075,
+  "selectivity": 0.274,
+  "delta": -0.17825000000000024,
+  "fpr": 0.5449141347424042
+ },
+ {
+  "smiles": "Nc1ncncc1Br",
+  "parents": [
+   "etravirine"
+  ],
+  "n_parents": 1,
+  "allosteric": -3.724,
+  "atp_site": -4.211,
+  "scar": -3.338,
+  "cterm_pocket": -3.658,
+  "surface": -3.085,
+  "best_decoy": -3.085,
+  "mean_decoy": -3.5730000000000004,
+  "selectivity": 0.4870000000000001,
+  "delta": -0.15100000000000025,
+  "fpr": 0.5647291941875826
+ },
+ {
+  "smiles": "O=C1NCC[C@@H](O)N1",
+  "parents": [
+   "cedazuridine"
+  ],
+  "n_parents": 1,
+  "allosteric": -3.929,
+  "atp_site": -4.613,
+  "scar": -3.56,
+  "cterm_pocket": -3.779,
+  "surface": -3.175,
+  "best_decoy": -3.175,
+  "mean_decoy": -3.7817499999999997,
+  "selectivity": 0.6840000000000006,
+  "delta": -0.14724999999999966,
+  "fpr": 0.5683619550858653
+ },
+ {
+  "smiles": "Nc1ncncc1F",
+  "parents": [
+   "fostamatinib"
+  ],
+  "n_parents": 1,
+  "allosteric": -3.861,
+  "atp_site": -4.268,
+  "scar": -3.609,
+  "cterm_pocket": -3.673,
+  "surface": -3.315,
+  "best_decoy": -3.315,
+  "mean_decoy": -3.71625,
+  "selectivity": 0.4069999999999996,
+  "delta": -0.14475000000000016,
+  "fpr": 0.5696829590488771
+ },
+ {
+  "smiles": "Cc1cc(C)nc(O)n1",
+  "parents": [
+   "ambrisentan"
+  ],
+  "n_parents": 1,
+  "allosteric": -4.181,
+  "atp_site": -4.216,
+  "scar": -4.432,
+  "cterm_pocket": -4.219,
+  "surface": -3.354,
+  "best_decoy": -3.354,
+  "mean_decoy": -4.05525,
+  "selectivity": 0.25100000000000033,
+  "delta": -0.12575000000000003,
+  "fpr": 0.5822324966974901
+ }
+]

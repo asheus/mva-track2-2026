@@ -1,0 +1,31 @@
+{
+  "tool": "ThermoMPNN",
+  "citation": "10.1073/pnas.2314853121",
+  "structure": "AlphaFold AF-O60566-F1, domain 766-1050",
+  "n_predictions": 5700,
+  "sign_convention": "positive = destabilising (determined from Pro/Gly vs conservative)",
+  "N1002K": 1.506778597831726,
+  "N1002R": 1.4185738563537598,
+  "N1002S": 0.9436311721801758,
+  "K_minus_R": 0.08820474147796631,
+  "tolerated_controls": {
+    "A784T": 0.2601069211959839,
+    "D818E": 0.1241377592086792,
+    "F822L": 0.1549044847488403,
+    "T859A": 0.0814825296401977,
+    "F977L": 0.179401695728302,
+    "N1004S": 0.137788712978363,
+    "G1013R": -0.8137012124061584,
+    "K1040R": 0.0251203775405883,
+    "T1042I": -0.4470125436782837
+  },
+  "tolerated_mean": -0.0330856972270542,
+  "tolerated_max": 0.2601069211959839,
+  "z_vs_tolerated": 4.317607021848025,
+  "prediction_for_the_experiment": "R should be as destabilising as K; 'K unstable, R stable' would falsify the folding hypothesis and support ubiquitination",
+  "caveats": [
+    "ddG is thermodynamic; cellular abundance also depends on quality-control kinetics",
+    "ThermoMPNN was benchmarked on experimental structures; this is a predicted one (local pLDDT 91.5)",
+    "only 9 tolerated controls were available inside the domain"
+  ]
+}

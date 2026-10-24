@@ -1,0 +1,39 @@
+{
+  "threshold": 0.2,
+  "n_scored": 4946,
+  "n_missing": 0,
+  "tp": 338,
+  "fn": 608,
+  "fp": 55,
+  "tn": 3945,
+  "sensitivity": 0.3572938689217759,
+  "sensitivity_ci95": [
+    0.32739016902696094,
+    0.38835190838889455
+  ],
+  "specificity": 0.98625,
+  "specificity_ci95": [
+    0.9821462714518026,
+    0.9894206356905777
+  ],
+  "precision": 0.8600508905852418,
+  "precision_ci95": [
+    0.822253369742383,
+    0.890877511697466
+  ],
+  "roc_auc": 0.8763691860465116,
+  "sensitivity_verdict": "FAIL",
+  "specificity_verdict": "PASS",
+  "criteria": {
+    "sensitivity": {
+      "pass": 0.7,
+      "fail": 0.5
+    },
+    "specificity": {
+      "pass": 0.8,
+      "fail": 0.6
+    }
+  },
+  "same_instrument_gate": "PASS",
+  "caveat": "MFASS is a minigene reporter in a cell line: it measures exon recognition in a construct, not endogenous splicing at the native locus."
+}

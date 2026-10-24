@@ -1,0 +1,21 @@
+{
+  "submitted_utc": "2026-10-14T06:12:07Z",
+  "service": "Pangolin RNA Splicing Prediction",
+  "note": "one variant per job: a multi-variant job dies on the multi-gene row (C25a)",
+  "jobs": {
+    "control_d50": "6acf1c003d50986cd07b31c9",
+    "allele2_d50": "6acf1c003d50986cd07b31c7",
+    "allele2_d300": "6acf1cd53d50986cd07b31de",
+    "allele2_d1000": "6acf1cd63d50986cd07b31e0"
+  },
+  "raw": {
+    "control_d50": "CHROM,POS,REF,ALT,pangolin_gene,splice_gain_pos,splice_gain_score,splice_loss_pos,splice_loss_score\nchr15,40212488,A,G,ENSG00000156970.13,1,0.76,11,-0.71\n",
+    "allele2_d50": "CHROM,POS,REF,ALT,pangolin_gene,splice_gain_pos,splice_gain_score,splice_loss_pos,splice_loss_score\nT,G,ENSG00000156970.13|1:0.01|-50:0.0|Warnings:,ENSG00000137843.12|1:0.01|-50:0.0|Warnings:,ENSG00000259288.7,1,0.01,-50,0.0\n",
+    "allele2_d300": "CHROM,POS,REF,ALT,pangolin_gene,splice_gain_pos,splice_gain_score,splice_loss_pos,splice_loss_score\nT,G,ENSG00000156970.13|1:0.01|-300:0.0|Warnings:,ENSG00000137843.12|1:0.01|-300:0.0|Warnings:,ENSG00000259288.7,1,0.01,-300,0.0\n",
+    "allele2_d1000": "CHROM,POS,REF,ALT,pangolin_gene,splice_gain_pos,splice_gain_score,splice_loss_pos,splice_loss_score\nT,G,ENSG00000156970.13|1:0.01|-1000:0.0|Warnings:,ENSG00000137843.12|1:0.01|-1000:0.0|Warnings:,ENSG00000259288.7,1,0.01,-1000,0.0\n"
+  },
+  "failed_job": {
+    "job_id": "6acf1b803d50986cd07b31b6",
+    "note": "allele 2 + positive control in ONE job. Failed in 33s. Each variant alone completed in 29s (see jobs above). The trigger is the multi-gene annotation at allele 2's position breaking Pangolin's CSV writer, not distance from a splice site. See CORRECTIONS C25a."
+  }
+}

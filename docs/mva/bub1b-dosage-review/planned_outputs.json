@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "version": 1,
+  "analyses": [
+    {"id": "dose_phenotype_map", "intent": "descriptive dose-response map stratified by denominator class", "purpose": "Answer the review question directly: at what residual BubR1 percentage does each phenotype appear", "required_data": ["residual_protein_pct", "residual_protein_denominator", "tumours", "microcephaly", "aneuploidy_pct"], "provisional_status": true, "priority": 1},
+    {"id": "threshold_assessment", "intent": "structured judgement on whether a dosage threshold is supported, refuted, or unresolvable", "purpose": "Test the 'protein dosage disease' framing rather than assume it - explicitly including the null result that dosage and outcome are rarely measured in the same subjects", "required_data": ["residual_protein_pct", "tumours", "age_at_last_followup"], "provisional_status": true, "priority": 1},
+    {"id": "variant_class_position", "intent": "cross-tabulation of variant class and domain position against phenotype severity", "purpose": "Test whether position (e.g. pseudokinase-domain missense) predicts residual dosage independently of class", "required_data": ["allele_1_class", "allele_1_domain", "allele_2_class", "allele_2_domain", "residual_protein_pct"], "provisional_status": true, "priority": 2},
+    {"id": "tumour_spectrum_age", "intent": "tumour type and age-at-onset distribution across the extracted cohort", "purpose": "Inform surveillance timing, connecting to the existing STANDARD-OF-CARE work", "required_data": ["tumours", "age_at_last_followup", "vital_status"], "provisional_status": true, "priority": 2},
+    {"id": "proband_placement", "intent": "explicit placement of 737X/N1002K against the extracted comparator class, with uncertainty stated", "purpose": "The decision-relevant output; must be labelled inference, not measurement", "required_data": ["allele_1_class", "allele_2_domain", "residual_protein_pct"], "provisional_status": true, "priority": 1},
+    {"id": "coverage_and_gaps", "intent": "PRISMA-style flow plus registers of figure-only values and unindexed primary sources", "purpose": "Make the limits of the sweep auditable, per the repo's own claim-lint discipline", "required_data": ["residual_protein_source"], "provisional_status": false, "priority": 1}
+  ],
+  "visualizations": [
+    {"id": "dose_vs_phenotype_scatter", "intent": "scatter of residual BubR1 % against phenotype severity, points shaped by denominator class and coloured by tumour status", "purpose": "Show whether a threshold is visible or whether the data are too sparse and heterogeneous to show one", "required_data": ["residual_protein_pct", "residual_protein_denominator", "tumours"], "provisional_status": true, "priority": 1},
+    {"id": "variant_lollipop", "intent": "lollipop plot of every reported germline BUB1B variant along the protein, annotated with the Zhang 2026 domain map and the proband's two alleles", "purpose": "Show where 737X and N1002K sit relative to every other reported variant and to functional motifs", "required_data": ["allele_1_hgvs_p", "allele_2_hgvs_p", "allele_1_domain", "allele_2_domain"], "provisional_status": true, "priority": 1},
+    {"id": "tumour_age_swimlane", "intent": "swimlane of individuals showing age at each tumour and at last follow-up", "purpose": "Surveillance-relevant timing, with censoring visible", "required_data": ["tumours", "age_at_last_followup", "vital_status"], "provisional_status": true, "priority": 2},
+    {"id": "prisma_flow", "intent": "PRISMA-style retrieval and screening flow", "purpose": "Auditability", "required_data": [], "provisional_status": false, "priority": 2}
+  ]
+}

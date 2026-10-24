@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sources_checked": [
+    "paperclip /papers (PMC)",
+    "paperclip /papers (bioRxiv + medRxiv)",
+    "paperclip /trials (ClinicalTrials.gov + intl registries)",
+    "PubMed E-utilities (MCP) for corpus gap recovery",
+    "Ensembl REST (transcript/protein sequence, VEP)"
+  ],
+  "queries": [
+    "grep --bool '(\"BUB1B\" OR \"BubR1\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\" OR \"compound heterozygous\" OR \"biallelic\")' /papers/ --count-only  [durable job 38fcaeec-96b0-444b-a357-6aed518d2705]",
+    "grep --bool '\"BUB1B\" AND (\"N1002K\" OR \"Asn1002\" OR \"Leu737\" OR \"L737X\" OR \"rs759242053\")' /papers/  -> 2 papers",
+    "search -s pmc 'mosaic variegated aneuploidy BUB1B biallelic genotype phenotype cancer risk stratification' --also x2",
+    "search -s pmc 'BUB1B missense kinase domain MVA reduced protein level fibroblasts' --also x1",
+    "search -s biorxiv,medrxiv 'BUB1B BubR1 mosaic variegated aneuploidy patient variant protein level'",
+    "search -s pmc 'systematic review BUB1B MVA patients reported to date clinical spectrum'"
+  ],
+  "existing_syntheses": [
+    {"id": "PMC4213761", "note": "Lee 2014 review of BubR1 mouse models; narrative, not a patient-level synthesis"},
+    {"id": "PMC7016623", "note": "Degrassi 2019 review, mitotic apparatus in microcephaly; narrative"},
+    {"id": "PMC8125975", "note": "Martin-Giacalone 2021 RMS susceptibility review; MVA covered in one paragraph"},
+    {"verdict": "No existing patient-level, dosage-stratified synthesis of BUB1B was found. This review is not duplicative."}
+  ],
+  "estimated_landscape": {
+    "corpus_hits_BUB1B_or_BubR1": "100+ (per-shard cap hit; exact count pending durable job)",
+    "expected_eligible_human_reports": "plausibly 30-80 papers reporting germline BUB1B genotype at patient level",
+    "expected_quantitative_dose_records": "small; likely <20 papers report residual BubR1 protein as a percentage",
+    "design_diversity": ["single case report", "small case series", "cohort/registry", "functional cell study using patient lines", "mouse allelic series", "WGS/WES tumour cohort incidental findings"],
+    "note": "Human n is small by construction: MVA prevalence <1/1,000,000 (Orphanet, per PMC10721328). Pooled statistics will be descriptive, not inferential."
+  },
+  "access_and_verification_constraints": [
+    "CRITICAL COVERAGE GAP: Hanks et al. 2004 Nat Genet 36:1159 (doi 10.1038/ng1449), the founding BUB1B-MVA paper, is NOT in the paperclip corpus (lookup doi returned no match). Suijkerbuijk et al. 2010 (source of the MVA-41C/MVA-12C fibroblast lines) also did not surface as an indexed full text. Both are cited by indexed papers but cannot be quoted directly. Mitigation: attempt retrieval via PubMed MCP full-text (PMC) during Evidence; if unavailable, record every value derived from them as second-hand and mark the primary as unverifiable.",
+    "ROUTINE RULE - visual evidence boundary: values legible only inside figure images are NOT eligible for the verified repo. This already bites: the BubR1 percentages for MVA-41C (35%) and MVA-12C (17%) were read by ask-image from Figure 4A of PMC3654266 and exist nowhere in that paper's text. They must be logged as missing_visual_evidence, not as verified findings.",
+    "The Communications Biology 2026 paper (PMC13385977) has an empty figures/ directory in the corpus; its bioRxiv preprint bio_44cf6e1f6ddd is indexed and may carry figures.",
+    "Protein percentages are reported against heterogeneous denominators (fibroblast vs LCL vs MEF vs testis lysate; different loading controls; densitometry rarely stated).",
+    "Patient reports frequently omit the second allele's effect on protein, so allele-specific attribution is usually impossible."
+  ],
+  "anticipated_gaps": [
+    "No published study measures BubR1 protein and tumour outcome in the same individuals across a dosage range - the threshold question may only be answerable by joining human cross-sectional dose data to mouse allelic-series outcome data, which is an inference, not a measurement.",
+    "Age at last follow-up is often missing, so tumour-free individuals cannot be treated as tumour-free at a defined age.",
+    "Publication bias toward severe/tumour-bearing cases; mildly affected biallelic carriers are likely under-ascertained.",
+    "p.Asn1002Lys has zero prior literature (confirmed by boolean grep), so this proband's missense allele has no external functional data."
+  ],
+  "verdict": "proceed",
+  "rationale": "A patient-level dosage-stratified synthesis does not exist and is feasible at descriptive scale. The decisive limitation is not retrieval but the literature itself: dosage and outcome are rarely measured in the same subjects. Proceeding is justified precisely to establish whether the 'protein dosage disease' framing is supported or is an inference we have been making prematurely - which is the question asked."
+}

@@ -1,0 +1,5 @@
+CHROM,POS,REF,ALT,pangolin_gene,splice_gain_pos,splice_gain_score,splice_loss_pos,splice_loss_score,hgvs,known
+chr15,40196779,G,A,ENSG00000156970.13,-3,0.49,-5,-0.73,c.1288+5G>A,"splice biallelic; MDS with monosomy 7 at 9y"
+chr15,40200239,A,G,ENSG00000156970.13,1,0.85,5,-0.69,c.1402-5A>G,"splice biallelic; neuroblastoma 8mo, survived"
+chr15,40212488,A,G,ENSG00000156970.13,1,0.76,11,-0.71,c.2386-11A>G,"splice biallelic, same individual"
+chr15,40206459,G,A,ENSG00000156970.13,17,0.73,-1,-0.89,c.2009+1G>A,"canonical donor; breast + gastric cancer"

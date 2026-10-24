@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "candidate_set": "s_b2375e3e (84 unique papers, merged from 6 searches across PMC + bioRxiv/medRxiv)",
+  "screen_map_ids": ["m_a65ebb9c", "m_faa35c57", "m_7f5926ae", "m_d50f0bc2", "m_86e775b4"],
+  "screened": 84,
+  "included": 33,
+  "excluded": 51,
+  "included_by_stratum": {
+    "A_BUB1B_human_individual": [
+      {"id": "PMC3654266", "note": "Xu 2013 - MVA-41C (731X/Y155C) and MVA-12C (753X/R814H) fibroblasts; BubR1 % is FIGURE-ONLY"},
+      {"id": "PMC11251299", "n": 15, "note": "Silva 2024 - BUB1B monoallelic germline variants in prostate cancer; LARGEST single block of BUB1B genotypes found"},
+      {"id": "PMC9616775", "n": 1, "note": "Pavone 2022 - novel p.Arg893Ser (kinase domain); includes a cross-case comparison table"},
+      {"id": "PMC13349884", "n": 2, "note": "Wei 2026 - p.A739S and p.W722R monoallelic, recurrent pregnancy loss; exact PCS percentages"},
+      {"id": "PMC11306263", "n": 1, "note": "Esposito 2024 - p.Arg194Ter + p.Arg770Gln; ARCHITECTURAL MATCH to proband (nonsense + kinase-domain missense)"},
+      {"id": "PMC10545765", "n": 1, "note": "Schroeder 2023 - PaedCan07, p.Ser802Cysfs*29 + c.2577+5G>A, embryonal rhabdomyosarcoma"},
+      {"id": "PMC7455400", "n": 1, "note": "Lin 2020 - two splice variants; 21-year follow-up, two tumours"},
+      {"id": "PMC5462940", "n": 1, "note": "Kato 2017 - Alu insertion in intron 8 + rs576524605"},
+      {"id": "PMC6500003", "n": 1, "note": "Laberko 2019 - c.498_505del + c.1288+5G>A; MDS at 9y; HSCT, graft rejection, died"},
+      {"id": "PMC10063267", "note": "SPGH 2022 proceedings - p.Glu391del with reported strong reduction in BubR1 abundance"},
+      {"id": "PMC12575641", "n": 1, "note": "van Opijnen 2025 - germline p.Leu737* (THE PROBAND'S OWN ALLELE 1) with somatic second hit in glioblastoma. Found by boolean grep, not by the merged search."}
+    ],
+    "B_MVA_other_gene": [
+      {"id": "PMC3508359", "n": 21, "note": "Snape 2012 - CEP57, largest MVA cohort in the set"},
+      {"id": "PMC10721328", "n": 3, "note": "Abdel-Salam 2023 - MAD2L1BP, juvenile granulosa cell tumours"},
+      {"id": "PMC9629740", "n": 1, "note": "Villarroya-Beltri 2022 - MAD1L1"},
+      {"id": "PMC10716027", "n": 2, "note": "Guo 2023 - CEP192, tetraploidy + male infertility"},
+      {"id": "PMC12691382", "n": 1, "note": "Yang 2025 - SMC5, near-tetraploidy"},
+      {"id": "PMC9184657", "n": 1, "note": "Feng 2022 - CEP57; growth hormone documented ineffective"},
+      {"id": "PMC6099013", "n": 1, "note": "Brightman 2018 - CEP57"},
+      {"id": "PMC7057129", "n": 1, "note": "Pezzani 2020 - CEP57 + DYNC2H1 double homozygosity"},
+      {"id": "bio_88bd9f96", "n": 2, "note": "de Wolf 2020 - CENATAC siblings"}
+    ],
+    "C_quantitative_dosage": [
+      {"id": "PMC3531486", "note": "Wijshake 2012 - BubR1 +/GTTA mouse; truncated protein undetectable"},
+      {"id": "PMC3707109", "note": "Baker 2013 - BubR1 OVER-expression transgenic; the protective direction"},
+      {"id": "PMC2958469", "note": "Malureanu 2010 - Cdc20 hypomorph; INDEPENDENT THRESHOLD COMPARATOR (<5% blocks anaphase, ~10% permits mitosis)"},
+      {"id": "PMC2064762", "note": "Jeganathan 2007 - Bub1 graded allelic series, aneuploidy vs dose"},
+      {"id": "bio_503eeeef", "note": "Chen 2022 - 'Signaling protein abundance modulates the strength of the SAC' - directly on-topic for dose-response"},
+      {"id": "PMC10602889", "note": "Sterling 2023 - BubR1 cKO neural progenitors, 23% segregation defects"},
+      {"id": "PMC3969224", "note": "Riris 2014 - BubR1 decline in human oocytes with age"},
+      {"id": "PMC3115799", "note": "Ricke 2011 - Bub1 overexpression"},
+      {"id": "PMC7681047", "note": "Fujita 2020 - CDC20 premature aging"},
+      {"id": "PMC7719138", "note": "Zhao 2020 - CDC20 biallelic"},
+      {"id": "bio_6d528716", "note": "Chen 2021 - germline CDC20 missense, familial cancer"},
+      {"id": "bio_af5d75db", "note": "Cohen-Sharir 2020 - aneuploid cancer cells vulnerable to SAC inhibition"},
+      {"id": "PMC13121444", "note": "Gonzalez-Blanco 2026 - proteostasis failure in CIN microcephaly (Drosophila)"}
+    ]
+  },
+  "screening_disagreements_flagged_for_human_review": [
+    "PMC9636423 (Grange 2022, SLF2/SMC5 'mosaic variegated hyperploidy') was EXCLUDED as 'Atelís syndrome, not MVA' while PMC12691382 (SMC5, near-tetraploidy/MVA) was INCLUDED. The same gene family screened both ways. Needs a human ruling on whether hyperploidy/tetraploidy phenotypes are inside Stratum B.",
+    "PMC3613689 (Ricke & van Deursen 2013) was INCLUDED but is a narrative review; protocol eligibility excludes reviews as evidence sources. Should be demoted to reference-mining seed.",
+    "PMC8769543 (biallelic BUB1) was EXCLUDED as 'BUB1 not BUB1B'. Correct under Stratum A, but it is a legitimate Stratum B comparator (SAC-gene neurodevelopmental syndrome). Under the user's 'BUB1B deep, others summary' ruling it stays out of deep extraction but should be cited in the comparator summary.",
+    "bio_431175dc (Gama Braga - BUBR1 pseudokinase domain) and bio_44cf6e1f (Zhang - BubR1 TPR domain) were EXCLUDED by the dosage screen. Correct for the dosage axis, but both are load-bearing for the DOMAIN MAP and mechanism sections and are retained as mechanism sources outside the dosage extraction."
+  ],
+  "note_on_screener": "The specialised eligibility-screen and structured-extraction workers, and parallel workers (-j), are gated to GXL testers on this account. Screening was run with the default quick-reader worker under a strict output schema instead. Recorded as an infrastructure deviation."
+}

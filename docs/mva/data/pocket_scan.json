@@ -1,0 +1,205 @@
+{
+  "method": "LIGSITE-style PSP buriedness, 0.8 A grid, PSP>=5 of 7 axes",
+  "domain": [
+    766,
+    1050
+  ],
+  "mean_plddt_domain": 82.0,
+  "control_residues": [
+    772,
+    773,
+    774,
+    775,
+    776,
+    777,
+    778,
+    779,
+    780,
+    795
+  ],
+  "control_passed": false,
+  "target_residue": 1002,
+  "pocket_reaches_target": false,
+  "pockets": [
+    {
+      "rank": 2,
+      "volume_A3": 23.6,
+      "centre": [
+        -23.05,
+        -22.59,
+        18.06
+      ],
+      "lining_residues": [
+        721,
+        722,
+        881,
+        914,
+        916,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        933
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.049,
+      "surface_artifact": false
+    },
+    {
+      "rank": 3,
+      "volume_A3": 10.2,
+      "centre": [
+        -29.18,
+        -15.51,
+        26.61
+      ],
+      "lining_residues": [
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        950,
+        954,
+        1004,
+        1005
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.042,
+      "surface_artifact": false
+    },
+    {
+      "rank": 4,
+      "volume_A3": 6.7,
+      "centre": [
+        -38.0,
+        2.0,
+        17.7
+      ],
+      "lining_residues": [
+        991,
+        992,
+        993,
+        995,
+        996,
+        1014,
+        1015,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.046,
+      "surface_artifact": false
+    },
+    {
+      "rank": 5,
+      "volume_A3": 5.6,
+      "centre": [
+        -19.66,
+        -29.37,
+        -13.58
+      ],
+      "lining_residues": [
+        746,
+        747,
+        748,
+        749,
+        760,
+        827,
+        828,
+        829
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.028,
+      "surface_artifact": false
+    },
+    {
+      "rank": 6,
+      "volume_A3": 4.1,
+      "centre": [
+        -17.56,
+        -16.51,
+        16.27
+      ],
+      "lining_residues": [
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.028,
+      "surface_artifact": false
+    },
+    {
+      "rank": 7,
+      "volume_A3": 4.1,
+      "centre": [
+        -9.46,
+        1.39,
+        8.87
+      ],
+      "lining_residues": [
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.018,
+      "surface_artifact": false
+    },
+    {
+      "rank": 8,
+      "volume_A3": 3.6,
+      "centre": [
+        -17.38,
+        -30.54,
+        -6.69
+      ],
+      "lining_residues": [
+        746,
+        748,
+        749,
+        750,
+        800,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832
+      ],
+      "touches_control": false,
+      "touches_1002": false,
+      "fraction_of_domain_lined": 0.039,
+      "surface_artifact": false
+    }
+  ],
+  "caveats": [
+    "a geometric cavity is not a druggable site",
+    "domain scanned in isolation; occlusion by other domains not modelled"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "axis": "buried new charge introduction (validated on measured abundance, C41)",
+  "axis_not_used": "absolute volume change \u2014 failed in all three assays, C41a",
+  "buried_rsa_threshold": 20.0,
+  "test_a": {
+    "question": "does the axis transfer to BUB1B's own labels?",
+    "plp_buried_charge": 2,
+    "plp_other": 17,
+    "benign_buried_charge": 2,
+    "benign_other": 98,
+    "verdict": "FAIL (no enrichment at p<0.05)"
+  },
+  "test_b": {
+    "question": "does AlphaMissense point the right way on the panel?",
+    "destabilising_above_both_normals": 1,
+    "of": 5,
+    "verdict": "FAIL"
+  },
+  "axis_applies_to": 50,
+  "missense_total": 1494,
+  "tally": {
+    "AXIS_NA_no_new_charge": 1256,
+    "AXIS_NA_not_buried": 188,
+    "ABUNDANCE_RISK_buried_new_charge": 50
+  }
+}

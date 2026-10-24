@@ -1,0 +1,102 @@
+{
+  "criteria": {
+    "pass_diff": 0.15,
+    "fail_diff": 0.05,
+    "buried_rsa": 20.0,
+    "exposed_rsa": 50.0,
+    "min_n": 30,
+    "bootstrap": 2000,
+    "seed": 20261016
+  },
+  "mavedb_has_bub1b": false,
+  "mavedb_target_genes_searched": 2898,
+  "results": [
+    {
+      "assay": "PTEN VAMP-seq",
+      "urn": "urn:mavedb:00000013-a-1",
+      "uniprot": "P60484",
+      "n_buried": 1829,
+      "n_exposed": 1004,
+      "axes": {
+        "abs_delta_volume": {
+          "rho_buried": -0.10172454847103289,
+          "rho_exposed": -0.06422137169432579,
+          "diff": 0.037283383740102684,
+          "ci": [
+            -0.037076513930678,
+            0.10979069809554416
+          ],
+          "verdict": "FAIL"
+        },
+        "buried_charge_introduced": {
+          "rho_buried": -0.21036645111869462,
+          "rho_exposed": 0.03692619856901737,
+          "diff": 0.170769302172077,
+          "ci": [
+            0.09510686688367317,
+            0.2334245165858686
+          ],
+          "verdict": "PASS"
+        }
+      }
+    },
+    {
+      "assay": "TPMT VAMP-seq",
+      "urn": "urn:mavedb:00000013-b-1",
+      "uniprot": "P51580",
+      "n_buried": 1753,
+      "n_exposed": 671,
+      "axes": {
+        "abs_delta_volume": {
+          "rho_buried": -0.12323337028423485,
+          "rho_exposed": -0.12289438057199523,
+          "diff": -0.00018180612777523458,
+          "ci": [
+            -0.08655375734568874,
+            0.09000471596964946
+          ],
+          "verdict": "FAIL"
+        },
+        "buried_charge_introduced": {
+          "rho_buried": -0.20887654815225473,
+          "rho_exposed": -0.003188978895445875,
+          "diff": 0.1785345125951054,
+          "ci": [
+            0.10821433997756649,
+            0.2357607447439865
+          ],
+          "verdict": "PASS"
+        }
+      }
+    },
+    {
+      "assay": "NUDT15 stability",
+      "urn": "urn:mavedb:00000055-a-1",
+      "uniprot": "Q9NV35",
+      "n_buried": 1325,
+      "n_exposed": 536,
+      "axes": {
+        "abs_delta_volume": {
+          "rho_buried": -0.006159324820414411,
+          "rho_exposed": -0.19832788207166543,
+          "diff": -0.1762066756285509,
+          "ci": [
+            -0.26660506046624477,
+            -0.08325092656106356
+          ],
+          "verdict": "FAIL"
+        },
+        "buried_charge_introduced": {
+          "rho_buried": -0.1402429113741159,
+          "rho_exposed": 0.030922162020612414,
+          "diff": 0.09594970748850355,
+          "ci": [
+            0.0061216048856360256,
+            0.16667766480543775
+          ],
+          "verdict": "INCONCLUSIVE"
+        }
+      }
+    }
+  ]
+}

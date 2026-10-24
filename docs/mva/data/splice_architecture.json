@@ -1,0 +1,50 @@
+{
+  "question": "does BUB1B carry an ASO-addressable non-productive splicing event equivalent to SCN1A exon 20N?",
+  "control_passed": true,
+  "answer": "no poison-exon-shaped cassette found in BUB1B",
+  "strength": "evidence of absence only to the strength of an annotation-based method; exon 20N itself was found by RNA-seq, not annotation. The definitive test is RNA-seq of a relevant tissue, which we lack.",
+  "genes": [
+    {
+      "gene": "BUB1B",
+      "role": "subject",
+      "chrom": "15",
+      "transcripts": 31,
+      "decay_biotype": 12,
+      "near_full_length_decay": 10,
+      "candidates": [
+        {
+          "chrom": "15",
+          "start": 40176383,
+          "end": 40176436,
+          "length_bp": 54,
+          "in_decay_isoforms": 1,
+          "frameshifts": false,
+          "stop_in_some_frame": true,
+          "poison_exon_shaped": false
+        }
+      ],
+      "poison_exon_found": false
+    },
+    {
+      "gene": "SCN1A",
+      "role": "positive control",
+      "chrom": "2",
+      "transcripts": 30,
+      "decay_biotype": 6,
+      "near_full_length_decay": 3,
+      "candidates": [
+        {
+          "chrom": "2",
+          "start": 166007230,
+          "end": 166007293,
+          "length_bp": 64,
+          "in_decay_isoforms": 1,
+          "frameshifts": true,
+          "stop_in_some_frame": true,
+          "poison_exon_shaped": true
+        }
+      ],
+      "poison_exon_found": true
+    }
+  ]
+}

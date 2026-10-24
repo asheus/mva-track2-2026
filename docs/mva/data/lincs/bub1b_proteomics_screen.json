@@ -1,0 +1,94 @@
+{
+  "source": "Proteomics_Drug_Atlas_2023",
+  "signatures": 1748,
+  "proteins_measured": 8220,
+  "mitotic_panel_detectable": 283,
+  "bub1b_down_signatures": 52,
+  "bub1b_up_signatures": 11,
+  "up_hits": [
+    {
+      "drug": "GW 501516",
+      "set_size": 148,
+      "mitotic_observed": 10,
+      "mitotic_expected": 5.1,
+      "obs_over_exp": 1.96
+    },
+    {
+      "drug": "Gliclazide",
+      "set_size": 143,
+      "mitotic_observed": 10,
+      "mitotic_expected": 4.92,
+      "obs_over_exp": 2.03
+    },
+    {
+      "drug": "LY 344864",
+      "set_size": 146,
+      "mitotic_observed": 23,
+      "mitotic_expected": 5.03,
+      "obs_over_exp": 4.58
+    },
+    {
+      "drug": "Ro-3306",
+      "set_size": 149,
+      "mitotic_observed": 27,
+      "mitotic_expected": 5.13,
+      "obs_over_exp": 5.26
+    },
+    {
+      "drug": "Acamprosate",
+      "set_size": 146,
+      "mitotic_observed": 30,
+      "mitotic_expected": 5.03,
+      "obs_over_exp": 5.97
+    },
+    {
+      "drug": "Olaparib",
+      "set_size": 148,
+      "mitotic_observed": 32,
+      "mitotic_expected": 5.1,
+      "obs_over_exp": 6.28
+    },
+    {
+      "drug": "GSK 650394",
+      "set_size": 149,
+      "mitotic_observed": 33,
+      "mitotic_expected": 5.13,
+      "obs_over_exp": 6.43
+    },
+    {
+      "drug": "Formestane",
+      "set_size": 147,
+      "mitotic_observed": 43,
+      "mitotic_expected": 5.06,
+      "obs_over_exp": 8.5
+    },
+    {
+      "drug": "Betamethasone",
+      "set_size": 146,
+      "mitotic_observed": 46,
+      "mitotic_expected": 5.03,
+      "obs_over_exp": 9.15
+    },
+    {
+      "drug": "PDE-9i",
+      "set_size": 145,
+      "mitotic_observed": 48,
+      "mitotic_expected": 4.99,
+      "obs_over_exp": 9.62
+    },
+    {
+      "drug": "GR79236",
+      "set_size": 147,
+      "mitotic_observed": 54,
+      "mitotic_expected": 5.06,
+      "obs_over_exp": 10.67
+    }
+  ],
+  "bub1b_specific": [],
+  "caveats": [
+    "one dataset, no independent replication of any single drug",
+    "cell lines, not patient tissue",
+    "an up-call is a direction, not a magnitude -- nothing here says whether the rise approaches the ~1.4x this genotype needs",
+    "a drug that raises wild-type BubR1 need not raise a destabilised mutant, which is degraded for a different reason"
+  ]
+}

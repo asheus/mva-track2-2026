@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "review_question": "Across all published human and model-system evidence, what residual BubR1 (BUB1B) protein dosage is associated with which phenotypes - aneuploidy/PCS burden, neurodevelopmental and growth phenotype, tumour occurrence, type and age at onset - and is there an identifiable dosage threshold below which phenotype appears? Secondary: does the same dose-phenotype relation hold across the wider MVA gene spectrum (CEP57, TRIP13, BUB1, MAD1L1, MAD2L1BP, CENATAC, SLF2, SMC5, CDC20, CEP192)?",
+  "decomposition": {
+    "framework": "PECO with a dose-response (scaling/moderator) archetype",
+    "Population": "Humans carrying germline BUB1B variants (biallelic or monoallelic), humans with MVA/PCS of any genetic cause, and model systems (mouse allelic series, engineered human cell lines, patient-derived fibroblasts/LCLs) with defined BubR1 dosage",
+    "Exposure": "Residual BubR1 protein dosage expressed as % of wild-type, and variant class/position (nonsense, frameshift, splice, missense; domain location against the Zhang 2026 domain map)",
+    "Comparator": "Wild-type / unaffected control from the same report; and across-dosage comparison within an allelic series",
+    "Outcome": "(1) tumour occurrence, type, age at onset; (2) aneuploidy and PCS percentage; (3) microcephaly/growth/neurodevelopmental phenotype; (4) survival / age at last follow-up",
+    "archetype": "Prevalence/rate + scaling-moderator dose-response; NOT an intervention meta-analysis. No pooled treatment effect will be computed."
+  },
+  "scope": {
+    "included": [
+      "Stratum A (primary): any report of a human with a germline BUB1B variant, at individual-patient granularity",
+      "Stratum B (secondary, comparator): any report of MVA/PCS syndrome of any genetic cause, including all currently recognised MVA-spectrum genes and gene-unsolved MVA cases",
+      "Stratum C (dose axis): any study reporting quantitative BubR1/BUB1B protein or transcript level relative to control, in humans or model systems, including engineered allelic series",
+      "Functional studies using patient-derived cells even when the clinical phenotype is reported elsewhere"
+    ],
+    "excluded": [
+      "Somatic-only BUB1B alteration in tumours with no germline variant (except where a germline variant plus somatic second hit is reported - those are included)",
+      "Bulk transcriptomic studies where BUB1B appears only as a proliferation-signature gene with no genotype or protein-level measurement",
+      "Studies of BUB1B expression as a prognostic biomarker without germline genotype",
+      "Non-BubR1 SAC biology with no dosage or patient data"
+    ]
+  },
+  "operational_definitions": {
+    "residual_dosage": "BubR1 protein in the affected sample divided by the control sample in the SAME report, expressed as a percentage. Cross-report normalisation is prohibited.",
+    "denominator_class": "The biological material and loading control used, recorded verbatim (e.g. 'primary skin fibroblast, beta-actin'), because percentages are not comparable across classes.",
+    "MVA": "Constitutional mosaicism for aneuploidy involving multiple different chromosomes, as defined by the reporting authors; the authors' own diagnostic label is recorded verbatim and never re-adjudicated.",
+    "PCS": "Premature chromatid separation as reported by the authors, with the percentage of cells affected where stated.",
+    "tumour_event": "A neoplasm reported in the individual, with histological type verbatim and age at diagnosis; benign and malignant recorded separately.",
+    "domain_location": "Residue position mapped against Zhang et al. 2026 (PMC13385977) boundaries: TPR 59-219, KEN1 26-28, D1 224-232, ABBA1 272-277, KEN2 304-306, ABBA2 340-345, GLEBS 408-418, Bub1-binding 440-460, ABBA3 528-533, D2 555-563, KARD/LxxIxE 669-674, pseudokinase 766-1050. Competing annotations (CDD 750-1045, Gene3D 782-1042, SuperFamily core 791-984) recorded as alternatives, never silently reconciled."
+  },
+  "eligibility": {
+    "inclusion": [
+      "Reports at least one human with a germline BUB1B variant at individual granularity, OR",
+      "Reports an individual with MVA/PCS of any genetic cause, OR",
+      "Reports a quantitative BubR1/BUB1B level relative to a control in any system",
+      "Full text or readable table accessible in an indexed corpus, or retrievable via PubMed full text"
+    ],
+    "exclusion": [
+      "No germline genotype AND no dosage measurement",
+      "BUB1B mentioned only in a gene list, signature, reference list, or supplementary table with no patient or dosage data",
+      "Review articles are excluded as evidence sources but retained as reference-mining seeds only"
+    ],
+    "eligible_source_types": ["case report", "case series", "cohort study", "registry analysis", "functional/experimental study", "preprint", "genome/exome sequencing cohort"],
+    "date_language_rules": ["No date restriction - BUB1B-MVA literature begins 2004 (Hanks et al.)", "English full text required for extraction; non-English records logged as excluded-for-language with citation retained"]
+  },
+  "outcome_selection_rules": {
+    "primary": [
+      "Residual BubR1 protein as % of same-report control, with denominator_class recorded",
+      "Tumour occurrence with histology and age at diagnosis"
+    ],
+    "secondary": [
+      "Aneuploidy % and PCS % with the cell type assayed",
+      "Microcephaly, growth retardation, developmental delay as reported",
+      "Vital status and age at last follow-up"
+    ],
+    "timepoint_priority": [
+      "For dosage: the untreated baseline measurement; if a proteasome inhibitor or other rescue condition is applied, record baseline and treated separately, never merged",
+      "For tumours: earliest age at first tumour; subsequent tumours recorded as separate findings"
+    ],
+    "multiple_report_rule": "Where the same individual appears in more than one publication, the report with the most granular primary data is the extraction source; all other reports are linked as duplicate_of and never counted again."
+  },
+  "dependency_rules": {
+    "independent_unit": "The individual person (human stratum) or the distinct genotype/cell line (model stratum). NOT the paper.",
+    "duplicate_reports": "Match on family/pedigree identifier, cell line name (e.g. MVA-41C), and variant pair. Suspected duplicates flagged for human review, never auto-merged.",
+    "shared_cohorts_controls": "Patient-derived lines re-used across labs (notably MVA-41C and MVA-12C from Suijkerbuijk 2010) are ONE unit across all papers that use them; each downstream paper contributes findings but not additional individuals.",
+    "repeated_timepoints_subgroups": "Longitudinal follow-up of one individual contributes one unit with multiple dated findings."
+  },
+  "screening_and_deduplication": {
+    "screen": "Title/abstract screen against eligibility, then full-text confirmation; every exclusion logged with reason",
+    "dedup": "By paperclip document id, then by DOI, then by preprint/published pair (e.g. bio_44cf6e1f6ddd == PMC13385977)"
+  },
+  "adaptive_search_policy": {
+    "waves": "broad retrieval -> dedup -> screen/extract -> coverage review -> targeted gap search -> repeat",
+    "gap_triggers": ["a named MVA gene with zero extracted units", "a variant class with zero units", "any cited-but-unindexed primary source", "any dosage value found only in a figure"],
+    "permitted_without_deviation": "query refinement, additional corpora, reference mining",
+    "requires_deviation": "any change to eligibility, definitions, grouping, outcome selection, or output intent"
+  },
+  "material_deviation_policy": {
+    "rule": "Changed eligibility, definitions, grouping, analysis direction or output intent requires a dated, user-approved deviation recorded in deviations.jsonl before it is applied.",
+    "recorded_deviations": [
+      {
+        "date": "2026-09-10",
+        "type": "infrastructure",
+        "description": "The paperclip-meta-analysis routine's filesystem helper commands (scaffold, approve-question, export-verified, review evidence --refresh, analysis-run) are not operable over the hosted MCP transport: they resolve --dir against a filesystem reachable from neither the local repo nor the paperclip vsh sandbox (verified by three attempts against /.gxl, /.gxl/<dir> and an absolute repo path). CONSEQUENCE: protocol artifacts are stored in this git repository instead, and verified_findings.json will NOT carry the universal exporter's generator marker. The paperclip repo layer (git init/add/commit) IS operable and will be used for line-pinned claim verification. This is a transport limitation, disclosed rather than worked around.",
+        "approved_by": "pending user review at Question checkpoint"
+      },
+      {
+        "date": "2026-09-10",
+        "type": "scope",
+        "description": "Scope widened at user request during Question stage to add Stratum B (all MVA-spectrum literature regardless of causal gene) so that BUB1B papers are not missed when BUB1B is discussed only as context, and so the dose-phenotype relation has cross-gene comparators.",
+        "approved_by": "user, in-session"
+      }
+    ]
+  },
+  "requested_deliverables": {
+    "evidence": [
+      "Patient-level table: individual, genotype (both alleles, HGVS), variant class, domain location, residual protein % with denominator, aneuploidy/PCS %, tumours with age, phenotype, outcome, source lines",
+      "Model-system dosage table: system, genotype, residual %, phenotype, tumour outcome",
+      "Explicit register of values that exist only in figures (missing_visual_evidence)",
+      "Explicit register of cited-but-unindexed primary sources"
+    ],
+    "results": [
+      "Dose-phenotype map with every point carrying its denominator class",
+      "Assessment of whether a dosage threshold is supported, refuted, or unresolvable from present evidence",
+      "Placement of the proband genotype (737X/N1002K) against the comparator class, stated as inference with its uncertainty"
+    ]
+  },
+  "unresolved_user_decisions": [
+    "Whether figure-only dosage values (e.g. 35%/17% for MVA-41C/12C) may be used in the narrative as clearly-labelled unverified estimates, or must be excluded from the report entirely",
+    "Whether to spend retrieval effort recovering Hanks 2004 and Suijkerbuijk 2010 via PubMed full text, or to proceed with them marked unverifiable",
+    "Whether Stratum B (all MVA genes) is extracted at full patient-level granularity or only as a comparator summary"
+  ]
+}

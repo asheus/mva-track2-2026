@@ -1,0 +1,197 @@
+{
+  "supersedes": "approach_matrix.py, which averaged viability away and ranked a non-existent drug first",
+  "gate": {
+    "3": "obtainable now",
+    "2": "in trials",
+    "1": "preclinical",
+    "0": "no molecule"
+  },
+  "rows": [
+    {
+      "name": "NAD+ precursor (NMN / NR)",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 2,
+      "note": "available now; 153 registered trials incl. rare monogenic disease and an n=1 in Li-Fraumeni at NIH. NMN raised BubR1 abundance in vivo (North 2014). Targets DEGRADATION -- which is also the timed event that releases anaphase."
+    },
+    {
+      "name": "Arimoclomol (heat-shock response amplifier)",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "NEW. Amplifies HSF1/HSP70 to assist misfolded proteins. 12 trials incl. Phase 3 in ALS, and an OPEN EXPANDED-ACCESS programme for Niemann-Pick C (NCT04316637, status AVAILABLE, 13 US sites) -- a real route for an n-of-1. Targets FOLDING, so it does not touch the degradation clock. No evidence in BUB1B."
+    },
+    {
+      "name": "4-phenylbutyrate (chemical chaperone)",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "NEW. Approved for urea cycle disorders in CHILDREN; trialled explicitly as a folding 'corrector' in cystic fibrosis (NCT02323100) and for a destabilising missense in MCAD deficiency (NCT06069375) -- the closest precedent in shape to N1002K. CAVEAT: 4-PBA is also a weak HDAC inhibitor, which collides with the K250/K668 argument."
+    },
+    {
+      "name": "Combination: folding corrector + degradation modulator",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "NEW. The CFTR precedent: single agents failed and the approved therapy is a corrector-plus-potentiator combination. Two obtainable drugs, two mechanisms, one variable. Untested together and the interaction is unknown."
+    },
+    {
+      "name": "Cancer-risk stratification from the allele map",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 2,
+      "note": "not a drug; needs no new biology; the only output that is actionable this year."
+    },
+    {
+      "name": "mTORC1 inhibition (sirolimus) / senolytics",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 1,
+      "note": "obtainable, but treats accrued damage and cannot prevent mis-segregation."
+    },
+    {
+      "name": "Haematopoietic stem cell transplant",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 0,
+      "note": "NEW. Established in other chromosome-instability syndromes and genuinely obtainable, but it addresses marrow and leukaemia risk only -- MVA's characteristic tumours are solid -- at high morbidity."
+    },
+    {
+      "name": "Readthrough (ataluren / aminoglycoside)",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 0,
+      "note": "class obtainable, but only 4 of 2,536 alleles qualify and this child's is not one."
+    },
+    {
+      "name": "Partial proteasome inhibition",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "NEW. Approved drugs exist and it is on-target for degradation -- and it is non-specific and severely toxic. Listed so it is visibly rejected, not omitted."
+    },
+    {
+      "name": "HDAC inhibition",
+      "viability": 3,
+      "viability_label": "obtainable now",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 0,
+      "note": "obtainable, and argued against: K250 stabilises BubR1 while K668 destabilises it."
+    },
+    {
+      "name": "Prime editing, ex vivo",
+      "viability": 2,
+      "viability_label": "in trials",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "editing is in human trials; corrects blood, and MVA's tumours are solid."
+    },
+    {
+      "name": "AAV gene replacement",
+      "viability": 2,
+      "viability_label": "in trials",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "deliverable, but a constitutive source fills the anaphase trough -- a mechanism veto."
+    },
+    {
+      "name": "trans-RNA translation initiation",
+      "viability": 1,
+      "viability_label": "preclinical",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "Nat Biotechnol, Nov 2025. Right variable, right layer, no human has received one."
+    },
+    {
+      "name": "Trans-splicing (SMaRT)",
+      "viability": 1,
+      "viability_label": "preclinical",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "best mechanism fit and the only route to allele 1 -- and NO RTM for any gene has ever been given to a patient. Required efficiency 23-38% exceeds published RTMs."
+    },
+    {
+      "name": "CRISPRa at the native promoter",
+      "viability": 1,
+      "viability_label": "preclinical",
+      "addresses_deficit": 2,
+      "evidence_in_bub1b": 0,
+      "note": "not deliverable to a child; the right EXPERIMENT for the dosage thesis."
+    },
+    {
+      "name": "Pharmacological chaperone, pseudokinase pocket",
+      "viability": 0,
+      "viability_label": "no molecule",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "no molecule; not evaluable -- no structure of 766-1050 above 3.8 A."
+    },
+    {
+      "name": "Checkpoint timing extension",
+      "viability": 1,
+      "viability_label": "preclinical",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "only idea reaching the 280 transcript-less alleles; mitotic drugs are cytotoxic."
+    },
+    {
+      "name": "Splice-modulating ASO (TANGO)",
+      "viability": 0,
+      "viability_label": "no molecule",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 0,
+      "note": "KILLED: non-canonical junction flux 0.00% vs SCN1A 4.55%."
+    },
+    {
+      "name": "APC/C-Cdc20 inhibition",
+      "viability": 0,
+      "viability_label": "no molecule",
+      "addresses_deficit": 1,
+      "evidence_in_bub1b": 0,
+      "note": "arrests every mitosis."
+    },
+    {
+      "name": "Neoantigen vaccine",
+      "viability": 0,
+      "viability_label": "no molecule",
+      "addresses_deficit": 0,
+      "evidence_in_bub1b": 0,
+      "note": "germline variant; it would target the patient."
+    }
+  ],
+  "passed_gate": [
+    "NAD+ precursor (NMN / NR)",
+    "Arimoclomol (heat-shock response amplifier)",
+    "4-phenylbutyrate (chemical chaperone)",
+    "Combination: folding corrector + degradation modulator",
+    "Cancer-risk stratification from the allele map",
+    "mTORC1 inhibition (sirolimus) / senolytics",
+    "Haematopoietic stem cell transplant",
+    "Readthrough (ataluren / aminoglycoside)",
+    "Partial proteasome inhibition",
+    "HDAC inhibition",
+    "Prime editing, ex vivo",
+    "AAV gene replacement"
+  ],
+  "blocked_by_gate": [
+    "trans-RNA translation initiation",
+    "Trans-splicing (SMaRT)",
+    "CRISPRa at the native promoter",
+    "Pharmacological chaperone, pseudokinase pocket",
+    "Checkpoint timing extension",
+    "Splice-modulating ASO (TANGO)",
+    "APC/C-Cdc20 inhibition",
+    "Neoantigen vaccine"
+  ],
+  "recommendation": "NAD+ precursor (NMN / NR)",
+  "recommendation_is_conditional_on": "p.Asn1002Lys reducing BubR1 abundance -- untested"
+}
