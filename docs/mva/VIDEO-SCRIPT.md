@@ -75,10 +75,11 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 > nine percent protein binding it is still twelvefold above. It is the only candidate
 > needing a dose decrease, not an increase.
 
-### 11 · The risk — 15 s
-> That is also the danger, so we say it ourselves. This checkpoint is already at fifteen
-> to twenty-six percent of normal, and partial Aurora B inhibition synergises with a weak
-> checkpoint. So we propose a window, titrated on phospho-Hec1 — not a dose.
+### 11 · The dose — 15 s
+> And the dose is the hypothesis, so we commit to it. One to five nanomolar free,
+> titrated in the child's own fibroblasts to thirty to fifty percent loss of Aurora B
+> substrate phosphorylation. Never ablation. And we score missegregation, not alignment,
+> because better alignment can hide worse segregation.
 
 ### 12 · The moonshot — 12 s
 > A 2025 Nature Biotechnology method makes translation programmable: a separate capped
