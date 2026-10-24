@@ -82,8 +82,13 @@ Every route we closed — readthrough, amlexanox, perphenazine, momelotinib,
 memantine, metformin, fingolimod — died because the effect needed a
 concentration that no tolerated dose delivers. We were always trying to climb.
 Here we need **partial** rebalancing, not ablation: something near the IC50,
-call it low single-digit nM, which sits **two to three orders of magnitude
-BELOW** the oncology exposure.
+call it **~1-5 nM free**, established by the PD curve in the child's own cells
+rather than asserted. Corrected 24 Oct 2026: the earlier claim that this sits
+"two to three orders of magnitude below the oncology exposure" compared our FREE
+target against the oncology TOTAL Css, the same conflation as C54. Like for like,
+~1-5 nM free is at or just below the free concentration adult dosing already
+achieves. The defensible claim is therefore not a huge margin but a direction:
+**exposure is not the barrier here, and it was the barrier in every other arm.**
 
 Dose reduction is trivial. Dose escalation was impossible. That asymmetry is the
 whole argument.
