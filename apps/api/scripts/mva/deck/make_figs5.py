@@ -66,7 +66,7 @@ for frac, lab, note, col in rows:
     yy -= 0.74
 
 # the proband's two alleles, pinned onto the same ladder
-for frac, lab in ((0.08, "p.Leu737Ter\n73 nt upstream"), (0.50, "p.Asn1002Lys\n87% buried")):
+for frac, lab in ((0.08, "p.Leu737Ter\n747 nt upstream"), (0.50, "p.Asn1002Lys\n87% buried")):
     cx = X0 + (X1 - X0) * frac
     ax.plot([cx, cx], [BY, BY - 0.30], color=RED, lw=2.4, zorder=6)
     ax.text(cx, BY - 0.38, lab, ha="center", va="top", fontsize=10.5,

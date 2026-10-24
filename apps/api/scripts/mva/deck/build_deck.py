@@ -201,10 +201,12 @@ banner(s, "Q1 — Two alleles, and the domain that sits between them")
 figbox(s, "fig_domains2.png", 0.25, 1.12, 12.83, 3.95)
 tf = card(s, 0.45, 5.22, 3.95, 1.46, TINTB, BLUE)
 para(tf, "Allele 1 truncates at 737", 19, bold=True, color=BLUE, first=True)
-para(tf, "73 nt upstream of the last junction, so the transcript is destroyed.", 18)
+para(tf, "747 nt upstream of the last exon-exon junction, far past the 50-55 nt "
+         "rule, so the transcript is destroyed.", 18)
 tf = card(s, 4.69, 5.22, 3.95, 1.46, TINTB, BLUE)
 para(tf, "Allele 2 is buried, not surface", 19, bold=True, color=BLUE, first=True)
-para(tf, "87% buried. Made, then degraded: a dosage mutant, not an interface one.", 18)
+para(tf, "87% buried, so PREDICTED to be made then degraded: a dosage mutant rather "
+         "than an interface one. Abundance in patient cells is not yet measured.", 18)
 tf = card(s, 8.93, 5.22, 3.95, 1.46, TINTO, ORANGE)
 para(tf, "Both land on the KARD", 19, bold=True, color=ORANGE, first=True)
 para(tf, "667–681: the motif that recruits the phosphatase PP2A-B56.", 18)
@@ -269,7 +271,8 @@ tf = box(s, 6.15, 4.95, 6.85, 1.55)
 para(tf, "Two gates closed these arms. EXPOSURE: most needed more drug than a person "
          "can be given. SAFETY IN THIS CHILD: proteasome and HSP90 inhibitors are "
          "myelosuppressive and carcinogenic, disqualifying where tumour risk already "
-         "comes from missegregation. Barasertib alone sits 1,200x ABOVE the effect.",
+         "comes from missegregation. Barasertib alone sits ABOVE what the effect needs, "
+         "by 12x on the most conservative free-drug assumption.",
      17, align=PP_ALIGN.CENTER, first=True)
 takeaway(s, "Three themes die upstream. One node survives.", size=20, wide=True)
 
@@ -291,10 +294,10 @@ figbox(s, "pap_kard_surface.png", 0.45, 4.95, 3.90, 1.75)
 tf = box(s, 0.45, 6.72, 3.90, 0.40)
 para(tf, "the groove neither allele reaches", 13, color=GREY,
      align=PP_ALIGN.CENTER, first=True)
-rows = [("0.37 nM", "Aurora B IC50", BLUE),
+rows = [("0.37 nM", "BIOCHEMICAL Aurora B IC50, not the cellular rescue concentration", BLUE),
         ("~3,700x", "selective over Aurora A", BLUE),
-        ("447 nM", "human steady-state Css", BLUE),
-        ("~1,200x", "Css over IC50 — the only candidate that needs LESS drug", GREEN)]
+        ("447 nM", "adult steady-state Css, TOTAL drug (Dennis 2012)", BLUE),
+        ("12-1,208x", "over IC50: free at 99% bound, up to total. Free fraction unpublished.", GREEN)]
 y = 1.50
 for big, lab, c in rows:
     tf = card(s, 4.65, y, 8.25, 1.14, TINTG if c == GREEN else TINTB, c)
@@ -304,8 +307,9 @@ for big, lab, c in rows:
         f = r.font; f.name, f.size, f.bold, f.color.rgb = "Arial", Pt(sz), b, col
     y += 1.26
 tf = box(s, 4.65, 6.60, 8.25, 0.55)
-para(tf, "Structure: PP2A-B56 surface with the BubR1 KARD peptide bound "
-         "(Bloom & North 2021, CC BY 4.0)", 13, color=GREY, first=True)
+para(tf, "A RANGE, not a therapeutic index and not a safety margin: it shows substantial "
+         "exposure is reachable, not that a safe paediatric window exists. Structure: "
+         "PP2A-B56 with the BubR1 KARD bound (Bloom & North 2021).", 13, color=GREY, first=True)
 
 # ============================================================= 11 · the window
 s = prs.slides.add_slide(BLANK)

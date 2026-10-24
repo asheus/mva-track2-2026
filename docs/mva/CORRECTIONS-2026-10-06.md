@@ -2858,3 +2858,50 @@ be stated as one.
 
 **Standing correction.** Allele 1 is closed on **NMD plus exposure**, not on "it lacks the
 machinery". Anywhere we have implied the latter, fix it.
+
+---
+
+## C54 — the 1,208x exposure ratio was TOTAL drug on an axis labelled FREE
+
+Found 24 Oct 2026 by two independent external reviews of the deck, run on the
+17-slide version. Both reproduced our arithmetic exactly and then separated the
+number from its label.
+
+| | |
+|---|---|
+| source | Dennis et al. 2012, PMID 22864876: barasertib-hQPA steady-state **226.8 ng/mL**, MW 507.57 |
+| our figure | 446.8 nM / 0.37 nM = **1,208x**. Arithmetic confirmed by both reviewers |
+| the defect | 226.8 ng/mL is **total** plasma concentration. `fig_exposure` labelled its x-axis *"achievable **free** plasma concentration"*, and the arms we CLOSED were scored on free concentration (e.g. "free Cmax @ 98% bound ~0.05 nM"). We applied a stricter standard to the candidates we rejected than to the one we picked |
+| second defect | 0.37 nM is a **biochemical** IC50. It is not the concentration required for cellular rescue, so the ratio is not a therapeutic index and not a safety margin |
+
+**Fixed.** The barasertib bar is now a RANGE, 12x to 1,208x: free at 99% protein
+binding through to total. Its free fraction is unpublished, and the figure says so.
+The axis no longer claims "free". The conclusion survives — at 99% bound the free
+Css is still ~12x the biochemical IC50, and it remains the only arm above its
+target rather than short of it — but it survives on a stated range, not on a
+single flattering number.
+
+## C55 — the "Xu rescue" marker plotted a different compound
+
+`fig_window` carried a vertical anchor labelled "Xu rescue" at 15x on an axis of
+*barasertib* free-IC50 multiples. Xu et al. 2013 used **ZM447439**, including 2 µM
+in HeLa under an imposed metaphase block, and the patient-cell rescue there came
+from BubR1 expression or artificial kinetochore targeting of PP2A-B56, not from a
+dose of barasertib. The cross-compound conversion was never justified. The anchor
+is removed; the remaining marker is relabelled "adult oncology, TOTAL drug", and
+the axis now states that the curves are predicted rather than measured.
+
+## C56 — "a dosage mutant" was stated as fact from burial alone
+
+Slide 4 asserted that p.Asn1002Lys is "made, then degraded: a dosage mutant". 87%
+burial predicts that; it does not establish it, which needs abundance, localisation
+and function in patient cells. Softened to "PREDICTED", with the gap named on the
+slide. Suijkerbuijk 2010's finding that MVA missense alleles near the kinase domain
+are turnover mutants remains independent support for the class, not for this allele.
+
+**Not changed, and worth saying:** both reviews independently flagged the J Clin
+Invest / PMID 20972334 citation and the "mitotic competence" wording on the
+Suijkerbuijk panel. We had already corrected both earlier the same day (C53 and the
+13-slide rebuild) before seeing the reviews. One reviewer supplies the DOI,
+10.1158/0008-5472.CAN-09-4319, and confirms PMID 20972334 is an unrelated
+lung-cancer paper.

@@ -38,9 +38,9 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 > what else sits on the same node, at what dose.
 
 ### 4 · The alleles — 13 s
-> Leucine 737 to a stop, seventy-three nucleotides upstream of the last junction, so that
-> transcript is destroyed. Asparagine 1002 to lysine, eighty-seven percent buried — made,
-> then degraded.
+> Leucine 737 to a stop, seven hundred and forty-seven nucleotides upstream of the last
+> junction, far past the fifty-five rule, so that transcript is destroyed. Asparagine 1002
+> to lysine, eighty-seven percent buried — made, then degraded.
 
 ### 5 · Scalability — 13 s
 > We scored every BUB1B allele the same way: consequence, the fifty-five-nucleotide rule,
@@ -71,8 +71,9 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 ### 10 · The answer — 16 s
 > If the phosphatase cannot be raised, lower the kinase it opposes. Barasertib. Aurora B
 > at zero-point-three-seven nanomolar, thirty-seven-hundred-fold selective. Human steady
-> state sits twelve hundred times its IC-fifty — the only candidate needing a dose
-> decrease, not an increase.
+> state, total drug, sits twelve hundred times the biochemical IC-fifty; even at ninety-
+> nine percent protein binding it is still twelvefold above. It is the only candidate
+> needing a dose decrease, not an increase.
 
 ### 11 · The risk — 15 s
 > That is also the danger, so we say it ourselves. This checkpoint is already at fifteen

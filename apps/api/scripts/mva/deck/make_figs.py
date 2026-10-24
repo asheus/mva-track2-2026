@@ -72,7 +72,7 @@ def exposure():
         ("Amlexanox\nNMD inhibition",          0.0011, 0.0044, 0.0116),
         ("Ataluren\nreadthrough",              0.006,  0.012,  0.02),
         ("Momelotinib\nAurora B off-target",   0.10,   0.19,   0.35),
-        ("Barasertib-hQPA\nAurora B",          1208,   1208,   1208),
+        ("Barasertib-hQPA\nAurora B",            12,     24,   1208),
     ]
     ys = np.arange(len(rows))[::-1]
     for y, (lab, lo, mid, hi) in zip(ys, rows):
@@ -83,8 +83,8 @@ def exposure():
                     alpha=0.85, zorder=2)
         ax.plot([mid], [y], "o", ms=13, color=c, zorder=3,
                 markeredgecolor="white", markeredgewidth=1.6)
-        ax.text(mid * (2.6 if win else 1), y + 0.30,
-                f"{mid:,.0f}x" if win else f"{1/mid:,.0f}x short",
+        ax.text((lo if win else mid) * (2.6 if win else 1), y + 0.30,
+                f"{lo:,.0f}-{hi:,.0f}x" if win else f"{1/mid:,.0f}x short",
                 fontsize=12, fontweight="bold", color=c,
                 ha="left" if win else "center", va="bottom")
 
@@ -93,8 +93,8 @@ def exposure():
             color=NAVY, fontweight="bold")
     ax.set_xscale("log"); ax.set_xlim(5e-4, 1e4)
     ax.set_yticks(ys); ax.set_yticklabels([r[0] for r in rows], fontsize=12.5)
-    ax.set_xlabel("achievable free plasma concentration  /  concentration the effect needs",
-                  fontsize=12.5, color=GREY, labelpad=9)
+    ax.set_xlabel("achievable plasma concentration  /  concentration the effect needs\nclosed arms: free. Barasertib bar spans free at 99% bound (12x) to TOTAL (1,208x); its free fraction is unpublished.",
+                  fontsize=10.5, color=GREY, labelpad=9)
     ax.set_ylim(-0.75, len(rows) - 0.25)
     for sp in ("top", "right", "left"): ax.spines[sp].set_visible(False)
     ax.spines["bottom"].set_color(GREY); ax.tick_params(left=False)
@@ -175,7 +175,7 @@ def window():
     ax.plot(x, sac_patient, color="#C0392B", lw=2.6, ls=":", zorder=3,
             label="checkpoint, this child")
 
-    for xv, lab, col in ((15, "Xu rescue", NAVY), (1208, "oncology dose", "#7B241C")):
+    for xv, lab, col in ((1208, "adult oncology, TOTAL drug", "#7B241C"),):
         ax.axvline(xv, color=col, lw=1.3, ls="-", alpha=0.55, zorder=1)
         ax.text(xv, 123, lab, rotation=0, fontsize=10, color=col, ha="center")
 
@@ -183,7 +183,7 @@ def window():
             fontweight="bold")
     ax.set_xscale("log"); ax.set_xlim(0.35, 3000); ax.set_ylim(0, 132)
     ax.set_yticks([0, 25, 50, 75, 100])
-    ax.set_xlabel("free drug, multiples of Aurora B IC50", fontsize=12, color=GREY)
+    ax.set_xlabel("free drug, multiples of the BIOCHEMICAL Aurora B IC50\ncurves are PREDICTED, not measured; cellular potency is not the enzyme IC50", fontsize=10.5, color=GREY)
     ax.set_ylabel("% of normal function", fontsize=12, color=GREY)
     ax.legend(frameon=False, fontsize=10.5, loc="lower left", bbox_to_anchor=(0.005, 0.02))
     for sp in ("top", "right"): ax.spines[sp].set_visible(False)
