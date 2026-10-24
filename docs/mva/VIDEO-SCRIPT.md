@@ -29,28 +29,28 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 
 ### 2 · The problem — 15 s
 > Every cell division can get the chromosome count wrong. Each chromosome must grip both
-> poles, and of the four ways it can attach, three are wrong. A checkpoint holds the cell
+> poles, and three of the four ways it can attach are wrong. A checkpoint holds the cell
 > until every one is right. In this child that checkpoint is weak.
 
 ### 3 · The questions — 16 s
-> We answered four questions in order. What do these two alleles leave behind. Is the
-> deficit reversible. Is there any drug that raises BubR1 or its phosphatase. And if not,
-> what else sits on the same node, at what dose.
+> We answered four questions in order. What do these alleles leave behind. Is the deficit
+> reversible. Is there any drug that raises BubR1. And if not, what else sits on the same
+> node, at what dose.
 
 ### 4 · The alleles — 13 s
 > Leucine 737 to a stop, seven hundred and forty-seven nucleotides upstream of the last
-> junction, far past the fifty-five rule, so that transcript is destroyed. Asparagine 1002
-> to lysine, eighty-seven percent buried — made, then degraded.
+> junction — far past the fifty-five rule, so that transcript is destroyed. Asparagine
+> 1002 to lysine, eighty-seven percent buried: made, then degraded.
 
 ### 5 · Scalability — 13 s
 > We scored every BUB1B allele the same way: consequence, the fifty-five-nucleotide rule,
-> two predictors, then the literature for abundance. Suijkerbuijk reached the same two
-> classes experimentally.
+> two predictors, then the literature for abundance. Suijkerbuijk reached the same classes
+> experimentally.
 
 ### 6 · The mechanism — 15 s
 > A kinase writes a mark, a phosphatase erases it. Plk1 puts three phosphates in BubR1's
-> KARD, and those phosphates are the docking site for PP2A-B56. BubR1 is not a kinase —
-> it is the delivery vehicle. Both alleles converge on that one failure.
+> KARD, and those are the docking site for PP2A-B56. BubR1 is not a kinase — it is the
+> vehicle. Both alleles converge on that one failure.
 
 ### 7 · It is reversible — 16 s
 > We are not guessing. Suijkerbuijk took patient cells of exactly this shape — one
@@ -61,12 +61,12 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 ### 8 · Rigor — 16 s
 > So we tried everything that could. Readthrough, NMD inhibition, chaperones,
 > degradation, binding BubR1 directly, activating PP2A. Across a hundred thousand curated
-> drug-target pairs nothing raises it, and the whole up-regulating universe holds no
-> phosphatase. Every arm died needing more drug than a person can be given.
+> drug-target pairs nothing raises it. Every arm died needing more drug than a person
+> can be given.
 
 ### 9 · How we worked — 12 s
 > Several evidence engines generated hypotheses. One human chose what to test. No claim
-> rests on a single paper, and fifty-three numbered corrections are in the repository.
+> rests on a single paper, and fifty-six corrections are in the repository.
 
 ### 10 · The answer — 16 s
 > If the phosphatase cannot be raised, lower the kinase it opposes. Our pick is
