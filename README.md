@@ -2,7 +2,7 @@
 
 Submission for *Rare Disease, Real Kid: The MVA Hackathon 2026*, organised by Sage
 Bionetworks with the MVA Society, Hugging Face and BEACON.
-Submitting username: **mk7790**.
+Maaz Asher Khurram &mdash; mk7790@nyu.edu. Submitting username: **mk7790**.
 
 **These are hypotheses for follow-up, not evidence that any medicine works.**
 Nothing here is clinical advice. No patient data is redistributed in this
