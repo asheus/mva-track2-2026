@@ -69,17 +69,16 @@ Re-count: `awk '/^> /{gsub(/^> /,"");n+=NF}END{print n}' VIDEO-SCRIPT.md`
 > rests on a single paper, and fifty-three numbered corrections are in the repository.
 
 ### 10 · The answer — 16 s
-> If the phosphatase cannot be raised, lower the kinase it opposes. Barasertib. Aurora B
-> at zero-point-three-seven nanomolar, thirty-seven-hundred-fold selective. Human steady
-> state, total drug, sits twelve hundred times the biochemical IC-fifty; even at ninety-
-> nine percent protein binding it is still twelvefold above. It is the only candidate
-> needing a dose decrease, not an increase.
+> If the phosphatase cannot be raised, lower the kinase it opposes. Our pick is
+> AZD2811 nanoparticle — AstraZeneca's Aurora B inhibitor, selective by nearly four
+> thousand fold, in phase two right now. Same active molecule as barasertib, but a
+> two-hour infusion instead of seven days.
 
 ### 11 · The dose — 15 s
-> And the dose is the hypothesis, so we commit to it. One to five nanomolar free,
-> titrated in the child's own fibroblasts to thirty to fifty percent loss of Aurora B
-> substrate phosphorylation. Never ablation. And we score missegregation, not alignment,
-> because better alignment can hide worse segregation.
+> And its phase one already mapped the dose for us, in humans. Five hundred milligrams
+> is the oncology dose. Marrow toxicity first appears around two hundred. Below one
+> hundred, fifteen patients had none at all. That is where we propose to sit — a
+> five-fold reduction, titrated on phospho-Hec1.
 
 ### 12 · The moonshot — 12 s
 > A 2025 Nature Biotechnology method makes translation programmable: a separate capped
