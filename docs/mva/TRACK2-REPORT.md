@@ -1,7 +1,8 @@
 # Repurposing candidates for a child with BUB1B-associated mosaic variegated aneuploidy
 
 **Rare Disease, Real Kid: The MVA Hackathon 2026 — Track 2 (Drug Repurposing)**
-Draft, 16 Sep 2026. Proband WGS_EX2312012.
+**Maaz Asher Khurram** &mdash; mk7790@nyu.edu  
+Proband WGS_EX2312012. Updated 24 Oct 2026.
 
 > **These are hypotheses for follow-up, not evidence that any medicine works.**
 > Nothing here is clinical advice, and no proposal below has been tested in
