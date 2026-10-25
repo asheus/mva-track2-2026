@@ -8,6 +8,11 @@ Maaz Asher Khurram &mdash; mk7790@nyu.edu. Submitting username: **mk7790**.
 Nothing here is clinical advice. No patient data is redistributed in this
 repository: what is committed is the *query*, never the data it read.
 
+> **In one line:** both BUB1B alleles fail to deliver the phosphatase PP2A-B56 to the
+> kinetochore, leaving Aurora B unopposed. No drug raises BubR1, so we propose lowering
+> Aurora B instead — **AZD2811-NP, below 100 mg per cycle**, about five-fold under its
+> oncology dose.
+
 ---
 
 ## The problem
@@ -48,8 +53,18 @@ allele 2 is 87% buried and is predicted to be made, then degraded. With no phosp
 arriving, **Aurora B is not more active — it is unopposed.**
 
 Nothing in the druggable universe raises BubR1 or activates PP2A. So we propose lowering
-the opposing kinase instead: **partial Aurora B inhibition**, with barasertib-hQPA as the
-characterised tool compound.
+the opposing kinase instead.
+
+## The answer
+
+**AZD2811-NP** — nanoparticle-formulated AZD2811 (formerly barasertib-hQPA), AstraZeneca's
+selective Aurora B inhibitor, currently in Phase II. Aurora B IC50 **0.37 nM**, ~3,700×
+selective over Aurora A. We propose it at **below 100 mg per cycle**, roughly a five-fold
+reduction from its oncology dose, titrated on target engagement rather than fixed.
+
+It is the only candidate in the entire search whose problem is *too much* exposure rather
+than too little. Every other arm we examined died needing more drug than a person can be
+given.
 
 **The risk we are not hiding:** this child's checkpoint is already at 15–26% of normal,
 and partial Aurora B inhibition synergises with a weak checkpoint. What we propose is a
@@ -115,22 +130,33 @@ these changed the answer:
 
 ## The dose, stated
 
-The dose *is* the hypothesis, so we commit to it rather than gesturing at a window.
+The dose *is* the hypothesis, so we commit to it. The AZD2811 Phase I
+([Falchook et al., *Br J Cancer* 2023](https://doi.org/10.1038/s41416-023-02185-2))
+dose-escalated 51 patients from 15 to 600 mg and used **neutropenia as the on-target
+pharmacodynamic marker** of Aurora B engagement — which is the same toxicity our proposal
+must avoid, in the same formulation, measured in humans:
 
-- **Target ~1–5 nM free barasertib-hQPA**, reached by titrating 0.1–30 nM across the
-  child's fibroblasts.
-- **Set by pharmacodynamics, not asserted:** aim for 30–50% loss of Aurora B substrate
-  phosphorylation (phospho-Hec1, phospho-H3S10). Never ablation.
-- **The endpoint is missegregation and abnormal daughter cells**, with checkpoint
-  competence measured in the same cells. Congression rescue alone is not sufficient:
-  better alignment can coexist with worse segregation if erroneous attachments become
-  over-stable.
+| Dose | What happened |
+|---|---|
+| **500 mg** q21d + G-CSF | oncology RP2D. In the expansion ([Johnson et al. 2026](https://doi.org/10.1038/s41416-026-03414-0)), grade ≥3 drug-related AEs in 15/21 |
+| **200 mg** | where marrow pharmacology first appears — 55.6% neutropenia, all grade 3/4 |
+| **≤100 mg** | Cohorts 1–5, 15 patients: **no neutropenia, no dose-limiting toxicity** |
+
+**We propose below 100 mg per cycle**, titrated in the child's own fibroblasts to 30–50%
+loss of Aurora B substrate phosphorylation (phospho-Hec1, phospho-H3S10) — never ablation.
+**The endpoint is missegregation and abnormal daughter cells**, with checkpoint competence
+measured in the same cells: congression rescue alone is not sufficient, because better
+alignment can coexist with worse segregation if erroneous attachments become over-stable.
 
 Xu's pharmacological rescue used **ZM447439** — Aurora A 110 nM, Aurora B 130 nM
 ([Ditchfield 2003](https://pubmed.ncbi.nlm.nih.gov/12925766/)), essentially equipotent.
-Barasertib-hQPA is the selective successor at ~3,700× for Aurora B. **The mechanism
-transfers; the numbers do not**, which is why the dose is anchored on target engagement
-in the patient's own cells rather than on a conversion between compounds.
+AZD2811 is the selective successor. **The mechanism transfers; the numbers do not**, which
+is why the dose is anchored on target engagement rather than a cross-compound conversion.
+
+One design caveat we own: the nanoparticle releases over days, so dose-finding must allow
+for a slow off-rate. The trade is deliberate — it is the asset that is actually alive, in
+Phase II, as a 2-hour infusion rather than barasertib's 7-day continuous one, which is
+what makes a real supply route conceivable.
 
 ## Track 1 — the causal gene, derived from the data
 
@@ -158,36 +184,6 @@ Mapped to the judging rubric, deliberately:
 | **Innovation (25%)** | The field builds drugs that *break* the cell cycle. We inverted the question: if the phosphatase cannot be raised, lower the kinase it opposes. The candidate is the only one in the whole search whose problem is too much exposure rather than too little. |
 | **Potential impact (25%)** | A characterised, selective compound with published human PK, proposed at a fraction of its oncology exposure. The experiment that would confirm or kill it is specified and runnable in patient fibroblasts. |
 | **Scalability (15%)** | The durable deliverable is not the drug, it is the map. The same four scoring steps run on *any* BUB1B genotype and say which therapeutic class could reach it. 2,536 alleles are already scored, and the method generalises to any dosage-sensitive gene. |
-
-## The moonshot: why this class of problem is worth funding
-
-Several ambitious routes were considered and are documented: premature-stop readthrough
-(`ALLELE1-NMD-READTHROUGH.md`), NMD inhibition (`NMD-FEASIBILITY.md`), chaperone-assisted
-folding (`FOLD-CLASS-AND-CHAPERONES.md`) and RNA trans-splicing (`RTM-DESIGN.md`). Each
-closed, for reasons recorded.
-
-**We converged on trans-acting RNA**
-([Jia et al., *Nature Biotechnology* 2025](https://doi.org/10.1038/s41587-025-02897-1)),
-which makes translation initiation programmable on a message the patient already has: a
-separate capped RNA base-pairs with the target mRNA and hands the ribosome a start codon
-of our choosing. Three reasons it is the right moonshot for dosage disease:
-
-- **Raising translation works with decay, not against it.** A message that is translated
-  better is engaged by ribosomes more often, and ribosome engagement is what determines
-  whether surveillance commits to degrading a transcript. Output and stability are not
-  independent levers.
-- **Circular RNA solves the half-life problem.** A circular construct has no free ends for
-  exonucleases, which is the usual reason an RNA therapeutic needs constant redosing.
-  circRNA therapeutics are already in clinical testing in China; if that platform matures,
-  the delivery vehicle for this class arrives with it.
-- **One mechanism for a whole class of disease.** Haploinsufficiency and dosage
-  sensitivity are not rare as a category, even where each gene is. A method that raises
-  output from the native message — no edit, no new gene, no cargo-size limit — addresses
-  the category rather than one gene at a time.
-
-Delivery remains the unsolved half: liver and muscle are reachable today, brain and marrow
-are not. We state that plainly, because the gap is the reason this needs funding rather
-than a reason to stay quiet about it.
 
 ## What we got wrong, and how we found out
 
@@ -286,6 +282,21 @@ redistributed. The scripts above read it from a local checkout.
     apps/api/data/mva/           committed gate outputs (universe.json et al.)
     docs/mva/                    report, methods, and the supporting documents
     docs/mva/data/               committed query outputs cited by those documents
+
+## The moonshot
+
+Longer term, the general answer to dosage disease is to raise output from the message the
+patient already has. **Trans-acting RNA** ([Jia et al., *Nature Biotechnology* 2025](https://doi.org/10.1038/s41587-025-02897-1))
+makes translation initiation programmable: a separate capped RNA base-pairs with the
+target mRNA and hands the ribosome a start codon of our choosing. It is the right moonshot
+for this class because raising translation works *with* decay rather than against it —
+ribosome engagement is what determines whether surveillance degrades a transcript — and
+because a circular construct has no free ends for exonucleases, solving the half-life
+problem that forces constant redosing; circRNA therapeutics are already in clinical testing
+in China. One mechanism, no edit, no cargo-size limit, for a whole category of disease.
+Delivery is the unsolved half: liver and muscle are reachable today, brain and marrow are
+not. Other routes we considered and closed are documented in `ALLELE1-NMD-READTHROUGH.md`,
+`NMD-FEASIBILITY.md`, `FOLD-CLASS-AND-CHAPERONES.md` and `RTM-DESIGN.md`.
 
 ## Licence
 
