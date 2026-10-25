@@ -25,7 +25,7 @@ HEADER = ["proband_id", "chrom_1", "pos_1", "ref_1", "alt_1",
           "chrom_2", "pos_2", "ref_2", "alt_2", "epcr", "finding_type", "notes"]
 
 ROW = {
-    "proband_id": "WGS_EX2312012",
+    "proband_id": "PROBAND01",
     "chrom_1": "chr15", "pos_1": 40209701, "ref_1": "T", "alt_1": "G",
     "chrom_2": "chr15", "pos_2": 40220612, "ref_2": "T", "alt_2": "G",
     "epcr": 0.99,
