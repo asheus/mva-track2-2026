@@ -169,7 +169,7 @@ that ranking rather than being supplied to it. The code is `apps/api/scripts/mva
 with `run_pipeline.sh` as its entry point; `TRACK1-REDISCOVERY.md` is the write-up.
 
 Both alleles were then confirmed against the proband's own callset
-(`proband/confirm_variants.py`): heterozygous, FILTER=PASS, maximum genotype quality,
+(`apps/api/scripts/mva/proband/confirm_variants.py`): heterozygous, FILTER=PASS, maximum genotype quality,
 allele balances consistent with germline heterozygosity. Trans configuration is *inferred*
 from phenotype and parental history, not established by phasing — the sites are 10,911 bp
 apart with no physical linkage — which is why the submitted confidence is 0.99, not 1.0.
